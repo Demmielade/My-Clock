@@ -1,5 +1,5 @@
 body {
-  background-image: url('BG image.jpg');
+  background-image: url('images/BG image.jpg');
   font-family: 'Gotham Rounded';
   font-weight: bold;
   font-size: 20px;
@@ -8,11 +8,12 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
 }
 .clock-body {
   width: 250px;
   height: 250px;
+  background-image: url('images/Dopeyman.png');
   background-color: #00FA9A;
   border-radius: 50%;
   border: 3px solid black;
@@ -73,8 +74,69 @@ body {
   height: 37%;
   background-color: black;
 }
-.hand.Hour {
+.hand.Second {
   width: 1px;
   height: 42%;
   background-color: green;
+}
+.btn, .footer-link {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #5ef53f;
+  -moz-box-shadow: 0px 1px 3px #5ef53f;
+  box-shadow: 0px 1px 3px #5ef53f;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #5A3825;
+  padding: 10px 20px 10px 20px;
+  border: solid #A35580 2px;
+  text-decoration: none;
+}
+
+.btn:hover, .footer-link:hover {
+  background: #1ded4d;
+  text-decoration: none;
+}
+.blink {
+  color: yellow;
+  font-weight: bold;
+  animation: blinkText 7s infinite;
+}
+@keyframes blinkText {
+    0% {color: #5A3825;}
+    25% {color: #1ded4d;}
+    50% {color: hsl(64, 94%, 50%);}
+    75% {color: #1ded4d;}
+    100% {color: hsl(342, 85%, 52%);}
+  }
+span {
+  color: hsl(342, 85%, 52%);
+  font-size: x-large;
+}
+.spane:hover {
+  color: white;
+}
+.bottom-container {
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  margin-top: 100%;
+  margin-bottom: 10%;
+  padding: 10px;
+}
+.awesome {
+  color: yellow;
+  text-align: center;
+}
+.contact-me {
+  justify-content: flex-end;
+  position: absolute;
+  align-items: flex-end;
+  margin-top: 80%;
+  margin-bottom: 10%;
+  font-size: 20px;
+  color: rgb(223, 247, 10);
+  
 }

@@ -140,3 +140,27 @@ span {
   color: rgb(223, 247, 10);
   
 }
+@media only screen and (min-width: 720px)
+{
+  .bottom-container {
+    background-color: #37DE72;
+    padding: 100px 100% -50% 100%;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+
+  .trade-mark {
+    margin-bottom: -120px; 
+  }
+  h3 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .footer-link {
+    font-size: 30px;
+    background: #eb3da0;
+    padding: 10px 25px 10px 10px;
+  }
+}

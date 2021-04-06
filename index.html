@@ -12,7 +12,7 @@
   </head>
   <body>
 
-    <div class="clock-body">
+    <div class="clock-body" id = imgChanger>
       <div class="clock-face">
         <div class="hand Hour" JS-hour-hand></div>
         <div class="hand Minute" JS-minute-hand></div>
@@ -30,7 +30,8 @@
         <div class="number number11">11</div>
         <div class="number number12">12</div>
       </div>
-    </div>
+        </div>
+          <!-- <button onclick="imageChanger()"> I don't like the clock background </button> -->
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <p>If you have in anyway fell in love with this <span class="blink"> clock </span>.Don't hesistate to contact me. </p>
@@ -40,10 +41,30 @@
     <a class="footer-link"  href="https://t.me/DemmieLade">Telegram</a>
     <a class="footer-link"  href="https://www.linkedin.com/in/johnson-oyetoro-1597721bb/">LinkedIn</a>
     <a class="footer-link"  href="https://twitter.com/OhluwaDemmie">Twitter</a>
-    <a class="footer-link"  href="https://play.google.com/store/apps/details?id=io.ionic.ragpcashapp">Download <span>RAGPCashApp</span></a>
+    <!-- <a class="footer-link"  href="https://play.google.com/store/apps/details?id=io.ionic.ragpcashapp">Download <span>RAGPCashApp</span></a> -->
     <div class="trade-mark">
-      <p class="awesome">© 2021 Tenet👌👌👌.</p>
+      <p class="awesome">© 2021 Tenet👌👌.</p>
     </div>
   </div>
+  <script type="text/javascript">
+  function changeClock(num) {
+    var pics = [
+      'url("https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2010/06/vector-graphic/vector-graphic-design-8.jpg")',
+      'url("https://images.unsplash.com/photo-1558166833-b59460e5439c?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDU1fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")',
+      'url("https://images.unsplash.com/photo-1615499797532-2612dceed768?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")',
+      'url("Hottie-2.jpeg")',
+      'url("https://images.unsplash.com/photo-1616320515370-d5e8894df48f?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwNXw2c01WalRMU2tlUXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")',
+      'url("https://images.unsplash.com/photo-1617723008297-5419847d59f0?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")',
+      'url("https://images.unsplash.com/photo-1558085951-ffa47f4f12b9?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")',
+    ]
+
+    var section = document.getElementById('imgChanger');
+    var clockBody = pics[Math.floor(Math.random() * 7)];
+    imgChanger.style.backgroundImage = clockBody;
+  }
+
+  setInterval(changeClock, 1000)
+  </script>
   </body>
 </html>
+

@@ -2,22 +2,23 @@ body {
   background-image: url('images/BG image.jpg');
   font-family: 'Gotham Rounded';
   font-weight: bold;
-  font-size: 20px;
-  color: #5A3825;
+  color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  overflow: scroll;
+  min-height: 70vh;
+  background-position: center;
+  scroll-behavior: auto;
 }
+/* Some fine-tuning are still needed to be done for Desktop responsiveness */
 .clock-body {
-  width: 250px;
-  height: 250px;
-  background-image: url('images/Dopeyman.png');
-  background-color: #00FA9A;
+  width: 220px;
+  height: 220px;
+  background-image: url('images/loginBG.jpg') width= 10%, height=5%;
   border-radius: 50%;
   border: 3px solid black;
   position: relative;
+  padding-top: -100px;
 }
 .clock-body::after {
   content: '';
@@ -67,7 +68,7 @@ body {
 .hand.Hour {
   width: 5px;
   height: 32%;
-  background-color: brown;
+  background-color: #840606;;
 }
 .hand.Minute {
   width: 4px;
@@ -95,72 +96,228 @@ body {
   text-decoration: none;
 }
 
-.btn:hover, .footer-link:hover {
+.btn:hover {
   background: #1ded4d;
   text-decoration: none;
 }
 .blink {
-  color: yellow;
   font-weight: bold;
   animation: blinkText 7s infinite;
 }
 @keyframes blinkText {
     0% {color: #5A3825;}
     25% {color: #1ded4d;}
-    50% {color: hsl(64, 94%, 50%);}
-    75% {color: #1ded4d;}
-    100% {color: hsl(342, 85%, 52%);}
+    50% {color: hsl(64deg 77% 75%);}
+    75% {color: #ffffff;}
+    100% {color: hsl(30deg 90% 49%);}
   }
 span {
-  color: hsl(342, 85%, 52%);
   font-size: x-large;
 }
-.spane:hover {
-  color: white;
+
 }
-.socials {
+.bottom-container {
   justify-content: center;
   position: absolute;
+  display: inline-flex;
   align-items: center;
   margin-top: 100%;
   margin-bottom: 10%;
-  padding: 10px;
 }
 .awesome {
-  color: yellow;
+  position: absolute;
+  right: 20%;
+  padding-top: 10%;
+  color: #c05d13;
   text-align: center;
 }
 .contact-me {
-  justify-content: flex-end;
+  justify-content: center;
   position: absolute;
-  align-items: flex-end;
+  align-items: center;
   margin-top: 80%;
-  margin-bottom: 10%;
+  margin-bottom: -50%;
   font-size: 20px;
   color: rgb(223, 247, 10);
-  
 }
-@media only screen and (min-width: 720px)
-{
+/* attributes needed for responsiveness on Smartphones with same width as (Infinix HOT 6x) */
+@media only screen and (min-width: 720px) {
   .bottom-container {
-    background-color: #37DE72;
-    padding: 100px 100% -50% 100%;
-    justify-content: space-between;
-    align-content: space-between;
+  justify-content: center;
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 100%;
+  margin-bottom: -65%;
   }
-
-  .trade-mark {
-    margin-bottom: -120px; 
+  .contact-me {
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  margin-top: 50%;
+  margin-bottom: -50%;
+  font-size: 20px;
+  color: rgb(223, 247, 10);
+}
+    body {
+  font-size: 23px;
   }
-  h3 {
-    font-size: 50px;
+  .clock-body {
+  width: 380px;
+  height: 385px;
   }
-  p {
+  p, span {
     font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 50px;
+    color: #231002;
+    border-bottom: dotted 3px #38772c;
+    text-align: center;
   }
   .footer-link {
     font-size: 30px;
-    background: #eb3da0;
-    padding: 10px 25px 10px 10px;
+    background: #5A3825;
+    margin: 10%;
+    padding: 2%;
+  }
+}
+/* attributes needed for responsiveness on Smartphones with same width as (iPhone 6/7/8 Plus) */
+@media only screen and (max-width: 420px) {
+  .bottom-container {
+  justify-content: center;
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 120%;
+  margin-bottom: -70%;
+  }
+  
+  .contact-me {
+    margin-top: 50%;
+  margin-bottom: -60%;
+  }
+
+  h2 {
+    font-size: 35px;
+    color: #231002;
+    border-bottom: dotted 3px #38772c;
+    text-align: center;
+
+  }
+  .clock-body {
+  width: 250px;
+  height: 250px;
+  }
+
+  span {
+  font-size: 22px;
+  }
+  p {
+    font-size: 22px;
+    text-align: center;
+  }
+  .footer-link {
+    font-size: 15px;
+    background: #5A3825;
+    margin: 7%;
+    padding: 4%;
+  }
+   a {
+    font-size: 7px;
+
+  }
+}
+/* attributes needed for responsiveness on Smartphones with same width as (iPhone6/7/8) */
+@media only screen and (max-width: 380px) {
+    body, span {
+  font-size: 20px;
+  }
+  .clock-body {
+  width: 210px;
+  height: 210px;
+  }
+  .contact-me {
+    margin-top: 50%;
+  margin-bottom: -60%;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    color: #231002;
+    border-bottom: dotted 3px #38772c;
+    text-align: center;
+  }
+  .footer-link {
+    font-size: 15px;
+    background: #5A3825;
+    margin: 10%;
+    padding: 3%;
+  }
+}
+/* attributes needed for responsiveness on Smartphones with same width as (iPhone 5) */
+@media only screen and (max-width: 320px) {
+    body, span {
+  font-size: 18px;
+  }
+  .clock-body {
+  width: 180px;
+  height: 180px;
+  }
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 25px;
+    color: #231002;
+    border-bottom: dotted 3px #38772c;
+    text-align: center;
+  }
+  .footer-link {
+    font-size: 13px;
+    background: #5A3825;
+    margin: 7%;
+    padding: 2%;
+  }
+  /* attributes needed for responsiveness on Smartphones with same width as (iPhone X) Still Pending!!*/
+
+}
+@media only screen and (max-width: 375px) {
+      .clock-body {
+  width: 250px;
+  height: 250px;
+  }
+  .bottom-container {
+  justify-content: center;
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 120%;
+  margin-bottom: -115%;
+  }
+  .contact-me {
+    margin-top: 50%;
+  margin-bottom: -90%;
+}
+p, span {
+    font-size: 23px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 45px;
+    color: #231002;
+    border-bottom: dotted 3px #38772c;
+    text-align: center;
+  }
+  .footer-link {
+    font-size: 16px;
+    background: #5A3825;
+    margin: 7%;
+    padding: 4%;
   }
 }

@@ -1,0 +1,1838 @@
+[
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Https11CustomCiphers",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::PprintItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_python.py::UtilsPythonTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::BaseItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware.py::MiddlewareUsingCoro",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_url.py::StripUrl",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_httperror.py::TestHttpErrorMiddlewareSettings",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_urllength.py::TestUrlLengthMiddleware",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::InitializationFromDataClassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler.py::TestSchedulerWithDownloaderAwareInMemory",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsNoReferrer",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Http11ProxyTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestReferrerOnRedirectOriginWhenCrossOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spider.py::InitSpiderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestReferrerOnRedirectSameOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_logformatter.py::ShowOrSkipMessagesTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessSpiderOutputSimple",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::SelectortemLoaderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware.py::ProcessResponseInvalidOutput",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::UniversalMiddlewareManagerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler_base.py::SimpleSchedulerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_url.py::AddHttpIfNoScheme",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_engine_stop_download_bytes.py::BytesReceivedEngineTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler.py::TestSchedulerOnDisk",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_iterators.py::TestHelper",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::CrawlCommandTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::JsonItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_log.py::FailureToExcInfoTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler.py::TestSchedulerWithDownloaderAwareOnDisk",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Http11MockServerTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::RequestFingerprintAsBytesTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_datatypes.py::SequenceExcludeTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_conf.py::UtilsConfTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_linkextractors.py::LxmlLinkExtractorTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestPolicyHeaderPrecedence003",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::CsvItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::TestOutputProcessorItem",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaSrictOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_urlparse_monkeypatches.py::UrlparseTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_trackref.py::TrackrefTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_python.py::MutableChainTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::PprintItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_response.py::TextResponseTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_images.py::NoimagesDropTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::RequestFingerprintTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_webclient.py::WebClientTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spider.py::NoParseMethodSpiderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_offsite.py::TestOffsiteMiddleware3",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_response.py::XmlResponseTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::MarshalItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader_deprecated.py::TestOutputProcessorDict",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessSpiderOutputInvalidOutput",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::JsonLinesItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_datatypes.py::CaselessDictTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_defer.py::AsyncCooperatorTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::FileFeedStoragePreFeedOptionsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_datatypes.py::CaseInsensitiveDictTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::UtilsRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::BlockingFeedStorageTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Https11TestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsPolicyByName",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpauth.py::HttpAuthMiddlewareLegacyTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_defer.py::DeferUtilsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_iterators.py::LxmlXmliterTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::PickleItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_command_parse.py::ParseCommandTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloaderslotssettings.py::CrawlTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::URIParamsFeedOptionTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_request.py::XmlRpcRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcompression.py::HttpCompressionSubclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsSameOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_response.py::test_remove_html_comments[a<!--b-->c<!---ac]",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_item.py::ItemTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_log.py::TopLevelFormatterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_deprecate.py::WarnWhenSubclassedTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessSpiderExceptionReRaise",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_conf.py::FeedExportConfigTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipelines.py::PipelineTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::FingerprintTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_retry.py::GetRetryRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessStartRequestsSimple",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_link.py::LinkTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Https11CustomCiphers",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_media.py::BaseMediaPipelineTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_command_check.py::CheckCommandTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spider.py::CrawlSpiderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::BatchDeliveriesTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::FeedExportTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::StartprojectTemplatesTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaNoReferrerWhenDowngrade",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_signal.py::SendCatchLogDeferredTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_defaultheaders.py::TestDefaultHeadersMiddleware",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::InitializationFromAttrsItemTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_addons.py::AddonManagerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Https11InvalidDNSId",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_python.py::ToBytesTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::InitializationFromDictTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_request_left.py::TestCatching",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaNoReferrer",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::PickleItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader_deprecated.py::ProcessorsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_redirect.py::MetaRefreshMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_settings/__init__.py::SettingsAttributeTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader_deprecated.py::NoInputReprocessingFromDictTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::NoInputReprocessingFromItemTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_request.py::JsonRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::FunctionProcessorTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler.py::TestSchedulerInMemory",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spider.py::DeprecationTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_serialize.py::JsonEncoderTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_downloadtimeout.py::DownloadTimeoutMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize3PickleFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::BasicItemLoaderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Http10TestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_console.py::UtilsConsoleTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::CsvItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::ViewCommandTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::FifoMemoryQueueRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_request_cb_kwargs.py::CallbackKeywordArgumentsTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsUnsafeUrl",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaPrecedence002",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_response.py::test_remove_html_comments[a<!--b-->c<!--d-ac]",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsStrictOriginWhenCrossOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_asyncio.py::AsyncioTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_defer.py::AiterErrbackTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsNoReferrerWhenDowngrade",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::PickleFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::RequestFingerprinterTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcache.py::FilesystemStorageGzipTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler_base.py::MinimalSchedulerCrawlTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcache.py::FilesystemStorageTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::CustomExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_middleware.py::MiddlewareManagerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler.py::TestIncompatibility",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_closespider.py::TestCloseSpider",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_command_version.py::VersionTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_misc/test_return_with_argument_inside_generator.py::UtilsMiscPy3TestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_response.py::ResponseUtilsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::PickleLifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_request.py::RequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_offsite.py::TestOffsiteMiddleware2",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_retry.py::MaxRetryTimesTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_response.py::test_remove_html_comments[a<!---a]",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_toplevel.py::ToplevelTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_stats.py::StatsCollectorTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_core_downloader.py::SlotTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_engine_stop_download_headers.py::EngineTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_webclient.py::ScrapyHTTPPageGetterTests",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_depth.py::TestDepthMiddleware",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_spider.py::UtilsSpidersTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_webclient.py::ParseUrlTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerProcessTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::MarshalItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_httperror.py::TestHttpErrorMiddlewareHandleAll",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware.py::ProcessRequestInvalidOutput",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_cmdline/__init__.py::CmdlineTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_template.py::UtilsRenderTemplateFileTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_httperror.py::TestHttpErrorMiddleware",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware.py::ProcessExceptionInvalidOutput",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_project.py::GetProjectSettingsTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_url.py::UrlUtilsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_curl.py::CurlToRequestKwargsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spiderloader/__init__.py::SpiderLoaderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_request_attribute_binding.py::CrawlTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_cmdline_crawl_with_pipeline/__init__.py::CmdlineCrawlPipelineTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_conf.py::BuildComponentListTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::InitializationFromItemTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_defer.py::IterErrbackTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::BaseItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_url.py::IsPathTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader_deprecated.py::SelectJmesTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_cookies.py::WrappedResponseTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessSpiderInputInvalidOutput",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_url.py::GuessSchemeTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_files.py::FilesPipelineTestCaseFieldsAttrsItem",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::FeedPostProcessedExportsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_dependencies.py::ScrapyUtilsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_command_fetch.py::FetchTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerRunnerHasSpider",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spiderloader/__init__.py::DuplicateSpiderNameLoaderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_robotstxt_interface.py::PythonRobotParserTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcache.py::DbmStorageTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcache.py::DummyPolicyTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_deprecate.py::UpdateClassPathTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_dupefilters.py::RFPDupeFilterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_files.py::FilesPipelineTestCaseCustomSettings",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::DataURITestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Https10TestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Https11TestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize4PickleFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaPrecedence001",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Http11MockServerTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_datatypes.py::LocalWeakReferencedCacheTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_response.py::test_remove_html_comments[a<!--b-->c-ac]",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_selector.py::SelectorTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_ajaxcrawlable.py::AjaxCrawlMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRefererMiddlewareDefault",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_command_shell.py::ShellTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader.py::SubselectorLoaderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessSpiderExceptionInvalidOutput",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler_base.py::SimpleSchedulerCrawlTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_cookies.py::WrappedRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_logformatter.py::LogFormatterTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize1MarshalFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaUnsafeUrl",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_project.py::ProjectUtilsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::FileFeedStorageTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware.py::MiddlewareUsingDeferreds",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader_deprecated.py::DeprecatedUtilityFunctionsTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::LifoMemoryQueueRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::JsonItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessSpiderExceptionTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaSettingFallback",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestPolicyHeaderPrecedence004",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_gz.py::GunzipTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsOriginWhenCrossOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_logformatter.py::LogformatterSubclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_response.py::BaseResponseTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::XmlItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::MarshalLifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler_base.py::BaseSchedulerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_command_shell.py::InteractiveShellTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::PythonItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_response.py::CustomResponseTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::BackwardCompatibilityTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessSpiderOutputInvalidResult",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_item.py::ItemMetaTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::GenspiderStandaloneCommandTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler_base.py::MinimalSchedulerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_signal.py::SendCatchLogDeferredAsyncDefTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcache.py::_BaseTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader_deprecated.py::InitializationFromDictTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestPolicyHeaderPrecedence002",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_decompression.py::DecompressionMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_python.py::MutableAsyncChainTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_stats.py::TestDownloaderStats",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::MarshalFifoDiskQueueRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::PickleLifoDiskQueueRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::RequestToCurlTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize2MarshalFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcompression.py::HttpCompressionTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_settings/__init__.py::SettingsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_signal.py::SendCatchLogTest2",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_response.py::test_remove_html_comments[a<!--b--><!--c-->d-ad]",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spider.py::SitemapSpiderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_response.py::test_remove_html_comments[a<!--b-->c<!---->d-acd]",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_item.py::ItemMetaClassCellRegression",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::ProcessSpiderOutputAsyncGen",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_files.py::FilesPipelineTestCaseFieldsItem",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::JsonItemExporterToBytesTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcache.py::DbmStorageWithCustomDbmModuleTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_retry.py::RetryTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader_deprecated.py::BasicItemLoaderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::StartprojectTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Https11WrongHostnameTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcache.py::RFC2616PolicyTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::HelpMessageTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_loader_deprecated.py::FunctionProcessorTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaSameOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize4MarshalFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::BuiltinMiddlewareSimpleTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::RunSpiderCommandTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pqueues.py::PriorityQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_httperror.py::TestHttpErrorMiddlewareIntegrational",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::MiscCommandsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::StdoutFeedStoragePreFeedOptionsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerProcessSubprocess",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::HttpTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Http11ProxyTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize3MarshalFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::CustomExporterItemTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawl.py::CrawlSpiderTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestReferrerOnRedirectNoReferrer",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_redirect.py::RedirectMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Http2MockServerTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_response.py::HtmlResponseTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_sitemap.py::SitemapTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spiderstate.py::SpiderStateTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRefererMiddleware",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_offsite.py::TestOffsiteMiddleware5",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_offsite.py::TestOffsiteMiddleware6",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::PickleFifoDiskQueueRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::HttpProxyTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_robotstxt.py::RobotsTxtMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_offsite.py::TestOffsiteMiddleware4",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_engine_stop_download_headers.py::HeadersReceivedEngineTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler.py::TestIntegrationWithDownloaderAwareInMemory",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_httpobj.py::HttpobjUtilsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_addons.py::AddonTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaOriginWhenCrossOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_defer.py::AsyncDefTestsuiteTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpauth.py::HttpAuthAnyMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_headers.py::HeadersTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pqueues.py::DownloaderAwarePriorityQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_python.py::MemoizedMethodTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerRunnerTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::FileTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::XmlItemExporterDataclassTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_extension_telnet.py::TelnetExtensionTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware.py::BuiltinMiddlewareAsyncGenTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_log.py::StreamLoggerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_response.py::test_remove_html_comments[a<!---->b-ab]",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_settings/__init__.py::SettingsGlobalFuncsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_python.py::ToUnicodeTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spider.py::XMLFeedSpiderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaPrecedence003",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_request_dict.py::RequestSerializationTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsCustomPolicy",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware.py::DefaultsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::CommandSettings",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::JsonLinesItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_webclient.py::WebClientCustomCiphersSSLTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Http10ProxyTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_useragent.py::UserAgentMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_stats.py::CoreStatsExtensionTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_contracts.py::ContractsManagerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_crawl.py::FileDownloadCrawlTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_output_chain.py::TestSpiderMiddleware",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_media.py::MediaPipelineAllowRedirectSettingsTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::StdoutFeedStorageTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_media.py::MediaPipelineTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_python.py::BinaryIsTextTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::GenspiderCommandTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_iterators.py::UtilsCsvTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::MarshalFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_http_request.py::FormRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_files.py::FilesPipelineTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_responsetypes.py::ResponseTypesTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaStrictOriginWhenCrossOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_offsite.py::TestOffsiteMiddleware",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_commands.py::BenchCommandTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestReferrerOnRedirect",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_datatypes.py::LocalCacheTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_cookies.py::CookiesMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawl.py::CrawlTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestReferrerOnRedirectStrictOriginWhenCrossOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::RequestFingerprintDeprecationTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerLoggingTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_selector.py::JMESPathTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_files.py::FilesPipelineTestCaseFieldsDict",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestReferrerOnRedirectStrictOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_asyncgen.py::AsyncgenUtilsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestRequestMetaDefault",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware.py::ResponseFromProcessRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_webclient.py::WebClientSSLTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_engine.py::EngineTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Https11InvalidDNSPattern",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpauth.py::HttpAuthMiddlewareTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerRunnerSubprocess",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::FeedExportInitTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_robotstxt_interface.py::ProtegoRobotParserTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestSettingsStrictOrigin",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::MarshalLifoDiskQueueRequestTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::FeedExporterSignalsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_settings/__init__.py::BaseSettingsTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_scheduler.py::TestMigration",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_exporters.py::PythonItemExporterTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_misc/__init__.py::UtilsMiscTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize1PickleFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcache.py::DefaultStorageTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spider.py::SpiderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_signal.py::SendCatchLogTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_pipeline_files.py::FilesPipelineTestCaseFieldsDataClass",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_extension_periodic_log.py::TestPeriodicLog",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_defer.py::MustbeDeferredTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spidermiddleware_referer.py::TestPolicyHeaderPrecedence001",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_log.py::LogCounterHandlerTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_mail.py::MailSenderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_iterators.py::XmliterTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Http11TestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_request.py::CustomRequestFingerprinterTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_engine_stop_download_bytes.py::EngineTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpproxy.py::TestHttpProxyMiddleware",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize2PickleFifoDiskQueueTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_feedexport.py::URIParamsSettingTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_spider.py::CSVFeedSpiderTest",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_crawler.py::SpiderSettingsTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_utils_signal.py::SendCatchLogDeferredTest2",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::LoadTestCase",
+        "status": "PASSED"
+    },
+    {
+        "name": "tests/test_dependencies.py::ScrapyUtilsTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_files.py::TestGCSFilesStore",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_settings/__init__.py::BaseSettingsTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pqueues.py::DownloaderAwarePriorityQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Http10ProxyTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_robotstxt_interface.py::PythonRobotParserTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_feedexport.py::BatchDeliveriesTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize1PickleFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_images.py::ImagesPipelineTestCaseFieldsItem",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Https2CustomCiphers",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Https2InvalidDNSPattern",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_selector.py::JMESPathTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware.py::MiddlewareUsingCoro",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_images.py::ImagesPipelineTestCaseCustomSettings",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_proxy_connect.py::ProxyConnectTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Http11MockServerTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_crawl.py::ImageDownloadCrawlTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize1MarshalFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Https2WrongHostnameTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_utils_request.py::RequestFingerprintAsBytesTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::PickleFifoDiskQueueRequestTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_media.py::MediaPipelineDeprecatedMethodsTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_feedexport.py::S3FeedStoragePreFeedOptionsTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_feedexport.py::GCSFeedStorageTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::PickleLifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_images.py::ImagesPipelineTestCaseFieldsDict",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize3PickleFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_robotstxt.py::RobotsTxtMiddlewareWithRerpTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::MarshalFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::LifoMemoryQueueRequestTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_signals.py::AsyncSignalTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_images.py::ImagesPipelineTestCaseFieldsAttrsItem",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_utils_console.py::UtilsConsoleTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_feedexport.py::S3FeedStorageTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_commands.py::WindowsRunSpiderCommandTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_robotstxt_interface.py::RerpRobotParserTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize4MarshalFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::FifoMemoryQueueRequestTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_utils_request.py::RequestFingerprintTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_commands.py::RunSpiderCommandTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pqueues.py::PriorityQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_http2_client_protocol.py::Https2ClientProtocolTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_images.py::ImagesPipelineTestCaseFieldsDataClass",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::PickleLifoDiskQueueRequestTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::MarshalFifoDiskQueueRequestTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_files.py::TestS3FilesStore",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipeline_images.py::ImagesPipelineTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Https2TestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize2MarshalFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_httpcompression.py::HttpCompressionTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::S3AnonTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_robotstxt_interface.py::ProtegoRobotParserTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_pipelines.py::PipelineTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize2PickleFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::S3TestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_robotstxt.py::RobotsTxtMiddlewareWithReppyTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize4PickleFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_robotstxt_interface.py::ReppyRobotParserTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues_request.py::MarshalLifoDiskQueueRequestTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_utils_url.py::GuessSchemeTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_utils_asyncio.py::AsyncioTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Https2ProxyTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_utils_defer.py::AsyncDefTestsuiteTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloadermiddleware_cookies.py::CookiesMiddlewareTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerProcessSubprocess",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers.py::Http11MockServerTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::ChunkSize3MarshalFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::PickleFifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_squeues.py::MarshalLifoDiskQueueTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_crawl.py::CrawlSpiderTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_utils_signal.py::SendCatchLogDeferredAsyncioTest",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Https2InvalidDNSId",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_downloader_handlers_http2.py::Http2MockServerTestCase",
+        "status": "SKIPPED"
+    },
+    {
+        "name": "tests/test_crawler.py::CrawlerProcessSubprocess",
+        "status": "FAILED"
+    },
+    {
+        "name": "tests/test_commands.py::RunSpiderCommandTest",
+        "status": "FAILED"
+    },
+    {
+        "name": "FAILED tests/test_crawler.py::CrawlerProcessSubprocess",
+        "status": "FAILED"
+    },
+    {
+        "name": "FAILED tests/test_commands.py::RunSpiderCommandTest",
+        "status": "FAILED"
+    }
+]

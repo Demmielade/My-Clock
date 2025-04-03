@@ -3865,7 +3865,7 @@
     },
     {
         "name": "tests/test_core.py::TestHueMapping::test_hue_map_categorical",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "tests/test_core.py::TestHueMapping::test_hue_map_numeric",
@@ -3897,7 +3897,7 @@
     },
     {
         "name": "tests/test_core.py::TestSizeMapping::test_map_size_categorical",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "tests/test_core.py::TestStyleMapping::test_init_from_map",
@@ -3917,7 +3917,7 @@
     },
     {
         "name": "tests/test_core.py::TestStyleMapping::test_map_style",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "tests/test_core.py::TestVectorPlotter::test_flat_variables[series]",
@@ -5881,7 +5881,7 @@
     },
     {
         "name": "tests/test_miscplot.py::TestDogPlot::test_dogplot",
-        "status": "PASSED"
+        "status": "SKIPPED"
     },
     {
         "name": "tests/test_palettes.py::TestColorPalettes::test_current_palette",

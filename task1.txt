@@ -619,7 +619,7 @@ tests/dialects/test_snowflake.py::TestSnowflake::test_show_unique_keys PASSED [ 
 tests/dialects/test_snowflake.py::TestSnowflake::test_show_users PASSED  [ 63%]
 tests/dialects/test_snowflake.py::TestSnowflake::test_show_views PASSED  [ 63%]
 tests/dialects/test_snowflake.py::TestSnowflake::test_snowflake PASSED   [ 63%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_staged_files FAILED [ 63%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_staged_files PASSED [ 63%]
 tests/dialects/test_snowflake.py::TestSnowflake::test_storage_integration PASSED [ 63%]
 tests/dialects/test_snowflake.py::TestSnowflake::test_stored_procedures PASSED [ 63%]
 tests/dialects/test_snowflake.py::TestSnowflake::test_swap PASSED        [ 64%]
@@ -2231,36 +2231,12 @@ E   pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Ja
 ___________________________ TestSnowflake.test_copy ____________________________
 tests/dialects/test_snowflake.py:1863: in test_copy
     self.validate_identity("COPY INTO test (c1) FROM (SELECT $1.c1 FROM @mystage)")
-tests/dialects/test_dialect.py:29: in validate_identity
-    expression = self.parse_one(sql)
-tests/dialects/test_dialect.py:21: in parse_one
-    return parse_one(sql, read=self.dialect, **kwargs)
-sqlglot/__init__.py:139: in parse_one
-    result = dialect.parse(sql, **opts)
-sqlglot/dialects/dialect.py:509: in parse
-    return self.parser(**opts).parse(self.tokenize(sql), sql)
-sqlglot/parser.py:1195: in parse
-    return self._parse(
-sqlglot/parser.py:1261: in _parse
-    expressions.append(parse_method(self))
-sqlglot/parser.py:1490: in _parse_statement
-    return self.STATEMENT_PARSERS[self._prev.token_type](self)
-sqlglot/parser.py:644: in <lambda>
-    TokenType.COPY: lambda self: self._parse_copy(),
-sqlglot/parser.py:6440: in _parse_copy
-    files = self._parse_csv(self._parse_file_location)
-sqlglot/parser.py:5685: in _parse_csv
-    parse_result = parse_method()
-sqlglot/dialects/snowflake.py:685: in _parse_file_location
-    return self._parse_table_parts()
-sqlglot/dialects/snowflake.py:619: in _parse_table_parts
-    table = super()._parse_table_parts(schema=schema, is_db_reference=is_db_reference)
-sqlglot/parser.py:3161: in _parse_table_parts
-    self.raise_error(f"Expected table name but got {self._curr}")
-sqlglot/parser.py:1305: in raise_error
-    raise error
-E   sqlglot.errors.ParseError: Expected table name but got <Token token_type: <TokenType.L_PAREN: 'L_PAREN'>, text: '(', line: 1, col: 26, start: 25, end: 25, comments: []>. Line 1, Col: 26.
-E     COPY INTO test (c1) FROM [4m([0mSELECT $1.c1 FROM @mystage)
+tests/dialects/test_dialect.py:31: in validate_identity
+    self.assertEqual(write_sql or sql, expression.sql(dialect=self.dialect, pretty=pretty))
+E   AssertionError: 'COPY INTO test (c1) FROM (SELECT $1.c1 FROM @mystage)' != 'COPY INTO test (c1) FROM (SELECT $1. AS c1 FROM @mystage)'
+E   - COPY INTO test (c1) FROM (SELECT $1.c1 FROM @mystage)
+E   + COPY INTO test (c1) FROM (SELECT $1. AS c1 FROM @mystage)
+E   ?                                     ++++
 _______________ TestSnowflake.test_querying_semi_structured_data _______________
 tests/dialects/test_snowflake.py:1879: in test_querying_semi_structured_data
     self.validate_identity("SELECT $1.elem")
@@ -2270,46 +2246,15 @@ E   AssertionError: 'SELECT $1.elem' != 'SELECT $1.e AS lem'
 E   - SELECT $1.elem
 E   + SELECT $1.e AS lem
 E   ?            ++++
-_______________________ TestSnowflake.test_staged_files ________________________
-tests/dialects/test_snowflake.py:897: in test_staged_files
-    self.validate_identity("SELECT * FROM (SELECT a FROM @foo)")
-tests/dialects/test_dialect.py:29: in validate_identity
-    expression = self.parse_one(sql)
-tests/dialects/test_dialect.py:21: in parse_one
-    return parse_one(sql, read=self.dialect, **kwargs)
-sqlglot/__init__.py:139: in parse_one
-    result = dialect.parse(sql, **opts)
-sqlglot/dialects/dialect.py:509: in parse
-    return self.parser(**opts).parse(self.tokenize(sql), sql)
-sqlglot/parser.py:1195: in parse
-    return self._parse(
-sqlglot/parser.py:1261: in _parse
-    expressions.append(parse_method(self))
-sqlglot/parser.py:1496: in _parse_statement
-    expression = self._parse_set_operations(expression) if expression else self._parse_select()
-sqlglot/parser.py:2584: in _parse_select
-    from_ = self._parse_from()
-sqlglot/parser.py:2796: in _parse_from
-    exp.From, comments=self._prev_comments, this=self._parse_table(joins=joins)
-sqlglot/parser.py:3195: in _parse_table
-    subquery = self._parse_select(table=True)
-sqlglot/parser.py:2605: in _parse_select
-    self._match_r_paren()
-sqlglot/parser.py:6260: in _match_r_paren
-    self.raise_error("Expecting )")
-sqlglot/parser.py:1305: in raise_error
-    raise error
-E   sqlglot.errors.ParseError: Expecting ). Line 1, Col: 34.
-E     SELECT * FROM (SELECT a FROM @foo[4m)[0m
 =========================== short test summary info ============================
-FAILED tests/dialects/test_snowflake.py::TestSnowflake::test_copy - sqlglot.errors.ParseError: Expected table name but got <Token token_type: <TokenType.L_PAREN: 'L_PAREN'>, text: '(', line: 1, col: 26, start: 25, end: 25, comments: []>. Line 1, Col: 26.
-  COPY INTO test (c1) FROM [4m([0mSELECT $1.c1 FROM @mystage)
+FAILED tests/dialects/test_snowflake.py::TestSnowflake::test_copy - AssertionError: 'COPY INTO test (c1) FROM (SELECT $1.c1 FROM @mystage)' != 'COPY INTO test (c1) FROM (SELECT $1. AS c1 FROM @mystage)'
+- COPY INTO test (c1) FROM (SELECT $1.c1 FROM @mystage)
++ COPY INTO test (c1) FROM (SELECT $1. AS c1 FROM @mystage)
+?                                     ++++
 FAILED tests/dialects/test_snowflake.py::TestSnowflake::test_querying_semi_structured_data - AssertionError: 'SELECT $1.elem' != 'SELECT $1.e AS lem'
 - SELECT $1.elem
 + SELECT $1.e AS lem
 ?            ++++
-FAILED tests/dialects/test_snowflake.py::TestSnowflake::test_staged_files - sqlglot.errors.ParseError: Expecting ). Line 1, Col: 34.
-  SELECT * FROM (SELECT a FROM @foo[4m)[0m
 ERROR tests/dataframe/integration/test_dataframe.py::TestDataframeFunc::test_alias_no_op - pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
 ERROR tests/dataframe/integration/test_dataframe.py::TestDataframeFunc::test_alias_with_select - pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
 ERROR tests/dataframe/integration/test_dataframe.py::TestDataframeFunc::test_basic_union - pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
@@ -2399,5 +2344,5 @@ ERROR tests/dataframe/integration/test_grouped_data.py::TestDataframeFunc::test_
 ERROR tests/dataframe/integration/test_session.py::TestSessionFunc::test_nameless_column - pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
 ERROR tests/dataframe/integration/test_session.py::TestSessionFunc::test_sql_simple_select - pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
 ERROR tests/dataframe/integration/test_session.py::TestSessionFunc::test_sql_with_join - pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
-============= 3 failed, 873 passed, 89 errors in 144.79s (0:02:24) =============
+============= 2 failed, 874 passed, 89 errors in 144.07s (0:02:24) =============
 ================= 0909 TEST END 0909 =================

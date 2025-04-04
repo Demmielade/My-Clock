@@ -1,731 +1,714 @@
-?   	github.com/cilium/cilium/api/v1/client	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/bgp	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/daemon	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/endpoint	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/ipam	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/metrics	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/policy	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/prefilter	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/recorder	[no test files]
-?   	github.com/cilium/cilium/api/v1/client/service	[no test files]
-?   	github.com/cilium/cilium/api/v1/flow	[no test files]
-?   	github.com/cilium/cilium/api/v1/health/client	[no test files]
-?   	github.com/cilium/cilium/api/v1/health/client/connectivity	[no test files]
-?   	github.com/cilium/cilium/api/v1/health/client/restapi	[no test files]
-?   	github.com/cilium/cilium/api/v1/health/models	[no test files]
-?   	github.com/cilium/cilium/api/v1/health/server	[no test files]
-?   	github.com/cilium/cilium/api/v1/health/server/restapi	[no test files]
-?   	github.com/cilium/cilium/api/v1/health/server/restapi/connectivity	[no test files]
-?   	github.com/cilium/cilium/api/v1/kvstoremesh/client	[no test files]
-?   	github.com/cilium/cilium/api/v1/kvstoremesh/client/cluster	[no test files]
-?   	github.com/cilium/cilium/api/v1/kvstoremesh/models	[no test files]
-?   	github.com/cilium/cilium/api/v1/kvstoremesh/server	[no test files]
-?   	github.com/cilium/cilium/api/v1/kvstoremesh/server/restapi	[no test files]
-?   	github.com/cilium/cilium/api/v1/kvstoremesh/server/restapi/cluster	[no test files]
-?   	github.com/cilium/cilium/api/v1/models	[no test files]
-?   	github.com/cilium/cilium/api/v1/observer	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/client	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/client/cluster	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/client/metrics	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/client/operator	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/models	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/server	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/server/restapi	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/server/restapi/cluster	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/server/restapi/metrics	[no test files]
-?   	github.com/cilium/cilium/api/v1/operator/server/restapi/operator	[no test files]
-?   	github.com/cilium/cilium/api/v1/peer	[no test files]
-?   	github.com/cilium/cilium/api/v1/recorder	[no test files]
-?   	github.com/cilium/cilium/api/v1/relay	[no test files]
-?   	github.com/cilium/cilium/api/v1/server	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/bgp	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/daemon	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/endpoint	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/ipam	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/metrics	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/policy	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/prefilter	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/recorder	[no test files]
-?   	github.com/cilium/cilium/api/v1/server/restapi/service	[no test files]
-ok  	github.com/cilium/cilium/bpf/tests/bpftest	0.108s
-?   	github.com/cilium/cilium/bugtool	[no test files]
-ok  	github.com/cilium/cilium/bugtool/cmd	0.064s
-ok  	github.com/cilium/cilium/cilium-cli/api	0.144s
-ok  	github.com/cilium/cilium/cilium-cli/bgp	0.053s
-ok  	github.com/cilium/cilium/cilium-cli/cli	0.077s
-ok  	github.com/cilium/cilium/cilium-cli/clustermesh	0.067s
-?   	github.com/cilium/cilium/cilium-cli/cmd/cilium	[no test files]
-?   	github.com/cilium/cilium/cilium-cli/config	[no test files]
-?   	github.com/cilium/cilium/cilium-cli/connectivity	[no test files]
-?   	github.com/cilium/cilium/cilium-cli/connectivity/builder	[no test files]
-?   	github.com/cilium/cilium/cilium-cli/connectivity/builder/manifests/template	[no test files]
-ok  	github.com/cilium/cilium/cilium-cli/connectivity/check	0.672s
-?   	github.com/cilium/cilium/cilium-cli/connectivity/filters	[no test files]
-ok  	github.com/cilium/cilium/cilium-cli/connectivity/internal/junit	0.003s
-?   	github.com/cilium/cilium/cilium-cli/connectivity/perf/benchmarks/netperf	[no test files]
-?   	github.com/cilium/cilium/cilium-cli/connectivity/perf/common	[no test files]
-?   	github.com/cilium/cilium/cilium-cli/connectivity/sniff	[no test files]
-ok  	github.com/cilium/cilium/cilium-cli/connectivity/tests	0.104s
-?   	github.com/cilium/cilium/cilium-cli/defaults	[no test files]
-ok  	github.com/cilium/cilium/cilium-cli/encrypt	0.104s
-?   	github.com/cilium/cilium/cilium-cli/hubble	[no test files]
-ok  	github.com/cilium/cilium/cilium-cli/install	0.059s
-ok  	github.com/cilium/cilium/cilium-cli/internal/helm	0.371s
-ok  	github.com/cilium/cilium/cilium-cli/internal/utils	0.007s
-ok  	github.com/cilium/cilium/cilium-cli/k8s	0.075s
-?   	github.com/cilium/cilium/cilium-cli/k8s/internal	[no test files]
-?   	github.com/cilium/cilium/cilium-cli/logging	[no test files]
-?   	github.com/cilium/cilium/cilium-cli/multicast	[no test files]
-ok  	github.com/cilium/cilium/cilium-cli/status	0.042s
-ok  	github.com/cilium/cilium/cilium-cli/sysdump	0.067s
-ok  	github.com/cilium/cilium/cilium-cli/utils/features	0.006s
-ok  	github.com/cilium/cilium/cilium-cli/utils/junit	0.004s
-?   	github.com/cilium/cilium/cilium-cli/utils/lock	[no test files]
-ok  	github.com/cilium/cilium/cilium-cli/utils/runner	0.006s
-?   	github.com/cilium/cilium/cilium-cli/utils/wait	[no test files]
-?   	github.com/cilium/cilium/cilium-dbg	[no test files]
-ok  	github.com/cilium/cilium/cilium-dbg/cmd	0.072s
-?   	github.com/cilium/cilium/cilium-health	[no test files]
-?   	github.com/cilium/cilium/cilium-health/cmd	[no test files]
-?   	github.com/cilium/cilium/cilium-health/launch	[no test files]
-?   	github.com/cilium/cilium/cilium-health/responder	[no test files]
-?   	github.com/cilium/cilium/clustermesh-apiserver	[no test files]
-ok  	github.com/cilium/cilium/clustermesh-apiserver/clustermesh	0.074s
-?   	github.com/cilium/cilium/clustermesh-apiserver/clustermesh/k8s	[no test files]
-?   	github.com/cilium/cilium/clustermesh-apiserver/clustermesh-dbg	[no test files]
-?   	github.com/cilium/cilium/clustermesh-apiserver/etcdinit	[no test files]
-?   	github.com/cilium/cilium/clustermesh-apiserver/health	[no test files]
-?   	github.com/cilium/cilium/clustermesh-apiserver/kvstoremesh	[no test files]
-?   	github.com/cilium/cilium/clustermesh-apiserver/kvstoremesh-dbg	[no test files]
-?   	github.com/cilium/cilium/clustermesh-apiserver/metrics	[no test files]
-?   	github.com/cilium/cilium/clustermesh-apiserver/option	[no test files]
-ok  	github.com/cilium/cilium/clustermesh-apiserver/syncstate	0.011s
-?   	github.com/cilium/cilium/clustermesh-apiserver/version	[no test files]
-ok  	github.com/cilium/cilium/contrib/examples/statedb	0.039s
-ok  	github.com/cilium/cilium/contrib/examples/statedb_k8s	0.081s
-?   	github.com/cilium/cilium/daemon	[no test files]
-ok  	github.com/cilium/cilium/daemon/cmd	0.783s
-ok  	github.com/cilium/cilium/daemon/cmd/cni	0.021s
-?   	github.com/cilium/cilium/daemon/cmd/cni/fake	[no test files]
-?   	github.com/cilium/cilium/daemon/k8s	[no test files]
-ok  	github.com/cilium/cilium/daemon/restapi	0.061s
-?   	github.com/cilium/cilium/hubble	[no test files]
-ok  	github.com/cilium/cilium/hubble/cmd	0.047s
-?   	github.com/cilium/cilium/hubble/cmd/common	[no test files]
-?   	github.com/cilium/cilium/hubble/cmd/common/config	[no test files]
-?   	github.com/cilium/cilium/hubble/cmd/common/conn	[no test files]
-ok  	github.com/cilium/cilium/hubble/cmd/common/template	0.005s
-?   	github.com/cilium/cilium/hubble/cmd/common/validate	[no test files]
-?   	github.com/cilium/cilium/hubble/cmd/config	[no test files]
-ok  	github.com/cilium/cilium/hubble/cmd/list	0.032s
-ok  	github.com/cilium/cilium/hubble/cmd/observe	0.077s
-?   	github.com/cilium/cilium/hubble/cmd/record	[no test files]
-?   	github.com/cilium/cilium/hubble/cmd/reflect	[no test files]
-?   	github.com/cilium/cilium/hubble/cmd/status	[no test files]
-?   	github.com/cilium/cilium/hubble/cmd/version	[no test files]
-ok  	github.com/cilium/cilium/hubble/cmd/watch	0.057s
-?   	github.com/cilium/cilium/hubble/pkg	[no test files]
-?   	github.com/cilium/cilium/hubble/pkg/defaults	[no test files]
-?   	github.com/cilium/cilium/hubble/pkg/logger	[no test files]
-ok  	github.com/cilium/cilium/hubble/pkg/printer	0.019s
-ok  	github.com/cilium/cilium/hubble/pkg/time	0.003s
-?   	github.com/cilium/cilium/hubble-relay	[no test files]
-?   	github.com/cilium/cilium/hubble-relay/cmd	[no test files]
-?   	github.com/cilium/cilium/hubble-relay/cmd/completion	[no test files]
-?   	github.com/cilium/cilium/hubble-relay/cmd/serve	[no test files]
-?   	github.com/cilium/cilium/hubble-relay/cmd/version	[no test files]
-?   	github.com/cilium/cilium/images/builder	[no test files]
-?   	github.com/cilium/cilium/operator	[no test files]
-ok  	github.com/cilium/cilium/operator/api	0.141s
-?   	github.com/cilium/cilium/operator/auth	[no test files]
-?   	github.com/cilium/cilium/operator/auth/identity	[no test files]
-ok  	github.com/cilium/cilium/operator/auth/spire	0.081s
-ok  	github.com/cilium/cilium/operator/cmd	5.675s
-?   	github.com/cilium/cilium/operator/doublewrite	[no test files]
-ok  	github.com/cilium/cilium/operator/endpointgc	1.074s
-ok  	github.com/cilium/cilium/operator/identitygc	0.873s
-?   	github.com/cilium/cilium/operator/k8s	[no test files]
-?   	github.com/cilium/cilium/operator/metrics	[no test files]
-?   	github.com/cilium/cilium/operator/option	[no test files]
-ok  	github.com/cilium/cilium/operator/pkg/bgpv2	9.903s
-ok  	github.com/cilium/cilium/operator/pkg/ciliumendpointslice	4.498s
-?   	github.com/cilium/cilium/operator/pkg/ciliumendpointslice/testutils	[no test files]
-ok  	github.com/cilium/cilium/operator/pkg/ciliumidentity	14.291s
-?   	github.com/cilium/cilium/operator/pkg/client	[no test files]
-ok  	github.com/cilium/cilium/operator/pkg/controller-runtime	0.029s
-ok  	github.com/cilium/cilium/operator/pkg/gateway-api	0.105s
-ok  	github.com/cilium/cilium/operator/pkg/gateway-api/helpers	0.020s
-?   	github.com/cilium/cilium/operator/pkg/gateway-api/routechecks	[no test files]
-ok  	github.com/cilium/cilium/operator/pkg/ingress	0.170s
-ok  	github.com/cilium/cilium/operator/pkg/ingress/annotations	0.006s
-ok  	github.com/cilium/cilium/operator/pkg/lbipam	0.072s
-ok  	github.com/cilium/cilium/operator/pkg/model	0.005s
-ok  	github.com/cilium/cilium/operator/pkg/model/ingestion	0.022s
-ok  	github.com/cilium/cilium/operator/pkg/model/translation	0.092s
-ok  	github.com/cilium/cilium/operator/pkg/model/translation/gateway-api	0.093s
-ok  	github.com/cilium/cilium/operator/pkg/model/translation/ingress	0.163s
-?   	github.com/cilium/cilium/operator/pkg/networkpolicy	[no test files]
-?   	github.com/cilium/cilium/operator/pkg/networkpolicy/helpers	[no test files]
-ok  	github.com/cilium/cilium/operator/pkg/nodeipam	0.053s
-ok  	github.com/cilium/cilium/operator/pkg/secretsync	0.125s
-ok  	github.com/cilium/cilium/operator/watchers	4.069s
-ok  	github.com/cilium/cilium/pkg/act	0.054s
-?   	github.com/cilium/cilium/pkg/alibabacloud/api	[no test files]
-?   	github.com/cilium/cilium/pkg/alibabacloud/api/mock	[no test files]
-ok  	github.com/cilium/cilium/pkg/alibabacloud/eni	1.041s
-?   	github.com/cilium/cilium/pkg/alibabacloud/eni/limits	[no test files]
-?   	github.com/cilium/cilium/pkg/alibabacloud/eni/types	[no test files]
-?   	github.com/cilium/cilium/pkg/alibabacloud/metadata	[no test files]
-?   	github.com/cilium/cilium/pkg/alibabacloud/types	[no test files]
-ok  	github.com/cilium/cilium/pkg/alibabacloud/utils	0.005s
-ok  	github.com/cilium/cilium/pkg/alignchecker	0.031s
-ok  	github.com/cilium/cilium/pkg/allocator	0.755s
-ok  	github.com/cilium/cilium/pkg/annotation	0.005s
-ok  	github.com/cilium/cilium/pkg/api	0.008s
-ok  	github.com/cilium/cilium/pkg/api/helpers	0.155s
-?   	github.com/cilium/cilium/pkg/api/metrics	[no test files]
-ok  	github.com/cilium/cilium/pkg/api/metrics/mock	0.003s
-ok  	github.com/cilium/cilium/pkg/auth	0.065s
-?   	github.com/cilium/cilium/pkg/auth/certs	[no test files]
-ok  	github.com/cilium/cilium/pkg/auth/spire	0.020s
-ok  	github.com/cilium/cilium/pkg/aws/ec2	0.011s
-ok  	github.com/cilium/cilium/pkg/aws/ec2/mock	0.011s
-?   	github.com/cilium/cilium/pkg/aws/endpoints	[no test files]
-ok  	github.com/cilium/cilium/pkg/aws/eni	6.358s
-ok  	github.com/cilium/cilium/pkg/aws/eni/limits	0.011s
-?   	github.com/cilium/cilium/pkg/aws/eni/types	[no test files]
-?   	github.com/cilium/cilium/pkg/aws/metadata	[no test files]
-?   	github.com/cilium/cilium/pkg/aws/types	[no test files]
-?   	github.com/cilium/cilium/pkg/azure/api	[no test files]
-ok  	github.com/cilium/cilium/pkg/azure/api/mock	0.007s
-ok  	github.com/cilium/cilium/pkg/azure/ipam	0.117s
-ok  	github.com/cilium/cilium/pkg/azure/types	0.006s
-ok  	github.com/cilium/cilium/pkg/backoff	0.003s
-ok  	github.com/cilium/cilium/pkg/bgp/config	0.004s
-ok  	github.com/cilium/cilium/pkg/bgp/fence	0.002s
-?   	github.com/cilium/cilium/pkg/bgp/k8s	[no test files]
-?   	github.com/cilium/cilium/pkg/bgp/log	[no test files]
-ok  	github.com/cilium/cilium/pkg/bgp/manager	0.031s
-?   	github.com/cilium/cilium/pkg/bgp/mock	[no test files]
-ok  	github.com/cilium/cilium/pkg/bgp/speaker	0.051s
-?   	github.com/cilium/cilium/pkg/bgpv1	[no test files]
-ok  	github.com/cilium/cilium/pkg/bgpv1/agent	0.060s
-?   	github.com/cilium/cilium/pkg/bgpv1/agent/mode	[no test files]
-ok  	github.com/cilium/cilium/pkg/bgpv1/agent/signaler	0.002s
-ok  	github.com/cilium/cilium/pkg/bgpv1/api	0.048s
-ok  	github.com/cilium/cilium/pkg/bgpv1/gobgp	0.054s
-ok  	github.com/cilium/cilium/pkg/bgpv1/manager	0.125s
-?   	github.com/cilium/cilium/pkg/bgpv1/manager/instance	[no test files]
-ok  	github.com/cilium/cilium/pkg/bgpv1/manager/reconciler	0.097s
-ok  	github.com/cilium/cilium/pkg/bgpv1/manager/reconcilerv2	0.070s
-ok  	github.com/cilium/cilium/pkg/bgpv1/manager/store	3.243s
-?   	github.com/cilium/cilium/pkg/bgpv1/metrics	[no test files]
-?   	github.com/cilium/cilium/pkg/bgpv1/mock	[no test files]
-ok  	github.com/cilium/cilium/pkg/bgpv1/test	0.045s
-?   	github.com/cilium/cilium/pkg/bgpv1/types	[no test files]
-ok  	github.com/cilium/cilium/pkg/bpf	0.035s
-ok  	github.com/cilium/cilium/pkg/bufuuid	0.005s
-ok  	github.com/cilium/cilium/pkg/byteorder	0.033s
-?   	github.com/cilium/cilium/pkg/cgroups	[no test files]
-ok  	github.com/cilium/cilium/pkg/cgroups/manager	0.037s
-ok  	github.com/cilium/cilium/pkg/cidr	0.004s
-ok  	github.com/cilium/cilium/pkg/cleanup	0.004s
-ok  	github.com/cilium/cilium/pkg/client	0.012s
-ok  	github.com/cilium/cilium/pkg/clustermesh	0.050s
-ok  	github.com/cilium/cilium/pkg/clustermesh/common	0.269s
-ok  	github.com/cilium/cilium/pkg/clustermesh/endpointslicesync	0.331s
-ok  	github.com/cilium/cilium/pkg/clustermesh/kvstoremesh	0.048s
-ok  	github.com/cilium/cilium/pkg/clustermesh/mcsapi	0.071s
-ok  	github.com/cilium/cilium/pkg/clustermesh/mcsapi/types	0.031s
-ok  	github.com/cilium/cilium/pkg/clustermesh/operator	0.045s
-ok  	github.com/cilium/cilium/pkg/clustermesh/types	0.005s
-ok  	github.com/cilium/cilium/pkg/clustermesh/utils	0.049s
-?   	github.com/cilium/cilium/pkg/clustermesh/wait	[no test files]
-ok  	github.com/cilium/cilium/pkg/command	0.006s
-ok  	github.com/cilium/cilium/pkg/command/exec	0.514s
-ok  	github.com/cilium/cilium/pkg/common	0.007s
-ok  	github.com/cilium/cilium/pkg/common/ipsec	0.003s
-ok  	github.com/cilium/cilium/pkg/comparator	0.002s
-ok  	github.com/cilium/cilium/pkg/completion	1.026s
-?   	github.com/cilium/cilium/pkg/components	[no test files]
-ok  	github.com/cilium/cilium/pkg/container	0.599s
-ok  	github.com/cilium/cilium/pkg/container/bitlpm	0.046s
-ok  	github.com/cilium/cilium/pkg/container/set	0.003s
-ok  	github.com/cilium/cilium/pkg/container/versioned	0.991s
-ok  	github.com/cilium/cilium/pkg/controller	1.119s
-ok  	github.com/cilium/cilium/pkg/counter	0.021s
-?   	github.com/cilium/cilium/pkg/crypto/certificatemanager	[no test files]
-ok  	github.com/cilium/cilium/pkg/crypto/certloader	1.737s
-?   	github.com/cilium/cilium/pkg/datapath	[no test files]
-?   	github.com/cilium/cilium/pkg/datapath/agentliveness	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/alignchecker	0.047s
-?   	github.com/cilium/cilium/pkg/datapath/connector	[no test files]
-?   	github.com/cilium/cilium/pkg/datapath/fake	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/fake/types	0.028s
-ok  	github.com/cilium/cilium/pkg/datapath/garp	10.061s
-?   	github.com/cilium/cilium/pkg/datapath/ipcache	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/iptables	0.164s
-ok  	github.com/cilium/cilium/pkg/datapath/iptables/ipset	0.487s
-ok  	github.com/cilium/cilium/pkg/datapath/l2responder	0.044s
-ok  	github.com/cilium/cilium/pkg/datapath/link	0.014s
-ok  	github.com/cilium/cilium/pkg/datapath/linux	1.159s
-ok  	github.com/cilium/cilium/pkg/datapath/linux/bandwidth	0.032s
-?   	github.com/cilium/cilium/pkg/datapath/linux/bigtcp	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/linux/config	0.038s
-?   	github.com/cilium/cilium/pkg/datapath/linux/config/defines	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/linux/ethtool	0.008s
-?   	github.com/cilium/cilium/pkg/datapath/linux/ipsec	[no test files]
-?   	github.com/cilium/cilium/pkg/datapath/linux/linux_defaults	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/linux/modules	0.023s
-?   	github.com/cilium/cilium/pkg/datapath/linux/netdevice	[no test files]
-time="2025-03-09T21:19:57.990119032Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.99025677Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990289115Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990316945Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990338237Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990362845Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990383419Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990438813Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.99045875Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990476607Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990515107Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990529567Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990544199Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
-time="2025-03-09T21:19:57.990558288Z" level=info msg="Kernel config file not found: if the agent fails to start, check the system requirements at https://docs.cilium.io/en/stable/operations/system_requirements" subsys=probes
---- FAIL: TestSystemConfigProbes (0.00s)
-    probes_test.go:239: unexpected nil error
-    probes_test.go:239: unexpected nil error
-    probes_test.go:239: unexpected nil error
-    probes_test.go:239: unexpected nil error
-    probes_test.go:239: unexpected nil error
-    probes_test.go:239: unexpected nil error
-    probes_test.go:239: unexpected nil error
-    probes_test.go:239: unexpected nil error
-FAIL
-FAIL	github.com/cilium/cilium/pkg/datapath/linux/probes	0.114s
-ok  	github.com/cilium/cilium/pkg/datapath/linux/route	0.013s
-ok  	github.com/cilium/cilium/pkg/datapath/linux/routing	0.021s
-ok  	github.com/cilium/cilium/pkg/datapath/linux/safenetlink	0.053s
-ok  	github.com/cilium/cilium/pkg/datapath/linux/sysctl	0.054s
-ok  	github.com/cilium/cilium/pkg/datapath/linux/utime	0.750s
-ok  	github.com/cilium/cilium/pkg/datapath/loader	0.643s
-?   	github.com/cilium/cilium/pkg/datapath/loader/metrics	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/maps	0.040s
-?   	github.com/cilium/cilium/pkg/datapath/node	[no test files]
-?   	github.com/cilium/cilium/pkg/datapath/option	[no test files]
-?   	github.com/cilium/cilium/pkg/datapath/orchestrator	[no test files]
-?   	github.com/cilium/cilium/pkg/datapath/prefilter	[no test files]
-?   	github.com/cilium/cilium/pkg/datapath/sockets	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/tables	1.282s
-ok  	github.com/cilium/cilium/pkg/datapath/tunnel	0.037s
-?   	github.com/cilium/cilium/pkg/datapath/types	[no test files]
-ok  	github.com/cilium/cilium/pkg/datapath/xdp	0.042s
-ok  	github.com/cilium/cilium/pkg/debug	0.007s
-?   	github.com/cilium/cilium/pkg/defaults	[no test files]
-ok  	github.com/cilium/cilium/pkg/dial	0.270s
-ok  	github.com/cilium/cilium/pkg/driftchecker	0.061s
-ok  	github.com/cilium/cilium/pkg/dynamicconfig	0.133s
-ok  	github.com/cilium/cilium/pkg/dynamiclifecycle	6.055s
-?   	github.com/cilium/cilium/pkg/ebpf	[no test files]
-ok  	github.com/cilium/cilium/pkg/egressgateway	0.043s
-ok  	github.com/cilium/cilium/pkg/endpoint	1.178s
-ok  	github.com/cilium/cilium/pkg/endpoint/id	0.003s
-?   	github.com/cilium/cilium/pkg/endpoint/regeneration	[no test files]
-ok  	github.com/cilium/cilium/pkg/endpointcleanup	0.753s
-ok  	github.com/cilium/cilium/pkg/endpointmanager	17.411s
-?   	github.com/cilium/cilium/pkg/endpointstate	[no test files]
-ok  	github.com/cilium/cilium/pkg/envoy	0.064s
-?   	github.com/cilium/cilium/pkg/envoy/resource	[no test files]
-ok  	github.com/cilium/cilium/pkg/envoy/xds	7.774s
-ok  	github.com/cilium/cilium/pkg/eventqueue	0.008s
-?   	github.com/cilium/cilium/pkg/flowdebug	[no test files]
-ok  	github.com/cilium/cilium/pkg/fqdn	0.030s
-ok  	github.com/cilium/cilium/pkg/fqdn/dns	0.002s
-ok  	github.com/cilium/cilium/pkg/fqdn/dnsproxy	0.084s
-ok  	github.com/cilium/cilium/pkg/fqdn/matchpattern	0.007s
-?   	github.com/cilium/cilium/pkg/fqdn/proxy	[no test files]
-?   	github.com/cilium/cilium/pkg/fqdn/proxy/ipfamily	[no test files]
-?   	github.com/cilium/cilium/pkg/fqdn/re	[no test files]
-?   	github.com/cilium/cilium/pkg/fqdn/restore	[no test files]
-ok  	github.com/cilium/cilium/pkg/fswatcher	0.011s
-?   	github.com/cilium/cilium/pkg/gops	[no test files]
-ok  	github.com/cilium/cilium/pkg/health/client	0.027s
-?   	github.com/cilium/cilium/pkg/health/defaults	[no test files]
-?   	github.com/cilium/cilium/pkg/health/probe	[no test files]
-ok  	github.com/cilium/cilium/pkg/health/probe/responder	0.003s
-ok  	github.com/cilium/cilium/pkg/health/server	0.032s
-ok  	github.com/cilium/cilium/pkg/hive	0.014s
-ok  	github.com/cilium/cilium/pkg/hive/health	0.017s
-?   	github.com/cilium/cilium/pkg/hive/health/types	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble/api/v1	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/build	0.004s
-ok  	github.com/cilium/cilium/pkg/hubble/cell	0.045s
-ok  	github.com/cilium/cilium/pkg/hubble/container	0.266s
-?   	github.com/cilium/cilium/pkg/hubble/defaults	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/dropeventemitter	0.033s
-ok  	github.com/cilium/cilium/pkg/hubble/exporter	0.061s
-?   	github.com/cilium/cilium/pkg/hubble/exporter/cell	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/filters	0.037s
-ok  	github.com/cilium/cilium/pkg/hubble/k8s	0.002s
-ok  	github.com/cilium/cilium/pkg/hubble/math	0.002s
-ok  	github.com/cilium/cilium/pkg/hubble/metrics	0.032s
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/api	0.018s
-?   	github.com/cilium/cilium/pkg/hubble/metrics/dns	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/drop	0.018s
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/flow	0.018s
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/flows-to-world	0.016s
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/http	0.016s
-?   	github.com/cilium/cilium/pkg/hubble/metrics/icmp	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/kafka	0.018s
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/policy	0.016s
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/port-distribution	0.018s
-ok  	github.com/cilium/cilium/pkg/hubble/metrics/tcp	0.018s
-ok  	github.com/cilium/cilium/pkg/hubble/monitor	0.019s
-ok  	github.com/cilium/cilium/pkg/hubble/observer	0.062s
-?   	github.com/cilium/cilium/pkg/hubble/observer/observeroption	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble/observer/types	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/parser	0.048s
-ok  	github.com/cilium/cilium/pkg/hubble/parser/agent	0.005s
-?   	github.com/cilium/cilium/pkg/hubble/parser/common	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/parser/debug	0.054s
-?   	github.com/cilium/cilium/pkg/hubble/parser/errors	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/parser/fieldmask	0.006s
-?   	github.com/cilium/cilium/pkg/hubble/parser/getters	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble/parser/options	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/parser/seven	0.052s
-ok  	github.com/cilium/cilium/pkg/hubble/parser/sock	0.046s
-ok  	github.com/cilium/cilium/pkg/hubble/parser/threefour	0.071s
-ok  	github.com/cilium/cilium/pkg/hubble/peer	0.138s
-?   	github.com/cilium/cilium/pkg/hubble/peer/serviceoption	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/peer/types	0.012s
-?   	github.com/cilium/cilium/pkg/hubble/recorder	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble/recorder/pcap	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble/recorder/recorderoption	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble/recorder/sink	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble/relay/defaults	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/relay/observer	2.047s
-ok  	github.com/cilium/cilium/pkg/hubble/relay/pool	24.040s
-?   	github.com/cilium/cilium/pkg/hubble/relay/pool/types	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/relay/queue	0.005s
-ok  	github.com/cilium/cilium/pkg/hubble/relay/server	0.106s
-?   	github.com/cilium/cilium/pkg/hubble/server	[no test files]
-?   	github.com/cilium/cilium/pkg/hubble/server/serveroption	[no test files]
-ok  	github.com/cilium/cilium/pkg/hubble/testutils	0.047s
-ok  	github.com/cilium/cilium/pkg/iana	0.003s
-ok  	github.com/cilium/cilium/pkg/identity	0.011s
-ok  	github.com/cilium/cilium/pkg/identity/basicallocator	0.006s
-ok  	github.com/cilium/cilium/pkg/identity/cache	0.152s
-?   	github.com/cilium/cilium/pkg/identity/cache/cell	[no test files]
-ok  	github.com/cilium/cilium/pkg/identity/identitymanager	0.010s
-ok  	github.com/cilium/cilium/pkg/identity/key	0.019s
-?   	github.com/cilium/cilium/pkg/identity/model	[no test files]
-ok  	github.com/cilium/cilium/pkg/idpool	0.719s
-ok  	github.com/cilium/cilium/pkg/ip	0.008s
-ok  	github.com/cilium/cilium/pkg/ipalloc	0.006s
-ok  	github.com/cilium/cilium/pkg/ipam	13.632s
-?   	github.com/cilium/cilium/pkg/ipam/allocator	[no test files]
-?   	github.com/cilium/cilium/pkg/ipam/allocator/alibabacloud	[no test files]
-?   	github.com/cilium/cilium/pkg/ipam/allocator/aws	[no test files]
-?   	github.com/cilium/cilium/pkg/ipam/allocator/azure	[no test files]
-?   	github.com/cilium/cilium/pkg/ipam/allocator/clusterpool	[no test files]
-ok  	github.com/cilium/cilium/pkg/ipam/allocator/clusterpool/cidralloc	0.003s
-ok  	github.com/cilium/cilium/pkg/ipam/allocator/multipool	0.044s
-ok  	github.com/cilium/cilium/pkg/ipam/allocator/podcidr	4.043s
-?   	github.com/cilium/cilium/pkg/ipam/api	[no test files]
-?   	github.com/cilium/cilium/pkg/ipam/cell	[no test files]
-ok  	github.com/cilium/cilium/pkg/ipam/cidrset	0.009s
-ok  	github.com/cilium/cilium/pkg/ipam/metadata	0.030s
-?   	github.com/cilium/cilium/pkg/ipam/metrics	[no test files]
-ok  	github.com/cilium/cilium/pkg/ipam/metrics/mock	0.003s
-?   	github.com/cilium/cilium/pkg/ipam/option	[no test files]
-ok  	github.com/cilium/cilium/pkg/ipam/service/allocator	0.002s
-ok  	github.com/cilium/cilium/pkg/ipam/service/ipallocator	0.003s
-?   	github.com/cilium/cilium/pkg/ipam/stats	[no test files]
-ok  	github.com/cilium/cilium/pkg/ipam/types	0.007s
-ok  	github.com/cilium/cilium/pkg/ipcache	0.053s
-?   	github.com/cilium/cilium/pkg/ipcache/cell	[no test files]
-ok  	github.com/cilium/cilium/pkg/ipcache/fake	0.036s
-ok  	github.com/cilium/cilium/pkg/ipcache/types	0.012s
-ok  	github.com/cilium/cilium/pkg/ipmasq	5.547s
-ok  	github.com/cilium/cilium/pkg/k8s	17.663s
-?   	github.com/cilium/cilium/pkg/k8s/apis	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/apis/cilium.io	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/apis/cilium.io/client	[no test files]
-ok  	github.com/cilium/cilium/pkg/k8s/apis/cilium.io/utils	0.011s
-ok  	github.com/cilium/cilium/pkg/k8s/apis/cilium.io/v2	0.033s
-ok  	github.com/cilium/cilium/pkg/k8s/apis/cilium.io/v2/validator	1.926s
-ok  	github.com/cilium/cilium/pkg/k8s/apis/cilium.io/v2alpha1	0.012s
-ok  	github.com/cilium/cilium/pkg/k8s/apis/crdhelpers	0.026s
-ok  	github.com/cilium/cilium/pkg/k8s/client	0.208s
-?   	github.com/cilium/cilium/pkg/k8s/client/clientset/versioned	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/scheme	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/typed/cilium.io/v2	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/typed/cilium.io/v2/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/typed/cilium.io/v2alpha1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/typed/cilium.io/v2alpha1/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/informers/externalversions	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/informers/externalversions/cilium.io	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/informers/externalversions/cilium.io/v2	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/informers/externalversions/cilium.io/v2alpha1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/informers/externalversions/internalinterfaces	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/listers/cilium.io/v2	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/client/listers/cilium.io/v2alpha1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/constants	[no test files]
-ok  	github.com/cilium/cilium/pkg/k8s/identitybackend	0.033s
-?   	github.com/cilium/cilium/pkg/k8s/informer	[no test files]
-ok  	github.com/cilium/cilium/pkg/k8s/informer/benchmarks	0.006s [no tests to run]
-ok  	github.com/cilium/cilium/pkg/k8s/metrics	0.005s
-ok  	github.com/cilium/cilium/pkg/k8s/resource	1.511s
-?   	github.com/cilium/cilium/pkg/k8s/resource/example	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/api/core/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/api/discovery/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/api/discovery/v1beta1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/api/networking/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned/scheme	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned/typed/apiextensions/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned/typed/apiextensions/v1/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/informers/externalversions	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/informers/externalversions/apiextensions	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/informers/externalversions/apiextensions/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/informers/externalversions/internalinterfaces	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/listers/apiextensions/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-clientset	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/api/meta	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/apiextensions/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/labels	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/meta/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/meta/v1/validation	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/meta/v1beta1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/selection	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/util/intstr	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/scheme	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/core/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/core/v1/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/discovery/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/discovery/v1/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/discovery/v1beta1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/discovery/v1beta1/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/networking/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/networking/v1/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions/core	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions/core/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions/discovery	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions/discovery/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions/discovery/v1beta1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions/internalinterfaces	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions/networking	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/informers/externalversions/networking/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/listers/core/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/listers/discovery/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/listers/discovery/v1beta1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/client/listers/networking/v1	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/slim/k8s/clientset	[no test files]
-ok  	github.com/cilium/cilium/pkg/k8s/synced	0.745s
-ok  	github.com/cilium/cilium/pkg/k8s/testutils	0.040s
-?   	github.com/cilium/cilium/pkg/k8s/types	[no test files]
-ok  	github.com/cilium/cilium/pkg/k8s/utils	0.025s
-?   	github.com/cilium/cilium/pkg/k8s/version	[no test files]
-ok  	github.com/cilium/cilium/pkg/k8s/watchers	0.067s
-?   	github.com/cilium/cilium/pkg/k8s/watchers/resources	[no test files]
-?   	github.com/cilium/cilium/pkg/k8s/watchers/subscriber	[no test files]
-ok  	github.com/cilium/cilium/pkg/k8s/watchers/utils	0.018s
-ok  	github.com/cilium/cilium/pkg/kvstore	0.531s
-ok  	github.com/cilium/cilium/pkg/kvstore/allocator	0.016s
-ok  	github.com/cilium/cilium/pkg/kvstore/allocator/doublewrite	0.063s
-?   	github.com/cilium/cilium/pkg/kvstore/etcdinit	[no test files]
-?   	github.com/cilium/cilium/pkg/kvstore/heartbeat	[no test files]
-ok  	github.com/cilium/cilium/pkg/kvstore/store	0.120s
-ok  	github.com/cilium/cilium/pkg/l2announcer	3.083s
-ok  	github.com/cilium/cilium/pkg/labels	0.013s
-?   	github.com/cilium/cilium/pkg/labels/model	[no test files]
-ok  	github.com/cilium/cilium/pkg/labelsfilter	0.012s
-?   	github.com/cilium/cilium/pkg/launcher	[no test files]
-ok  	github.com/cilium/cilium/pkg/loadbalancer	0.009s
-?   	github.com/cilium/cilium/pkg/loadinfo	[no test files]
-ok  	github.com/cilium/cilium/pkg/lock	2.154s
-ok  	github.com/cilium/cilium/pkg/lock/lockfile	1.004s
-ok  	github.com/cilium/cilium/pkg/logging	3.505s
-?   	github.com/cilium/cilium/pkg/logging/hooks	[no test files]
-?   	github.com/cilium/cilium/pkg/logging/logfields	[no test files]
-ok  	github.com/cilium/cilium/pkg/mac	0.003s
-ok  	github.com/cilium/cilium/pkg/maglev	0.565s
-ok  	github.com/cilium/cilium/pkg/maps	0.038s
-?   	github.com/cilium/cilium/pkg/maps/act	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/authmap	0.012s
-?   	github.com/cilium/cilium/pkg/maps/authmap/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/bwmap	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/callsmap	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/cidrmap	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/configmap	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/ctmap	0.022s
-?   	github.com/cilium/cilium/pkg/maps/ctmap/fake	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/ctmap/gc	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/egressmap	0.031s
-?   	github.com/cilium/cilium/pkg/maps/encrypt	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/eventsmap	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/fragmap	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/ipcache	0.009s
-ok  	github.com/cilium/cilium/pkg/maps/ipmasq	0.015s
-?   	github.com/cilium/cilium/pkg/maps/l2respondermap	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/lbmap	0.050s
-?   	github.com/cilium/cilium/pkg/maps/lxcmap	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/metricsmap	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/multicast	0.013s
-ok  	github.com/cilium/cilium/pkg/maps/nat	0.012s
-?   	github.com/cilium/cilium/pkg/maps/nat/fake	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/nat/stats	0.035s
-?   	github.com/cilium/cilium/pkg/maps/neighborsmap	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/nodemap	0.011s
-?   	github.com/cilium/cilium/pkg/maps/nodemap/fake	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/policymap	0.018s
-?   	github.com/cilium/cilium/pkg/maps/ratelimitmap	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/recorder	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/signalmap	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/signalmap/fake	[no test files]
-ok  	github.com/cilium/cilium/pkg/maps/srv6map	0.013s
-ok  	github.com/cilium/cilium/pkg/maps/timestamp	0.014s
-ok  	github.com/cilium/cilium/pkg/maps/tunnel	0.013s
-?   	github.com/cilium/cilium/pkg/maps/vtep	[no test files]
-?   	github.com/cilium/cilium/pkg/maps/worldcidrsmap	[no test files]
-# github.com/cilium/cilium/pkg/metrics/features [github.com/cilium/cilium/pkg/metrics/features.test]
-pkg/metrics/features/metrics_test.go:54:18: undefined: defaultIPAMModes
-pkg/metrics/features/metrics_test.go:87:23: undefined: defaultIPAMModes
-pkg/metrics/features/metrics_test.go:107:25: undefined: defaultIPAMModes
-pkg/metrics/features/metrics_test.go:108:29: metrics.DPIPAM undefined (type Metrics has no field or method DPIPAM)
-ok  	github.com/cilium/cilium/pkg/math	0.008s
-ok  	github.com/cilium/cilium/pkg/mcastmanager	0.018s
-ok  	github.com/cilium/cilium/pkg/metrics	0.019s
-FAIL	github.com/cilium/cilium/pkg/metrics/features [build failed]
-ok  	github.com/cilium/cilium/pkg/metrics/metric	0.005s
-ok  	github.com/cilium/cilium/pkg/metrics/metric/collections	0.004s
-ok  	github.com/cilium/cilium/pkg/monitor	0.061s
-ok  	github.com/cilium/cilium/pkg/monitor/agent	0.013s
-?   	github.com/cilium/cilium/pkg/monitor/agent/consumer	[no test files]
-?   	github.com/cilium/cilium/pkg/monitor/agent/listener	[no test files]
-?   	github.com/cilium/cilium/pkg/monitor/alignchecker	[no test files]
-ok  	github.com/cilium/cilium/pkg/monitor/api	0.010s
-ok  	github.com/cilium/cilium/pkg/monitor/format	0.049s
-?   	github.com/cilium/cilium/pkg/monitor/notifications	[no test files]
-ok  	github.com/cilium/cilium/pkg/monitor/payload	0.005s
-ok  	github.com/cilium/cilium/pkg/mountinfo	0.012s
-ok  	github.com/cilium/cilium/pkg/mtu	0.036s
-ok  	github.com/cilium/cilium/pkg/multicast	0.006s
-ok  	github.com/cilium/cilium/pkg/murmur3	0.002s
-ok  	github.com/cilium/cilium/pkg/netns	0.011s
-ok  	github.com/cilium/cilium/pkg/node	0.036s
-?   	github.com/cilium/cilium/pkg/node/addressing	[no test files]
-ok  	github.com/cilium/cilium/pkg/node/manager	1.351s
-ok  	github.com/cilium/cilium/pkg/node/store	0.051s
-ok  	github.com/cilium/cilium/pkg/node/types	0.031s
-?   	github.com/cilium/cilium/pkg/nodediscovery	[no test files]
-ok  	github.com/cilium/cilium/pkg/option	0.014s
-ok  	github.com/cilium/cilium/pkg/option/resolver	0.063s
-ok  	github.com/cilium/cilium/pkg/pidfile	0.026s
-ok  	github.com/cilium/cilium/pkg/policy	1.763s
-ok  	github.com/cilium/cilium/pkg/policy/api	0.020s
-?   	github.com/cilium/cilium/pkg/policy/cell	[no test files]
-ok  	github.com/cilium/cilium/pkg/policy/correlation	0.054s
-ok  	github.com/cilium/cilium/pkg/policy/directory	0.041s
-ok  	github.com/cilium/cilium/pkg/policy/groups	0.043s
-?   	github.com/cilium/cilium/pkg/policy/groups/aws	[no test files]
-ok  	github.com/cilium/cilium/pkg/policy/k8s	0.053s
-?   	github.com/cilium/cilium/pkg/policy/trafficdirection	[no test files]
-ok  	github.com/cilium/cilium/pkg/policy/types	0.009s
-ok  	github.com/cilium/cilium/pkg/pprof	0.032s
-ok  	github.com/cilium/cilium/pkg/promise	0.002s
-ok  	github.com/cilium/cilium/pkg/proxy	10.047s
-?   	github.com/cilium/cilium/pkg/proxy/accesslog	[no test files]
-?   	github.com/cilium/cilium/pkg/proxy/endpoint	[no test files]
-?   	github.com/cilium/cilium/pkg/proxy/endpoint/test	[no test files]
-ok  	github.com/cilium/cilium/pkg/proxy/logger	0.022s [no tests to run]
-?   	github.com/cilium/cilium/pkg/proxy/logger/endpoint	[no test files]
-?   	github.com/cilium/cilium/pkg/proxy/types	[no test files]
-ok  	github.com/cilium/cilium/pkg/rate	3.416s
-?   	github.com/cilium/cilium/pkg/rate/metrics	[no test files]
-?   	github.com/cilium/cilium/pkg/recorder	[no test files]
-ok  	github.com/cilium/cilium/pkg/redirectpolicy	0.037s
-ok  	github.com/cilium/cilium/pkg/resiliency	0.025s
-ok  	github.com/cilium/cilium/pkg/revert	0.003s
-ok  	github.com/cilium/cilium/pkg/safeio	0.002s
-ok  	github.com/cilium/cilium/pkg/safetime	0.004s
-ok  	github.com/cilium/cilium/pkg/service	0.668s
-ok  	github.com/cilium/cilium/pkg/service/healthserver	0.011s
-ok  	github.com/cilium/cilium/pkg/service/store	0.019s
-ok  	github.com/cilium/cilium/pkg/shortener	0.004s
-ok  	github.com/cilium/cilium/pkg/signal	1.013s
-ok  	github.com/cilium/cilium/pkg/slices	0.011s
-ok  	github.com/cilium/cilium/pkg/socketlb	0.040s
-ok  	github.com/cilium/cilium/pkg/source	0.004s
-ok  	github.com/cilium/cilium/pkg/spanstat	0.104s
-ok  	github.com/cilium/cilium/pkg/status	0.308s
-ok  	github.com/cilium/cilium/pkg/testutils	0.129s
-ok  	github.com/cilium/cilium/pkg/testutils/identity	0.040s
-?   	github.com/cilium/cilium/pkg/testutils/ipam	[no test files]
-?   	github.com/cilium/cilium/pkg/testutils/ipcache	[no test files]
-?   	github.com/cilium/cilium/pkg/testutils/mockmaps	[no test files]
-?   	github.com/cilium/cilium/pkg/testutils/netns	[no test files]
-?   	github.com/cilium/cilium/pkg/testutils/policy	[no test files]
-?   	github.com/cilium/cilium/pkg/testutils/sockets	[no test files]
-?   	github.com/cilium/cilium/pkg/time	[no test files]
-ok  	github.com/cilium/cilium/pkg/trigger	0.406s
-?   	github.com/cilium/cilium/pkg/tuple	[no test files]
-ok  	github.com/cilium/cilium/pkg/types	0.007s
-?   	github.com/cilium/cilium/pkg/u8proto	[no test files]
-ok  	github.com/cilium/cilium/pkg/version	0.006s
-ok  	github.com/cilium/cilium/pkg/versioncheck	0.003s
-ok  	github.com/cilium/cilium/pkg/wireguard/agent	0.081s
-?   	github.com/cilium/cilium/pkg/wireguard/types	[no test files]
-?   	github.com/cilium/cilium/plugins/cilium-cni	[no test files]
-ok  	github.com/cilium/cilium/plugins/cilium-cni/chaining/api	0.010s
-?   	github.com/cilium/cilium/plugins/cilium-cni/chaining/awscni	[no test files]
-?   	github.com/cilium/cilium/plugins/cilium-cni/chaining/azure	[no test files]
-?   	github.com/cilium/cilium/plugins/cilium-cni/chaining/flannel	[no test files]
-?   	github.com/cilium/cilium/plugins/cilium-cni/chaining/generic-veth	[no test files]
-?   	github.com/cilium/cilium/plugins/cilium-cni/cmd	[no test files]
-?   	github.com/cilium/cilium/plugins/cilium-cni/lib	[no test files]
-ok  	github.com/cilium/cilium/plugins/cilium-cni/types	0.006s
-?   	github.com/cilium/cilium/plugins/cilium-docker	[no test files]
-?   	github.com/cilium/cilium/plugins/cilium-docker/driver	[no test files]
-ok  	github.com/cilium/cilium/test	0.031s
-?   	github.com/cilium/cilium/test/config	[no test files]
-ok  	github.com/cilium/cilium/test/controlplane	14.854s
-?   	github.com/cilium/cilium/test/controlplane/node	[no test files]
-?   	github.com/cilium/cilium/test/controlplane/node/ciliumnodes	[no test files]
-?   	github.com/cilium/cilium/test/controlplane/pod/hostport	[no test files]
-?   	github.com/cilium/cilium/test/controlplane/services/dualstack	[no test files]
-?   	github.com/cilium/cilium/test/controlplane/services/graceful-termination	[no test files]
-?   	github.com/cilium/cilium/test/controlplane/services/helpers	[no test files]
-?   	github.com/cilium/cilium/test/controlplane/services/nodeport	[no test files]
-?   	github.com/cilium/cilium/test/controlplane/suite	[no test files]
-?   	github.com/cilium/cilium/test/ginkgo-ext	[no test files]
-ok  	github.com/cilium/cilium/test/helpers	0.033s
-?   	github.com/cilium/cilium/test/helpers/constants	[no test files]
-ok  	github.com/cilium/cilium/test/helpers/logutils	0.014s
-?   	github.com/cilium/cilium/test/k8s	[no test files]
-?   	github.com/cilium/cilium/test/logger	[no test files]
-?   	github.com/cilium/cilium/test/runtime	[no test files]
-ok  	github.com/cilium/cilium/test/verifier	0.015s
-?   	github.com/cilium/cilium/tools/alignchecker	[no test files]
-?   	github.com/cilium/cilium/tools/api-flaggen	[no test files]
-?   	github.com/cilium/cilium/tools/crdcheck	[no test files]
-?   	github.com/cilium/cilium/tools/crdlistgen	[no test files]
-?   	github.com/cilium/cilium/tools/dev-doctor	[no test files]
-?   	github.com/cilium/cilium/tools/legacyhguardcheck	[no test files]
-?   	github.com/cilium/cilium/tools/licensecheck	[no test files]
-?   	github.com/cilium/cilium/tools/licensegen	[no test files]
-?   	github.com/cilium/cilium/tools/mount	[no test files]
-?   	github.com/cilium/cilium/tools/spdxconv	[no test files]
-?   	github.com/cilium/cilium/tools/sysctlfix	[no test files]
-FAIL
+================= 0909 TEST START 0909 =================
+============================= test session starts ==============================
+platform linux -- Python 3.9.21, pytest-7.2.0, pluggy-1.0.0 -- /usr/local/bin/python3.9
+cachedir: .pytest_cache
+rootdir: /app
+collecting ... collected 548 items / 5 errors
+
+tests/test_build.py::TestBuild::test_build FAILED                        [  0%]
+tests/test_diff.py::TestDiff::test_cte PASSED                            [  0%]
+tests/test_diff.py::TestDiff::test_join PASSED                           [  0%]
+tests/test_diff.py::TestDiff::test_node_position_changed PASSED          [  0%]
+tests/test_diff.py::TestDiff::test_simple PASSED                         [  0%]
+tests/test_diff.py::TestDiff::test_window_functions PASSED               [  1%]
+tests/test_expressions.py::TestExpressions::test_alias PASSED            [  1%]
+tests/test_expressions.py::TestExpressions::test_alias_column_names PASSED [  1%]
+tests/test_expressions.py::TestExpressions::test_alias_or_name PASSED    [  1%]
+tests/test_expressions.py::TestExpressions::test_arg_key PASSED          [  1%]
+tests/test_expressions.py::TestExpressions::test_column PASSED           [  2%]
+tests/test_expressions.py::TestExpressions::test_comment_alias PASSED    [  2%]
+tests/test_expressions.py::TestExpressions::test_convert PASSED          [  2%]
+tests/test_expressions.py::TestExpressions::test_ctes PASSED             [  2%]
+tests/test_expressions.py::TestExpressions::test_depth PASSED            [  2%]
+tests/test_expressions.py::TestExpressions::test_eq PASSED               [  2%]
+tests/test_expressions.py::TestExpressions::test_find PASSED             [  3%]
+tests/test_expressions.py::TestExpressions::test_find_all PASSED         [  3%]
+tests/test_expressions.py::TestExpressions::test_find_ancestor PASSED    [  3%]
+tests/test_expressions.py::TestExpressions::test_function_normalizer PASSED [  3%]
+tests/test_expressions.py::TestExpressions::test_functions PASSED        [  3%]
+tests/test_expressions.py::TestExpressions::test_hash PASSED             [  4%]
+tests/test_expressions.py::TestExpressions::test_identifier PASSED       [  4%]
+tests/test_expressions.py::TestExpressions::test_named_selects PASSED    [  4%]
+tests/test_expressions.py::TestExpressions::test_pop PASSED              [  4%]
+tests/test_expressions.py::TestExpressions::test_properties_from_dict PASSED [  4%]
+tests/test_expressions.py::TestExpressions::test_replace PASSED          [  4%]
+tests/test_expressions.py::TestExpressions::test_replace_placeholders PASSED [  5%]
+tests/test_expressions.py::TestExpressions::test_replace_tables PASSED   [  5%]
+tests/test_expressions.py::TestExpressions::test_selects PASSED          [  5%]
+tests/test_expressions.py::TestExpressions::test_sql PASSED              [  5%]
+tests/test_expressions.py::TestExpressions::test_table PASSED            [  5%]
+tests/test_expressions.py::TestExpressions::test_table_name PASSED       [  6%]
+tests/test_expressions.py::TestExpressions::test_text PASSED             [  6%]
+tests/test_expressions.py::TestExpressions::test_to_column PASSED        [  6%]
+tests/test_expressions.py::TestExpressions::test_to_table PASSED         [  6%]
+tests/test_expressions.py::TestExpressions::test_transform_multiple_children PASSED [  6%]
+tests/test_expressions.py::TestExpressions::test_transform_no_infinite_recursion PASSED [  6%]
+tests/test_expressions.py::TestExpressions::test_transform_node_removal PASSED [  7%]
+tests/test_expressions.py::TestExpressions::test_transform_simple PASSED [  7%]
+tests/test_expressions.py::TestExpressions::test_transform_with_arguments PASSED [  7%]
+tests/test_expressions.py::TestExpressions::test_union PASSED            [  7%]
+tests/test_expressions.py::TestExpressions::test_unit PASSED             [  7%]
+tests/test_expressions.py::TestExpressions::test_walk PASSED             [  8%]
+tests/test_generator.py::TestGenerator::test_fallback_function_sql PASSED [  8%]
+tests/test_generator.py::TestGenerator::test_fallback_function_var_args_sql PASSED [  8%]
+tests/test_helper.py::TestHelper::test_tsort PASSED                      [  8%]
+tests/test_parser.py::TestParser::test_column PASSED                     [  8%]
+tests/test_parser.py::TestParser::test_command PASSED                    [  8%]
+tests/test_parser.py::TestParser::test_comment_error_n PASSED            [  9%]
+tests/test_parser.py::TestParser::test_comment_error_r PASSED            [  9%]
+tests/test_parser.py::TestParser::test_comments PASSED                   [  9%]
+tests/test_parser.py::TestParser::test_create_table_error PASSED         [  9%]
+tests/test_parser.py::TestParser::test_expression PASSED                 [  9%]
+tests/test_parser.py::TestParser::test_float PASSED                      [ 10%]
+tests/test_parser.py::TestParser::test_identify PASSED                   [ 10%]
+tests/test_parser.py::TestParser::test_missing_by PASSED                 [ 10%]
+tests/test_parser.py::TestParser::test_multi PASSED                      [ 10%]
+tests/test_parser.py::TestParser::test_parameter PASSED                  [ 10%]
+tests/test_parser.py::TestParser::test_parse_empty PASSED                [ 10%]
+tests/test_parser.py::TestParser::test_parse_errors PASSED               [ 11%]
+tests/test_parser.py::TestParser::test_parse_into PASSED                 [ 11%]
+tests/test_parser.py::TestParser::test_parse_into_error PASSED           [ 11%]
+tests/test_parser.py::TestParser::test_parse_into_errors PASSED          [ 11%]
+tests/test_parser.py::TestParser::test_pretty_config_override PASSED     [ 11%]
+tests/test_parser.py::TestParser::test_select PASSED                     [ 12%]
+tests/test_parser.py::TestParser::test_space PASSED                      [ 12%]
+tests/test_parser.py::TestParser::test_table PASSED                      [ 12%]
+tests/test_parser.py::TestParser::test_transactions PASSED               [ 12%]
+tests/test_parser.py::TestParser::test_type_literals PASSED              [ 12%]
+tests/test_parser.py::TestParser::test_unary_plus PASSED                 [ 12%]
+tests/test_parser.py::TestParser::test_var PASSED                        [ 13%]
+tests/test_schema.py::TestSchema::test_schema PASSED                     [ 13%]
+tests/test_schema.py::TestSchema::test_schema_add_table_with_and_without_mapping PASSED [ 13%]
+tests/test_schema.py::TestSchema::test_schema_catalog PASSED             [ 13%]
+tests/test_schema.py::TestSchema::test_schema_db PASSED                  [ 13%]
+tests/test_schema.py::TestSchema::test_schema_get_column_type PASSED     [ 14%]
+tests/test_time.py::TestTime::test_format_time PASSED                    [ 14%]
+tests/test_tokens.py::TestTokens::test_comment_attachment PASSED         [ 14%]
+tests/test_tokens.py::TestTokens::test_jinja PASSED                      [ 14%]
+tests/test_transforms.py::TestTime::test_eliminate_distinct_on PASSED    [ 14%]
+tests/test_transforms.py::TestTime::test_unalias_group PASSED            [ 14%]
+tests/test_transpile.py::TestTranspile::test_alias PASSED                [ 15%]
+tests/test_transpile.py::TestTranspile::test_asc PASSED                  [ 15%]
+tests/test_transpile.py::TestTranspile::test_comments PASSED             [ 15%]
+tests/test_transpile.py::TestTranspile::test_error_level PASSED          [ 15%]
+tests/test_transpile.py::TestTranspile::test_extract PASSED              [ 15%]
+tests/test_transpile.py::TestTranspile::test_identity PASSED             [ 16%]
+tests/test_transpile.py::TestTranspile::test_if PASSED                   [ 16%]
+tests/test_transpile.py::TestTranspile::test_ignore_nulls PASSED         [ 16%]
+tests/test_transpile.py::TestTranspile::test_index_offset PASSED         [ 16%]
+tests/test_transpile.py::TestTranspile::test_leading_comma PASSED        [ 16%]
+tests/test_transpile.py::TestTranspile::test_not_range PASSED            [ 16%]
+tests/test_transpile.py::TestTranspile::test_paren PASSED                [ 17%]
+tests/test_transpile.py::TestTranspile::test_partial PASSED              [ 17%]
+tests/test_transpile.py::TestTranspile::test_pretty PASSED               [ 17%]
+tests/test_transpile.py::TestTranspile::test_some PASSED                 [ 17%]
+tests/test_transpile.py::TestTranspile::test_space PASSED                [ 17%]
+tests/test_transpile.py::TestTranspile::test_time PASSED                 [ 18%]
+tests/test_transpile.py::TestTranspile::test_types PASSED                [ 18%]
+tests/test_transpile.py::TestTranspile::test_unary PASSED                [ 18%]
+tests/test_transpile.py::TestTranspile::test_unsupported_level PASSED    [ 18%]
+tests/test_transpile.py::TestTranspile::test_with PASSED                 [ 18%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_add PASSED [ 18%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_alias PASSED [ 19%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_and PASSED [ 19%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_asc PASSED [ 19%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_asc_nulls_first PASSED [ 19%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_asc_nulls_last PASSED [ 19%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_between PASSED [ 20%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_cast PASSED [ 20%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_desc PASSED [ 20%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_desc_nulls_first PASSED [ 20%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_desc_nulls_last PASSED [ 20%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_div PASSED [ 20%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_endswith PASSED [ 21%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_eq PASSED [ 21%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_ge PASSED [ 21%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_gt PASSED [ 21%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_ilike PASSED [ 21%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_invert PASSED [ 22%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_is_not_null PASSED [ 22%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_is_null PASSED [ 22%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_isin PASSED [ 22%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_le PASSED [ 22%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_like PASSED [ 22%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_lt PASSED [ 23%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_mod PASSED [ 23%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_mul PASSED [ 23%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_neq PASSED [ 23%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_or PASSED [ 23%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_over PASSED [ 24%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_pow PASSED [ 24%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_radd PASSED [ 24%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rdiv PASSED [ 24%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rlike PASSED [ 24%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rmul PASSED [ 25%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rpow PASSED [ 25%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rsub PASSED [ 25%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_startswith PASSED [ 25%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_sub PASSED [ 25%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_substring PASSED [ 25%]
+tests/dataframe/unit/test_column.py::TestDataframeColumn::test_when_otherwise PASSED [ 26%]
+tests/dataframe/unit/test_dataframe.py::TestDataframe::test_cache PASSED [ 26%]
+tests/dataframe/unit/test_dataframe.py::TestDataframe::test_columns PASSED [ 26%]
+tests/dataframe/unit/test_dataframe.py::TestDataframe::test_hash_select_expression PASSED [ 26%]
+tests/dataframe/unit/test_dataframe.py::TestDataframe::test_persist_default PASSED [ 26%]
+tests/dataframe/unit/test_dataframe.py::TestDataframe::test_persist_storagelevel PASSED [ 27%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_byName PASSED [ 27%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_cache PASSED [ 27%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_db_table PASSED [ 27%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_full_path PASSED [ 27%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_overwrite PASSED [ 27%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_table PASSED [ 28%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_mode_override PASSED [ 28%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_mode_standalone PASSED [ 28%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_append PASSED [ 28%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_cache PASSED [ 28%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_error PASSED [ 29%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_format PASSED [ 29%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_ignore PASSED [ 29%]
+tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_overwrite PASSED [ 29%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_abs PASSED   [ 29%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_acos PASSED  [ 29%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_acosh PASSED [ 30%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_add_months PASSED [ 30%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_aggregate PASSED [ 30%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_approx_count_distinct PASSED [ 30%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array PASSED [ 30%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_contains PASSED [ 31%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_distinct PASSED [ 31%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_except PASSED [ 31%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_intersect PASSED [ 31%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_join PASSED [ 31%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_max PASSED [ 31%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_min PASSED [ 32%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_position PASSED [ 32%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_remove PASSED [ 32%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_repeat PASSED [ 32%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_sort PASSED [ 32%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_union PASSED [ 33%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_array_zip PASSED [ 33%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_arrays_overlap PASSED [ 33%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_asc PASSED   [ 33%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_asc_nulls_first PASSED [ 33%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_asc_nulls_last PASSED [ 33%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_ascii PASSED [ 34%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_asin PASSED  [ 34%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_asinh PASSED [ 34%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_assert_true PASSED [ 34%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_atan PASSED  [ 34%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_atan2 PASSED [ 35%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_atanh PASSED [ 35%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_avg PASSED   [ 35%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_base64 PASSED [ 35%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_bin PASSED   [ 35%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_bit_length PASSED [ 35%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_bitwise_not PASSED [ 36%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_bround PASSED [ 36%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_cbrt PASSED  [ 36%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_ceil PASSED  [ 36%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_coalesce PASSED [ 36%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_col PASSED   [ 37%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_collect_list PASSED [ 37%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_collect_set PASSED [ 37%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_concat PASSED [ 37%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_concat_ws PASSED [ 37%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_conv PASSED  [ 37%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_corr PASSED  [ 38%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_cos PASSED   [ 38%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_cosh PASSED  [ 38%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_cot PASSED   [ 38%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_count PASSED [ 38%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_count_distinct PASSED [ 39%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_covar_pop PASSED [ 39%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_covar_samp PASSED [ 39%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_crc32 PASSED [ 39%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_create_map PASSED [ 39%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_csc PASSED   [ 39%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_cume_dist PASSED [ 40%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_current_date PASSED [ 40%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_current_timestamp PASSED [ 40%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_date_add PASSED [ 40%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_date_diff PASSED [ 40%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_date_format PASSED [ 41%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_date_sub PASSED [ 41%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_date_trunc PASSED [ 41%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_dayofmonth PASSED [ 41%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_dayofweek PASSED [ 41%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_dayofyear PASSED [ 41%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_decode PASSED [ 42%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_degrees PASSED [ 42%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_dense_rank PASSED [ 42%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_desc PASSED  [ 42%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_desc_nulls_first PASSED [ 42%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_desc_nulls_last PASSED [ 43%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_element_at PASSED [ 43%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_encode PASSED [ 43%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_exists PASSED [ 43%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_exp PASSED   [ 43%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_explode PASSED [ 43%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_explode_outer PASSED [ 44%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_expm1 PASSED [ 44%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_expr PASSED  [ 44%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_factorial PASSED [ 44%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_filter PASSED [ 44%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_first PASSED [ 45%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_flatten PASSED [ 45%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_floor PASSED [ 45%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_forall PASSED [ 45%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_format_number PASSED [ 45%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_format_string PASSED [ 45%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_from_csv PASSED [ 46%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_from_json PASSED [ 46%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_from_unixtime PASSED [ 46%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_from_utc_timestamp PASSED [ 46%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_get_json_object PASSED [ 46%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_greatest PASSED [ 47%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_grouping_id PASSED [ 47%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_hash PASSED  [ 47%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_hex PASSED   [ 47%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_hour PASSED  [ 47%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_hypot PASSED [ 47%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_initcap PASSED [ 48%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_input_file_name PASSED [ 48%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_instr PASSED [ 48%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_invoke_anonymous PASSED [ 48%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_isnan PASSED [ 48%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_isnull PASSED [ 49%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_json_tuple PASSED [ 49%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_kurtosis PASSED [ 49%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_lag PASSED   [ 49%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_last PASSED  [ 49%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_last_day PASSED [ 50%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_lead PASSED  [ 50%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_least PASSED [ 50%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_length PASSED [ 50%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_levenshtein PASSED [ 50%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_lit PASSED   [ 50%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_locate PASSED [ 51%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_log PASSED   [ 51%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_log10 PASSED [ 51%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_log1p PASSED [ 51%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_log2 PASSED  [ 51%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_lower PASSED [ 52%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_lpad PASSED  [ 52%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_ltrim PASSED [ 52%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_make_date PASSED [ 52%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_map_concat PASSED [ 52%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_map_entries PASSED [ 52%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_map_filter PASSED [ 53%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_map_from_arrays PASSED [ 53%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_map_from_entries PASSED [ 53%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_map_keys PASSED [ 53%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_map_values PASSED [ 53%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_map_zip_with PASSED [ 54%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_max PASSED   [ 54%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_max_by PASSED [ 54%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_md5 PASSED   [ 54%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_mean PASSED  [ 54%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_min PASSED   [ 54%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_min_by PASSED [ 55%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_minute PASSED [ 55%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_monotonically_increasing_id PASSED [ 55%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_month PASSED [ 55%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_months_between PASSED [ 55%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_nanvl PASSED [ 56%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_next_day PASSED [ 56%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_nth_value PASSED [ 56%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_ntile PASSED [ 56%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_octet_length PASSED [ 56%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_overlay PASSED [ 56%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_percent_rank PASSED [ 57%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_percentile_approx PASSED [ 57%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_pos_explode PASSED [ 57%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_posexplode_outer PASSED [ 57%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_pow PASSED   [ 57%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_product PASSED [ 58%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_quarter PASSED [ 58%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_radians PASSED [ 58%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_raise_error PASSED [ 58%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_rand PASSED  [ 58%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_randn PASSED [ 58%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_rank PASSED  [ 59%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_regexp_extract PASSED [ 59%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_regexp_replace PASSED [ 59%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_repeat PASSED [ 59%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_reverse PASSED [ 59%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_rint PASSED  [ 60%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_round PASSED [ 60%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_row_number PASSED [ 60%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_rpad PASSED  [ 60%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_rtrim PASSED [ 60%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_schema_of_csv PASSED [ 60%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_schema_of_json PASSED [ 61%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sec PASSED   [ 61%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_second PASSED [ 61%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sentences PASSED [ 61%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sequence PASSED [ 61%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_session_window PASSED [ 62%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sha1 PASSED  [ 62%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sha2 PASSED  [ 62%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_shiftleft PASSED [ 62%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_shiftright PASSED [ 62%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_shiftrightunsigned PASSED [ 62%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_signum PASSED [ 63%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sin PASSED   [ 63%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sinh PASSED  [ 63%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_size PASSED  [ 63%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_skewness PASSED [ 63%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_slice PASSED [ 64%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sort_array PASSED [ 64%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_soundex PASSED [ 64%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_split PASSED [ 64%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sqrt PASSED  [ 64%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_stddev PASSED [ 64%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_stddev_pop PASSED [ 65%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_stddev_samp PASSED [ 65%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_struct PASSED [ 65%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_substring PASSED [ 65%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_substring_index PASSED [ 65%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sum PASSED   [ 66%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_sum_distinct PASSED [ 66%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_tan PASSED   [ 66%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_tanh PASSED  [ 66%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_timestamp_seconds PASSED [ 66%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_to_csv PASSED [ 66%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_to_date PASSED [ 67%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_to_json PASSED [ 67%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_to_timestamp PASSED [ 67%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_to_utc_timestamp PASSED [ 67%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_transform PASSED [ 67%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_transform_keys PASSED [ 68%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_transform_values PASSED [ 68%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_translate PASSED [ 68%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_trim PASSED  [ 68%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_trunc PASSED [ 68%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_unbase64 PASSED [ 68%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_unhex PASSED [ 69%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_unix_timestamp PASSED [ 69%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_upper PASSED [ 69%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_var_pop PASSED [ 69%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_var_samp PASSED [ 69%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_variance PASSED [ 70%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_weekofyear PASSED [ 70%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_when PASSED  [ 70%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_window PASSED [ 70%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_xxhash64 PASSED [ 70%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_year PASSED  [ 70%]
+tests/dataframe/unit/test_functions.py::TestFunctions::test_zip_with PASSED [ 71%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_dict_rows PASSED [ 71%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_multiple_rows PASSED [ 71%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_no_schema PASSED [ 71%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_one_row PASSED [ 71%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_row_mixed_primitives PASSED [ 72%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_str_schema PASSED [ 72%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_session_create_builder_patterns PASSED [ 72%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_sql_create PASSED [ 72%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_sql_insert PASSED [ 72%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_sql_select_only PASSED [ 72%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_sql_with_aggs PASSED [ 73%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_typed_schema_basic PASSED [ 73%]
+tests/dataframe/unit/test_session.py::TestDataframeSession::test_typed_schema_nested PASSED [ 73%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_array PASSED [ 73%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_binary PASSED [ 73%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_boolean PASSED [ 74%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_byte PASSED [ 74%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_char PASSED [ 74%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_date PASSED [ 74%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_decimal PASSED [ 74%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_double PASSED [ 75%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_float PASSED [ 75%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_integer PASSED [ 75%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_long PASSED [ 75%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_map PASSED  [ 75%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_short PASSED [ 75%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_string PASSED [ 76%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_struct_field PASSED [ 76%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_struct_type PASSED [ 76%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_timestamp PASSED [ 76%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_timestamp_ntz PASSED [ 76%]
+tests/dataframe/unit/test_types.py::TestDataframeTypes::test_varchar PASSED [ 77%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_order_by PASSED [ 77%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_partition_by PASSED [ 77%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_range_between PASSED [ 77%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_range_unbounded PASSED [ 77%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_rows_between PASSED [ 77%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_rows_unbounded PASSED [ 78%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_spec_order_by PASSED [ 78%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_spec_partition_by PASSED [ 78%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_spec_range_between PASSED [ 78%]
+tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_spec_rows_between PASSED [ 78%]
+tests/dialects/test_bigquery.py::TestBigQuery::test_bigquery PASSED      [ 79%]
+tests/dialects/test_bigquery.py::TestBigQuery::test_user_defined_functions PASSED [ 79%]
+tests/dialects/test_clickhouse.py::TestClickhouse::test_clickhouse PASSED [ 79%]
+tests/dialects/test_databricks.py::TestDatabricks::test_add_date PASSED  [ 79%]
+tests/dialects/test_databricks.py::TestDatabricks::test_datediff PASSED  [ 79%]
+tests/dialects/test_dialect.py::TestDialect::test_alias PASSED           [ 79%]
+tests/dialects/test_dialect.py::TestDialect::test_array PASSED           [ 80%]
+tests/dialects/test_dialect.py::TestDialect::test_cast PASSED            [ 80%]
+tests/dialects/test_dialect.py::TestDialect::test_cross_join PASSED      [ 80%]
+tests/dialects/test_dialect.py::TestDialect::test_enum PASSED            [ 80%]
+tests/dialects/test_dialect.py::TestDialect::test_hash_comments PASSED   [ 80%]
+tests/dialects/test_dialect.py::TestDialect::test_json PASSED            [ 81%]
+tests/dialects/test_dialect.py::TestDialect::test_lateral_subquery PASSED [ 81%]
+tests/dialects/test_dialect.py::TestDialect::test_limit PASSED           [ 81%]
+tests/dialects/test_dialect.py::TestDialect::test_merge PASSED           [ 81%]
+tests/dialects/test_dialect.py::TestDialect::test_nullsafe_eq PASSED     [ 81%]
+tests/dialects/test_dialect.py::TestDialect::test_nullsafe_neq PASSED    [ 81%]
+tests/dialects/test_dialect.py::TestDialect::test_operators PASSED       [ 82%]
+tests/dialects/test_dialect.py::TestDialect::test_order_by PASSED        [ 82%]
+tests/dialects/test_dialect.py::TestDialect::test_set_operators PASSED   [ 82%]
+tests/dialects/test_dialect.py::TestDialect::test_time PASSED            [ 82%]
+tests/dialects/test_dialect.py::TestDialect::test_transactions PASSED    [ 82%]
+tests/dialects/test_drill.py::TestDrill::test_quotes PASSED              [ 83%]
+tests/dialects/test_drill.py::TestDrill::test_string_literals PASSED     [ 83%]
+tests/dialects/test_drill.py::TestDrill::test_table_function PASSED      [ 83%]
+tests/dialects/test_duckdb.py::TestDuckDB::test_duckdb PASSED            [ 83%]
+tests/dialects/test_duckdb.py::TestDuckDB::test_time PASSED              [ 83%]
+tests/dialects/test_hive.py::TestHive::test_bits PASSED                  [ 83%]
+tests/dialects/test_hive.py::TestHive::test_cast PASSED                  [ 84%]
+tests/dialects/test_hive.py::TestHive::test_ddl PASSED                   [ 84%]
+tests/dialects/test_hive.py::TestHive::test_hive PASSED                  [ 84%]
+tests/dialects/test_hive.py::TestHive::test_lateral_view PASSED          [ 84%]
+tests/dialects/test_hive.py::TestHive::test_order_by PASSED              [ 84%]
+tests/dialects/test_hive.py::TestHive::test_quotes PASSED                [ 85%]
+tests/dialects/test_hive.py::TestHive::test_regex PASSED                 [ 85%]
+tests/dialects/test_hive.py::TestHive::test_time PASSED                  [ 85%]
+tests/dialects/test_mysql.py::TestMySQL::test_bits_literal PASSED        [ 85%]
+tests/dialects/test_mysql.py::TestMySQL::test_canonical_functions PASSED [ 85%]
+tests/dialects/test_mysql.py::TestMySQL::test_convert PASSED             [ 85%]
+tests/dialects/test_mysql.py::TestMySQL::test_ddl PASSED                 [ 86%]
+tests/dialects/test_mysql.py::TestMySQL::test_escape PASSED              [ 86%]
+tests/dialects/test_mysql.py::TestMySQL::test_hexadecimal_literal PASSED [ 86%]
+tests/dialects/test_mysql.py::TestMySQL::test_identity PASSED            [ 86%]
+tests/dialects/test_mysql.py::TestMySQL::test_introducers PASSED         [ 86%]
+tests/dialects/test_mysql.py::TestMySQL::test_mysql PASSED               [ 87%]
+tests/dialects/test_mysql.py::TestMySQL::test_set_variable PASSED        [ 87%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_columns PASSED        [ 87%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_db_like_or_where_sql PASSED [ 87%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_engine PASSED         [ 87%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_errors PASSED         [ 87%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_events PASSED         [ 88%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_grants PASSED         [ 88%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_index PASSED          [ 88%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_like_or_where PASSED  [ 88%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_name PASSED           [ 88%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_processlist PASSED    [ 89%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_profile PASSED        [ 89%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_replica_status PASSED [ 89%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_simple PASSED         [ 89%]
+tests/dialects/test_mysql.py::TestMySQL::test_show_tables PASSED         [ 89%]
+tests/dialects/test_mysql.py::TestMySQL::test_string_literals PASSED     [ 89%]
+tests/dialects/test_oracle.py::TestOracle::test_oracle PASSED            [ 90%]
+tests/dialects/test_postgres.py::TestPostgres::test_ddl PASSED           [ 90%]
+tests/dialects/test_postgres.py::TestPostgres::test_postgres PASSED      [ 90%]
+tests/dialects/test_presto.py::TestPresto::test_cast PASSED              [ 90%]
+tests/dialects/test_presto.py::TestPresto::test_ddl PASSED               [ 90%]
+tests/dialects/test_presto.py::TestPresto::test_encode_decode PASSED     [ 91%]
+tests/dialects/test_presto.py::TestPresto::test_hex_unhex PASSED         [ 91%]
+tests/dialects/test_presto.py::TestPresto::test_presto PASSED            [ 91%]
+tests/dialects/test_presto.py::TestPresto::test_quotes PASSED            [ 91%]
+tests/dialects/test_presto.py::TestPresto::test_regex PASSED             [ 91%]
+tests/dialects/test_presto.py::TestPresto::test_time PASSED              [ 91%]
+tests/dialects/test_presto.py::TestPresto::test_unnest PASSED            [ 92%]
+tests/dialects/test_redshift.py::TestRedshift::test_identity PASSED      [ 92%]
+tests/dialects/test_redshift.py::TestRedshift::test_redshift PASSED      [ 92%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_ddl PASSED         [ 92%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_flatten PASSED     [ 92%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_minus PASSED       [ 93%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_null_treatment PASSED [ 93%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_semi_structured_types PASSED [ 93%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_snowflake PASSED   [ 93%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_stored_procedures PASSED [ 93%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_table_literal PASSED [ 93%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_timestamps PASSED  [ 94%]
+tests/dialects/test_snowflake.py::TestSnowflake::test_user_defined_functions PASSED [ 94%]
+tests/dialects/test_spark.py::TestSpark::test_ddl PASSED                 [ 94%]
+tests/dialects/test_spark.py::TestSpark::test_hint PASSED                [ 94%]
+tests/dialects/test_spark.py::TestSpark::test_iif PASSED                 [ 94%]
+tests/dialects/test_spark.py::TestSpark::test_spark PASSED               [ 95%]
+tests/dialects/test_spark.py::TestSpark::test_to_date PASSED             [ 95%]
+tests/dialects/test_sqlite.py::TestSQLite::test_ddl PASSED               [ 95%]
+tests/dialects/test_sqlite.py::TestSQLite::test_hexadecimal_literal PASSED [ 95%]
+tests/dialects/test_sqlite.py::TestSQLite::test_sqlite PASSED            [ 95%]
+tests/dialects/test_sqlite.py::TestSQLite::test_window_null_treatment PASSED [ 95%]
+tests/dialects/test_starrocks.py::TestMySQL::test_identity PASSED        [ 96%]
+tests/dialects/test_starrocks.py::TestMySQL::test_time PASSED            [ 96%]
+tests/dialects/test_tableau.py::TestTableau::test_tableau PASSED         [ 96%]
+tests/dialects/test_tsql.py::TestTSQL::test_add_date PASSED              [ 96%]
+tests/dialects/test_tsql.py::TestTSQL::test_charindex PASSED             [ 96%]
+tests/dialects/test_tsql.py::TestTSQL::test_convert_date_format PASSED   [ 97%]
+tests/dialects/test_tsql.py::TestTSQL::test_date_diff PASSED             [ 97%]
+tests/dialects/test_tsql.py::TestTSQL::test_datefromparts PASSED         [ 97%]
+tests/dialects/test_tsql.py::TestTSQL::test_datename PASSED              [ 97%]
+tests/dialects/test_tsql.py::TestTSQL::test_datepart PASSED              [ 97%]
+tests/dialects/test_tsql.py::TestTSQL::test_format PASSED                [ 97%]
+tests/dialects/test_tsql.py::TestTSQL::test_iif PASSED                   [ 98%]
+tests/dialects/test_tsql.py::TestTSQL::test_isnull PASSED                [ 98%]
+tests/dialects/test_tsql.py::TestTSQL::test_jsonvalue PASSED             [ 98%]
+tests/dialects/test_tsql.py::TestTSQL::test_lateral_subquery PASSED      [ 98%]
+tests/dialects/test_tsql.py::TestTSQL::test_lateral_table_valued_function PASSED [ 98%]
+tests/dialects/test_tsql.py::TestTSQL::test_len PASSED                   [ 99%]
+tests/dialects/test_tsql.py::TestTSQL::test_replicate PASSED             [ 99%]
+tests/dialects/test_tsql.py::TestTSQL::test_string PASSED                [ 99%]
+tests/dialects/test_tsql.py::TestTSQL::test_top PASSED                   [ 99%]
+tests/dialects/test_tsql.py::TestTSQL::test_tsql PASSED                  [ 99%]
+tests/dialects/test_tsql.py::TestTSQL::test_types PASSED                 [100%]
+
+==================================== ERRORS ====================================
+___________________ ERROR collecting tests/test_executor.py ____________________
+ImportError while importing test module '/app/tests/test_executor.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
+    importlib.import_module(module_name)
+/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1030: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1007: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:680: in _load_unlocked
+    ???
+/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
+    exec(co, module.__dict__)
+tests/test_executor.py:4: in <module>
+    import duckdb
+E   ModuleNotFoundError: No module named 'duckdb'
+___________________ ERROR collecting tests/test_optimizer.py ___________________
+ImportError while importing test module '/app/tests/test_optimizer.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
+    importlib.import_module(module_name)
+/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1030: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1007: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:680: in _load_unlocked
+    ???
+/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
+    exec(co, module.__dict__)
+tests/test_optimizer.py:4: in <module>
+    import duckdb
+E   ModuleNotFoundError: No module named 'duckdb'
+________ ERROR collecting tests/dataframe/integration/test_dataframe.py ________
+ImportError while importing test module '/app/tests/dataframe/integration/test_dataframe.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
+    importlib.import_module(module_name)
+/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1030: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1007: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:680: in _load_unlocked
+    ???
+/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
+    exec(co, module.__dict__)
+tests/dataframe/integration/test_dataframe.py:1: in <module>
+    from pyspark.sql import functions as F
+E   ModuleNotFoundError: No module named 'pyspark'
+______ ERROR collecting tests/dataframe/integration/test_grouped_data.py _______
+ImportError while importing test module '/app/tests/dataframe/integration/test_grouped_data.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
+    importlib.import_module(module_name)
+/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1030: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1007: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:680: in _load_unlocked
+    ???
+/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
+    exec(co, module.__dict__)
+tests/dataframe/integration/test_grouped_data.py:1: in <module>
+    from pyspark.sql import functions as F
+E   ModuleNotFoundError: No module named 'pyspark'
+_________ ERROR collecting tests/dataframe/integration/test_session.py _________
+ImportError while importing test module '/app/tests/dataframe/integration/test_session.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
+    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
+/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
+    importlib.import_module(module_name)
+/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1030: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1007: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:680: in _load_unlocked
+    ???
+/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
+    exec(co, module.__dict__)
+tests/dataframe/integration/test_session.py:1: in <module>
+    from pyspark.sql import functions as F
+E   ModuleNotFoundError: No module named 'pyspark'
+=================================== FAILURES ===================================
+_____________________________ TestBuild.test_build _____________________________
+tests/test_build.py:484: in test_build
+    self.assertEqual(expression().sql(dialect[0] if dialect else None), sql)
+tests/test_build.py:477: in <lambda>
+    lambda: exp.values([("1", 2), ("2", 3)], "alias", ["col1", "col2"]),
+E   TypeError: values() takes from 1 to 2 positional arguments but 3 were given
+=============================== warnings summary ===============================
+tests/dataframe/unit/test_functions.py:1155
+  /app/tests/dataframe/unit/test_functions.py:1155: DeprecationWarning: invalid escape sequence \d
+    self.assertEqual("REGEXP_EXTRACT(cola, '(\\\d+)-(\\\d+)', 1)", col_str.sql())
+
+tests/dataframe/unit/test_functions.py:1157
+  /app/tests/dataframe/unit/test_functions.py:1157: DeprecationWarning: invalid escape sequence \d
+    self.assertEqual("REGEXP_EXTRACT(cola, '(\\\d+)-(\\\d+)', 1)", col.sql())
+
+tests/dataframe/unit/test_functions.py:1159
+  /app/tests/dataframe/unit/test_functions.py:1159: DeprecationWarning: invalid escape sequence \d
+    self.assertEqual("REGEXP_EXTRACT(cola, '(\\\d+)-(\\\d+)')", col_no_idx.sql())
+
+tests/dataframe/unit/test_functions.py:1163
+  /app/tests/dataframe/unit/test_functions.py:1163: DeprecationWarning: invalid escape sequence \d
+    self.assertEqual("REGEXP_REPLACE(cola, '(\\\d+)', '--')", col_str.sql())
+
+tests/dataframe/unit/test_functions.py:1165
+  /app/tests/dataframe/unit/test_functions.py:1165: DeprecationWarning: invalid escape sequence \d
+    self.assertEqual("REGEXP_REPLACE(cola, '(\\\d+)', '--')", col.sql())
+
+tests/dialects/test_hive.py:414
+  /app/tests/dialects/test_hive.py:414: DeprecationWarning: invalid escape sequence \w
+    "presto": "REGEXP_REPLACE('new york', '(\w)(\w*)', x -> UPPER(x[1]) || LOWER(x[2]))",
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_build.py::TestBuild::test_build - TypeError: values() takes...
+ERROR tests/test_executor.py
+ERROR tests/test_optimizer.py
+ERROR tests/dataframe/integration/test_dataframe.py
+ERROR tests/dataframe/integration/test_grouped_data.py
+ERROR tests/dataframe/integration/test_session.py
+============= 1 failed, 547 passed, 6 warnings, 5 errors in 2.49s ==============
 ================= 0909 TEST END 0909 =================
-/run_0909.sh: 42: cd: can't cd to /app
-HEAD is now at cbe7de20d0 metrics/features: track IPAM mode
-HEAD is now at cbe7de20d0 metrics/features: track IPAM mode

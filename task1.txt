@@ -1,714 +1,663 @@
-================= 0909 TEST START 0909 =================
-============================= test session starts ==============================
-platform linux -- Python 3.9.21, pytest-7.2.0, pluggy-1.0.0 -- /usr/local/bin/python3.9
-cachedir: .pytest_cache
-rootdir: /app
-collecting ... collected 548 items / 5 errors
-
-tests/test_build.py::TestBuild::test_build FAILED                        [  0%]
-tests/test_diff.py::TestDiff::test_cte PASSED                            [  0%]
-tests/test_diff.py::TestDiff::test_join PASSED                           [  0%]
-tests/test_diff.py::TestDiff::test_node_position_changed PASSED          [  0%]
-tests/test_diff.py::TestDiff::test_simple PASSED                         [  0%]
-tests/test_diff.py::TestDiff::test_window_functions PASSED               [  1%]
-tests/test_expressions.py::TestExpressions::test_alias PASSED            [  1%]
-tests/test_expressions.py::TestExpressions::test_alias_column_names PASSED [  1%]
-tests/test_expressions.py::TestExpressions::test_alias_or_name PASSED    [  1%]
-tests/test_expressions.py::TestExpressions::test_arg_key PASSED          [  1%]
-tests/test_expressions.py::TestExpressions::test_column PASSED           [  2%]
-tests/test_expressions.py::TestExpressions::test_comment_alias PASSED    [  2%]
-tests/test_expressions.py::TestExpressions::test_convert PASSED          [  2%]
-tests/test_expressions.py::TestExpressions::test_ctes PASSED             [  2%]
-tests/test_expressions.py::TestExpressions::test_depth PASSED            [  2%]
-tests/test_expressions.py::TestExpressions::test_eq PASSED               [  2%]
-tests/test_expressions.py::TestExpressions::test_find PASSED             [  3%]
-tests/test_expressions.py::TestExpressions::test_find_all PASSED         [  3%]
-tests/test_expressions.py::TestExpressions::test_find_ancestor PASSED    [  3%]
-tests/test_expressions.py::TestExpressions::test_function_normalizer PASSED [  3%]
-tests/test_expressions.py::TestExpressions::test_functions PASSED        [  3%]
-tests/test_expressions.py::TestExpressions::test_hash PASSED             [  4%]
-tests/test_expressions.py::TestExpressions::test_identifier PASSED       [  4%]
-tests/test_expressions.py::TestExpressions::test_named_selects PASSED    [  4%]
-tests/test_expressions.py::TestExpressions::test_pop PASSED              [  4%]
-tests/test_expressions.py::TestExpressions::test_properties_from_dict PASSED [  4%]
-tests/test_expressions.py::TestExpressions::test_replace PASSED          [  4%]
-tests/test_expressions.py::TestExpressions::test_replace_placeholders PASSED [  5%]
-tests/test_expressions.py::TestExpressions::test_replace_tables PASSED   [  5%]
-tests/test_expressions.py::TestExpressions::test_selects PASSED          [  5%]
-tests/test_expressions.py::TestExpressions::test_sql PASSED              [  5%]
-tests/test_expressions.py::TestExpressions::test_table PASSED            [  5%]
-tests/test_expressions.py::TestExpressions::test_table_name PASSED       [  6%]
-tests/test_expressions.py::TestExpressions::test_text PASSED             [  6%]
-tests/test_expressions.py::TestExpressions::test_to_column PASSED        [  6%]
-tests/test_expressions.py::TestExpressions::test_to_table PASSED         [  6%]
-tests/test_expressions.py::TestExpressions::test_transform_multiple_children PASSED [  6%]
-tests/test_expressions.py::TestExpressions::test_transform_no_infinite_recursion PASSED [  6%]
-tests/test_expressions.py::TestExpressions::test_transform_node_removal PASSED [  7%]
-tests/test_expressions.py::TestExpressions::test_transform_simple PASSED [  7%]
-tests/test_expressions.py::TestExpressions::test_transform_with_arguments PASSED [  7%]
-tests/test_expressions.py::TestExpressions::test_union PASSED            [  7%]
-tests/test_expressions.py::TestExpressions::test_unit PASSED             [  7%]
-tests/test_expressions.py::TestExpressions::test_walk PASSED             [  8%]
-tests/test_generator.py::TestGenerator::test_fallback_function_sql PASSED [  8%]
-tests/test_generator.py::TestGenerator::test_fallback_function_var_args_sql PASSED [  8%]
-tests/test_helper.py::TestHelper::test_tsort PASSED                      [  8%]
-tests/test_parser.py::TestParser::test_column PASSED                     [  8%]
-tests/test_parser.py::TestParser::test_command PASSED                    [  8%]
-tests/test_parser.py::TestParser::test_comment_error_n PASSED            [  9%]
-tests/test_parser.py::TestParser::test_comment_error_r PASSED            [  9%]
-tests/test_parser.py::TestParser::test_comments PASSED                   [  9%]
-tests/test_parser.py::TestParser::test_create_table_error PASSED         [  9%]
-tests/test_parser.py::TestParser::test_expression PASSED                 [  9%]
-tests/test_parser.py::TestParser::test_float PASSED                      [ 10%]
-tests/test_parser.py::TestParser::test_identify PASSED                   [ 10%]
-tests/test_parser.py::TestParser::test_missing_by PASSED                 [ 10%]
-tests/test_parser.py::TestParser::test_multi PASSED                      [ 10%]
-tests/test_parser.py::TestParser::test_parameter PASSED                  [ 10%]
-tests/test_parser.py::TestParser::test_parse_empty PASSED                [ 10%]
-tests/test_parser.py::TestParser::test_parse_errors PASSED               [ 11%]
-tests/test_parser.py::TestParser::test_parse_into PASSED                 [ 11%]
-tests/test_parser.py::TestParser::test_parse_into_error PASSED           [ 11%]
-tests/test_parser.py::TestParser::test_parse_into_errors PASSED          [ 11%]
-tests/test_parser.py::TestParser::test_pretty_config_override PASSED     [ 11%]
-tests/test_parser.py::TestParser::test_select PASSED                     [ 12%]
-tests/test_parser.py::TestParser::test_space PASSED                      [ 12%]
-tests/test_parser.py::TestParser::test_table PASSED                      [ 12%]
-tests/test_parser.py::TestParser::test_transactions PASSED               [ 12%]
-tests/test_parser.py::TestParser::test_type_literals PASSED              [ 12%]
-tests/test_parser.py::TestParser::test_unary_plus PASSED                 [ 12%]
-tests/test_parser.py::TestParser::test_var PASSED                        [ 13%]
-tests/test_schema.py::TestSchema::test_schema PASSED                     [ 13%]
-tests/test_schema.py::TestSchema::test_schema_add_table_with_and_without_mapping PASSED [ 13%]
-tests/test_schema.py::TestSchema::test_schema_catalog PASSED             [ 13%]
-tests/test_schema.py::TestSchema::test_schema_db PASSED                  [ 13%]
-tests/test_schema.py::TestSchema::test_schema_get_column_type PASSED     [ 14%]
-tests/test_time.py::TestTime::test_format_time PASSED                    [ 14%]
-tests/test_tokens.py::TestTokens::test_comment_attachment PASSED         [ 14%]
-tests/test_tokens.py::TestTokens::test_jinja PASSED                      [ 14%]
-tests/test_transforms.py::TestTime::test_eliminate_distinct_on PASSED    [ 14%]
-tests/test_transforms.py::TestTime::test_unalias_group PASSED            [ 14%]
-tests/test_transpile.py::TestTranspile::test_alias PASSED                [ 15%]
-tests/test_transpile.py::TestTranspile::test_asc PASSED                  [ 15%]
-tests/test_transpile.py::TestTranspile::test_comments PASSED             [ 15%]
-tests/test_transpile.py::TestTranspile::test_error_level PASSED          [ 15%]
-tests/test_transpile.py::TestTranspile::test_extract PASSED              [ 15%]
-tests/test_transpile.py::TestTranspile::test_identity PASSED             [ 16%]
-tests/test_transpile.py::TestTranspile::test_if PASSED                   [ 16%]
-tests/test_transpile.py::TestTranspile::test_ignore_nulls PASSED         [ 16%]
-tests/test_transpile.py::TestTranspile::test_index_offset PASSED         [ 16%]
-tests/test_transpile.py::TestTranspile::test_leading_comma PASSED        [ 16%]
-tests/test_transpile.py::TestTranspile::test_not_range PASSED            [ 16%]
-tests/test_transpile.py::TestTranspile::test_paren PASSED                [ 17%]
-tests/test_transpile.py::TestTranspile::test_partial PASSED              [ 17%]
-tests/test_transpile.py::TestTranspile::test_pretty PASSED               [ 17%]
-tests/test_transpile.py::TestTranspile::test_some PASSED                 [ 17%]
-tests/test_transpile.py::TestTranspile::test_space PASSED                [ 17%]
-tests/test_transpile.py::TestTranspile::test_time PASSED                 [ 18%]
-tests/test_transpile.py::TestTranspile::test_types PASSED                [ 18%]
-tests/test_transpile.py::TestTranspile::test_unary PASSED                [ 18%]
-tests/test_transpile.py::TestTranspile::test_unsupported_level PASSED    [ 18%]
-tests/test_transpile.py::TestTranspile::test_with PASSED                 [ 18%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_add PASSED [ 18%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_alias PASSED [ 19%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_and PASSED [ 19%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_asc PASSED [ 19%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_asc_nulls_first PASSED [ 19%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_asc_nulls_last PASSED [ 19%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_between PASSED [ 20%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_cast PASSED [ 20%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_desc PASSED [ 20%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_desc_nulls_first PASSED [ 20%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_desc_nulls_last PASSED [ 20%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_div PASSED [ 20%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_endswith PASSED [ 21%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_eq PASSED [ 21%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_ge PASSED [ 21%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_gt PASSED [ 21%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_ilike PASSED [ 21%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_invert PASSED [ 22%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_is_not_null PASSED [ 22%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_is_null PASSED [ 22%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_isin PASSED [ 22%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_le PASSED [ 22%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_like PASSED [ 22%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_lt PASSED [ 23%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_mod PASSED [ 23%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_mul PASSED [ 23%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_neq PASSED [ 23%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_or PASSED [ 23%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_over PASSED [ 24%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_pow PASSED [ 24%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_radd PASSED [ 24%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rdiv PASSED [ 24%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rlike PASSED [ 24%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rmul PASSED [ 25%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rpow PASSED [ 25%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_rsub PASSED [ 25%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_startswith PASSED [ 25%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_sub PASSED [ 25%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_substring PASSED [ 25%]
-tests/dataframe/unit/test_column.py::TestDataframeColumn::test_when_otherwise PASSED [ 26%]
-tests/dataframe/unit/test_dataframe.py::TestDataframe::test_cache PASSED [ 26%]
-tests/dataframe/unit/test_dataframe.py::TestDataframe::test_columns PASSED [ 26%]
-tests/dataframe/unit/test_dataframe.py::TestDataframe::test_hash_select_expression PASSED [ 26%]
-tests/dataframe/unit/test_dataframe.py::TestDataframe::test_persist_default PASSED [ 26%]
-tests/dataframe/unit/test_dataframe.py::TestDataframe::test_persist_storagelevel PASSED [ 27%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_byName PASSED [ 27%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_cache PASSED [ 27%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_db_table PASSED [ 27%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_full_path PASSED [ 27%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_overwrite PASSED [ 27%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_insertInto_table PASSED [ 28%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_mode_override PASSED [ 28%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_mode_standalone PASSED [ 28%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_append PASSED [ 28%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_cache PASSED [ 28%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_error PASSED [ 29%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_format PASSED [ 29%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_ignore PASSED [ 29%]
-tests/dataframe/unit/test_dataframe_writer.py::TestDataFrameWriter::test_saveAsTable_overwrite PASSED [ 29%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_abs PASSED   [ 29%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_acos PASSED  [ 29%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_acosh PASSED [ 30%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_add_months PASSED [ 30%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_aggregate PASSED [ 30%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_approx_count_distinct PASSED [ 30%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array PASSED [ 30%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_contains PASSED [ 31%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_distinct PASSED [ 31%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_except PASSED [ 31%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_intersect PASSED [ 31%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_join PASSED [ 31%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_max PASSED [ 31%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_min PASSED [ 32%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_position PASSED [ 32%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_remove PASSED [ 32%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_repeat PASSED [ 32%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_sort PASSED [ 32%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_union PASSED [ 33%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_array_zip PASSED [ 33%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_arrays_overlap PASSED [ 33%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_asc PASSED   [ 33%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_asc_nulls_first PASSED [ 33%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_asc_nulls_last PASSED [ 33%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_ascii PASSED [ 34%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_asin PASSED  [ 34%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_asinh PASSED [ 34%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_assert_true PASSED [ 34%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_atan PASSED  [ 34%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_atan2 PASSED [ 35%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_atanh PASSED [ 35%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_avg PASSED   [ 35%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_base64 PASSED [ 35%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_bin PASSED   [ 35%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_bit_length PASSED [ 35%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_bitwise_not PASSED [ 36%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_bround PASSED [ 36%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_cbrt PASSED  [ 36%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_ceil PASSED  [ 36%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_coalesce PASSED [ 36%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_col PASSED   [ 37%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_collect_list PASSED [ 37%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_collect_set PASSED [ 37%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_concat PASSED [ 37%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_concat_ws PASSED [ 37%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_conv PASSED  [ 37%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_corr PASSED  [ 38%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_cos PASSED   [ 38%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_cosh PASSED  [ 38%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_cot PASSED   [ 38%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_count PASSED [ 38%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_count_distinct PASSED [ 39%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_covar_pop PASSED [ 39%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_covar_samp PASSED [ 39%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_crc32 PASSED [ 39%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_create_map PASSED [ 39%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_csc PASSED   [ 39%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_cume_dist PASSED [ 40%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_current_date PASSED [ 40%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_current_timestamp PASSED [ 40%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_date_add PASSED [ 40%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_date_diff PASSED [ 40%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_date_format PASSED [ 41%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_date_sub PASSED [ 41%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_date_trunc PASSED [ 41%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_dayofmonth PASSED [ 41%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_dayofweek PASSED [ 41%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_dayofyear PASSED [ 41%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_decode PASSED [ 42%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_degrees PASSED [ 42%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_dense_rank PASSED [ 42%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_desc PASSED  [ 42%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_desc_nulls_first PASSED [ 42%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_desc_nulls_last PASSED [ 43%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_element_at PASSED [ 43%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_encode PASSED [ 43%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_exists PASSED [ 43%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_exp PASSED   [ 43%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_explode PASSED [ 43%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_explode_outer PASSED [ 44%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_expm1 PASSED [ 44%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_expr PASSED  [ 44%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_factorial PASSED [ 44%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_filter PASSED [ 44%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_first PASSED [ 45%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_flatten PASSED [ 45%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_floor PASSED [ 45%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_forall PASSED [ 45%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_format_number PASSED [ 45%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_format_string PASSED [ 45%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_from_csv PASSED [ 46%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_from_json PASSED [ 46%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_from_unixtime PASSED [ 46%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_from_utc_timestamp PASSED [ 46%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_get_json_object PASSED [ 46%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_greatest PASSED [ 47%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_grouping_id PASSED [ 47%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_hash PASSED  [ 47%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_hex PASSED   [ 47%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_hour PASSED  [ 47%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_hypot PASSED [ 47%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_initcap PASSED [ 48%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_input_file_name PASSED [ 48%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_instr PASSED [ 48%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_invoke_anonymous PASSED [ 48%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_isnan PASSED [ 48%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_isnull PASSED [ 49%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_json_tuple PASSED [ 49%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_kurtosis PASSED [ 49%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_lag PASSED   [ 49%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_last PASSED  [ 49%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_last_day PASSED [ 50%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_lead PASSED  [ 50%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_least PASSED [ 50%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_length PASSED [ 50%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_levenshtein PASSED [ 50%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_lit PASSED   [ 50%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_locate PASSED [ 51%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_log PASSED   [ 51%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_log10 PASSED [ 51%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_log1p PASSED [ 51%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_log2 PASSED  [ 51%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_lower PASSED [ 52%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_lpad PASSED  [ 52%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_ltrim PASSED [ 52%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_make_date PASSED [ 52%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_map_concat PASSED [ 52%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_map_entries PASSED [ 52%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_map_filter PASSED [ 53%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_map_from_arrays PASSED [ 53%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_map_from_entries PASSED [ 53%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_map_keys PASSED [ 53%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_map_values PASSED [ 53%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_map_zip_with PASSED [ 54%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_max PASSED   [ 54%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_max_by PASSED [ 54%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_md5 PASSED   [ 54%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_mean PASSED  [ 54%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_min PASSED   [ 54%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_min_by PASSED [ 55%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_minute PASSED [ 55%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_monotonically_increasing_id PASSED [ 55%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_month PASSED [ 55%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_months_between PASSED [ 55%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_nanvl PASSED [ 56%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_next_day PASSED [ 56%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_nth_value PASSED [ 56%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_ntile PASSED [ 56%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_octet_length PASSED [ 56%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_overlay PASSED [ 56%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_percent_rank PASSED [ 57%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_percentile_approx PASSED [ 57%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_pos_explode PASSED [ 57%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_posexplode_outer PASSED [ 57%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_pow PASSED   [ 57%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_product PASSED [ 58%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_quarter PASSED [ 58%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_radians PASSED [ 58%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_raise_error PASSED [ 58%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_rand PASSED  [ 58%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_randn PASSED [ 58%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_rank PASSED  [ 59%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_regexp_extract PASSED [ 59%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_regexp_replace PASSED [ 59%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_repeat PASSED [ 59%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_reverse PASSED [ 59%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_rint PASSED  [ 60%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_round PASSED [ 60%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_row_number PASSED [ 60%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_rpad PASSED  [ 60%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_rtrim PASSED [ 60%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_schema_of_csv PASSED [ 60%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_schema_of_json PASSED [ 61%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sec PASSED   [ 61%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_second PASSED [ 61%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sentences PASSED [ 61%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sequence PASSED [ 61%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_session_window PASSED [ 62%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sha1 PASSED  [ 62%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sha2 PASSED  [ 62%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_shiftleft PASSED [ 62%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_shiftright PASSED [ 62%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_shiftrightunsigned PASSED [ 62%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_signum PASSED [ 63%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sin PASSED   [ 63%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sinh PASSED  [ 63%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_size PASSED  [ 63%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_skewness PASSED [ 63%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_slice PASSED [ 64%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sort_array PASSED [ 64%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_soundex PASSED [ 64%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_split PASSED [ 64%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sqrt PASSED  [ 64%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_stddev PASSED [ 64%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_stddev_pop PASSED [ 65%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_stddev_samp PASSED [ 65%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_struct PASSED [ 65%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_substring PASSED [ 65%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_substring_index PASSED [ 65%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sum PASSED   [ 66%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_sum_distinct PASSED [ 66%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_tan PASSED   [ 66%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_tanh PASSED  [ 66%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_timestamp_seconds PASSED [ 66%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_to_csv PASSED [ 66%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_to_date PASSED [ 67%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_to_json PASSED [ 67%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_to_timestamp PASSED [ 67%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_to_utc_timestamp PASSED [ 67%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_transform PASSED [ 67%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_transform_keys PASSED [ 68%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_transform_values PASSED [ 68%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_translate PASSED [ 68%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_trim PASSED  [ 68%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_trunc PASSED [ 68%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_unbase64 PASSED [ 68%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_unhex PASSED [ 69%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_unix_timestamp PASSED [ 69%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_upper PASSED [ 69%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_var_pop PASSED [ 69%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_var_samp PASSED [ 69%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_variance PASSED [ 70%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_weekofyear PASSED [ 70%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_when PASSED  [ 70%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_window PASSED [ 70%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_xxhash64 PASSED [ 70%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_year PASSED  [ 70%]
-tests/dataframe/unit/test_functions.py::TestFunctions::test_zip_with PASSED [ 71%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_dict_rows PASSED [ 71%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_multiple_rows PASSED [ 71%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_no_schema PASSED [ 71%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_one_row PASSED [ 71%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_row_mixed_primitives PASSED [ 72%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_cdf_str_schema PASSED [ 72%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_session_create_builder_patterns PASSED [ 72%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_sql_create PASSED [ 72%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_sql_insert PASSED [ 72%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_sql_select_only PASSED [ 72%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_sql_with_aggs PASSED [ 73%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_typed_schema_basic PASSED [ 73%]
-tests/dataframe/unit/test_session.py::TestDataframeSession::test_typed_schema_nested PASSED [ 73%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_array PASSED [ 73%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_binary PASSED [ 73%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_boolean PASSED [ 74%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_byte PASSED [ 74%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_char PASSED [ 74%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_date PASSED [ 74%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_decimal PASSED [ 74%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_double PASSED [ 75%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_float PASSED [ 75%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_integer PASSED [ 75%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_long PASSED [ 75%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_map PASSED  [ 75%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_short PASSED [ 75%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_string PASSED [ 76%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_struct_field PASSED [ 76%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_struct_type PASSED [ 76%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_timestamp PASSED [ 76%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_timestamp_ntz PASSED [ 76%]
-tests/dataframe/unit/test_types.py::TestDataframeTypes::test_varchar PASSED [ 77%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_order_by PASSED [ 77%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_partition_by PASSED [ 77%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_range_between PASSED [ 77%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_range_unbounded PASSED [ 77%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_rows_between PASSED [ 77%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_rows_unbounded PASSED [ 78%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_spec_order_by PASSED [ 78%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_spec_partition_by PASSED [ 78%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_spec_range_between PASSED [ 78%]
-tests/dataframe/unit/test_window.py::TestDataframeWindow::test_window_spec_rows_between PASSED [ 78%]
-tests/dialects/test_bigquery.py::TestBigQuery::test_bigquery PASSED      [ 79%]
-tests/dialects/test_bigquery.py::TestBigQuery::test_user_defined_functions PASSED [ 79%]
-tests/dialects/test_clickhouse.py::TestClickhouse::test_clickhouse PASSED [ 79%]
-tests/dialects/test_databricks.py::TestDatabricks::test_add_date PASSED  [ 79%]
-tests/dialects/test_databricks.py::TestDatabricks::test_datediff PASSED  [ 79%]
-tests/dialects/test_dialect.py::TestDialect::test_alias PASSED           [ 79%]
-tests/dialects/test_dialect.py::TestDialect::test_array PASSED           [ 80%]
-tests/dialects/test_dialect.py::TestDialect::test_cast PASSED            [ 80%]
-tests/dialects/test_dialect.py::TestDialect::test_cross_join PASSED      [ 80%]
-tests/dialects/test_dialect.py::TestDialect::test_enum PASSED            [ 80%]
-tests/dialects/test_dialect.py::TestDialect::test_hash_comments PASSED   [ 80%]
-tests/dialects/test_dialect.py::TestDialect::test_json PASSED            [ 81%]
-tests/dialects/test_dialect.py::TestDialect::test_lateral_subquery PASSED [ 81%]
-tests/dialects/test_dialect.py::TestDialect::test_limit PASSED           [ 81%]
-tests/dialects/test_dialect.py::TestDialect::test_merge PASSED           [ 81%]
-tests/dialects/test_dialect.py::TestDialect::test_nullsafe_eq PASSED     [ 81%]
-tests/dialects/test_dialect.py::TestDialect::test_nullsafe_neq PASSED    [ 81%]
-tests/dialects/test_dialect.py::TestDialect::test_operators PASSED       [ 82%]
-tests/dialects/test_dialect.py::TestDialect::test_order_by PASSED        [ 82%]
-tests/dialects/test_dialect.py::TestDialect::test_set_operators PASSED   [ 82%]
-tests/dialects/test_dialect.py::TestDialect::test_time PASSED            [ 82%]
-tests/dialects/test_dialect.py::TestDialect::test_transactions PASSED    [ 82%]
-tests/dialects/test_drill.py::TestDrill::test_quotes PASSED              [ 83%]
-tests/dialects/test_drill.py::TestDrill::test_string_literals PASSED     [ 83%]
-tests/dialects/test_drill.py::TestDrill::test_table_function PASSED      [ 83%]
-tests/dialects/test_duckdb.py::TestDuckDB::test_duckdb PASSED            [ 83%]
-tests/dialects/test_duckdb.py::TestDuckDB::test_time PASSED              [ 83%]
-tests/dialects/test_hive.py::TestHive::test_bits PASSED                  [ 83%]
-tests/dialects/test_hive.py::TestHive::test_cast PASSED                  [ 84%]
-tests/dialects/test_hive.py::TestHive::test_ddl PASSED                   [ 84%]
-tests/dialects/test_hive.py::TestHive::test_hive PASSED                  [ 84%]
-tests/dialects/test_hive.py::TestHive::test_lateral_view PASSED          [ 84%]
-tests/dialects/test_hive.py::TestHive::test_order_by PASSED              [ 84%]
-tests/dialects/test_hive.py::TestHive::test_quotes PASSED                [ 85%]
-tests/dialects/test_hive.py::TestHive::test_regex PASSED                 [ 85%]
-tests/dialects/test_hive.py::TestHive::test_time PASSED                  [ 85%]
-tests/dialects/test_mysql.py::TestMySQL::test_bits_literal PASSED        [ 85%]
-tests/dialects/test_mysql.py::TestMySQL::test_canonical_functions PASSED [ 85%]
-tests/dialects/test_mysql.py::TestMySQL::test_convert PASSED             [ 85%]
-tests/dialects/test_mysql.py::TestMySQL::test_ddl PASSED                 [ 86%]
-tests/dialects/test_mysql.py::TestMySQL::test_escape PASSED              [ 86%]
-tests/dialects/test_mysql.py::TestMySQL::test_hexadecimal_literal PASSED [ 86%]
-tests/dialects/test_mysql.py::TestMySQL::test_identity PASSED            [ 86%]
-tests/dialects/test_mysql.py::TestMySQL::test_introducers PASSED         [ 86%]
-tests/dialects/test_mysql.py::TestMySQL::test_mysql PASSED               [ 87%]
-tests/dialects/test_mysql.py::TestMySQL::test_set_variable PASSED        [ 87%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_columns PASSED        [ 87%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_db_like_or_where_sql PASSED [ 87%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_engine PASSED         [ 87%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_errors PASSED         [ 87%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_events PASSED         [ 88%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_grants PASSED         [ 88%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_index PASSED          [ 88%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_like_or_where PASSED  [ 88%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_name PASSED           [ 88%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_processlist PASSED    [ 89%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_profile PASSED        [ 89%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_replica_status PASSED [ 89%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_simple PASSED         [ 89%]
-tests/dialects/test_mysql.py::TestMySQL::test_show_tables PASSED         [ 89%]
-tests/dialects/test_mysql.py::TestMySQL::test_string_literals PASSED     [ 89%]
-tests/dialects/test_oracle.py::TestOracle::test_oracle PASSED            [ 90%]
-tests/dialects/test_postgres.py::TestPostgres::test_ddl PASSED           [ 90%]
-tests/dialects/test_postgres.py::TestPostgres::test_postgres PASSED      [ 90%]
-tests/dialects/test_presto.py::TestPresto::test_cast PASSED              [ 90%]
-tests/dialects/test_presto.py::TestPresto::test_ddl PASSED               [ 90%]
-tests/dialects/test_presto.py::TestPresto::test_encode_decode PASSED     [ 91%]
-tests/dialects/test_presto.py::TestPresto::test_hex_unhex PASSED         [ 91%]
-tests/dialects/test_presto.py::TestPresto::test_presto PASSED            [ 91%]
-tests/dialects/test_presto.py::TestPresto::test_quotes PASSED            [ 91%]
-tests/dialects/test_presto.py::TestPresto::test_regex PASSED             [ 91%]
-tests/dialects/test_presto.py::TestPresto::test_time PASSED              [ 91%]
-tests/dialects/test_presto.py::TestPresto::test_unnest PASSED            [ 92%]
-tests/dialects/test_redshift.py::TestRedshift::test_identity PASSED      [ 92%]
-tests/dialects/test_redshift.py::TestRedshift::test_redshift PASSED      [ 92%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_ddl PASSED         [ 92%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_flatten PASSED     [ 92%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_minus PASSED       [ 93%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_null_treatment PASSED [ 93%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_semi_structured_types PASSED [ 93%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_snowflake PASSED   [ 93%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_stored_procedures PASSED [ 93%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_table_literal PASSED [ 93%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_timestamps PASSED  [ 94%]
-tests/dialects/test_snowflake.py::TestSnowflake::test_user_defined_functions PASSED [ 94%]
-tests/dialects/test_spark.py::TestSpark::test_ddl PASSED                 [ 94%]
-tests/dialects/test_spark.py::TestSpark::test_hint PASSED                [ 94%]
-tests/dialects/test_spark.py::TestSpark::test_iif PASSED                 [ 94%]
-tests/dialects/test_spark.py::TestSpark::test_spark PASSED               [ 95%]
-tests/dialects/test_spark.py::TestSpark::test_to_date PASSED             [ 95%]
-tests/dialects/test_sqlite.py::TestSQLite::test_ddl PASSED               [ 95%]
-tests/dialects/test_sqlite.py::TestSQLite::test_hexadecimal_literal PASSED [ 95%]
-tests/dialects/test_sqlite.py::TestSQLite::test_sqlite PASSED            [ 95%]
-tests/dialects/test_sqlite.py::TestSQLite::test_window_null_treatment PASSED [ 95%]
-tests/dialects/test_starrocks.py::TestMySQL::test_identity PASSED        [ 96%]
-tests/dialects/test_starrocks.py::TestMySQL::test_time PASSED            [ 96%]
-tests/dialects/test_tableau.py::TestTableau::test_tableau PASSED         [ 96%]
-tests/dialects/test_tsql.py::TestTSQL::test_add_date PASSED              [ 96%]
-tests/dialects/test_tsql.py::TestTSQL::test_charindex PASSED             [ 96%]
-tests/dialects/test_tsql.py::TestTSQL::test_convert_date_format PASSED   [ 97%]
-tests/dialects/test_tsql.py::TestTSQL::test_date_diff PASSED             [ 97%]
-tests/dialects/test_tsql.py::TestTSQL::test_datefromparts PASSED         [ 97%]
-tests/dialects/test_tsql.py::TestTSQL::test_datename PASSED              [ 97%]
-tests/dialects/test_tsql.py::TestTSQL::test_datepart PASSED              [ 97%]
-tests/dialects/test_tsql.py::TestTSQL::test_format PASSED                [ 97%]
-tests/dialects/test_tsql.py::TestTSQL::test_iif PASSED                   [ 98%]
-tests/dialects/test_tsql.py::TestTSQL::test_isnull PASSED                [ 98%]
-tests/dialects/test_tsql.py::TestTSQL::test_jsonvalue PASSED             [ 98%]
-tests/dialects/test_tsql.py::TestTSQL::test_lateral_subquery PASSED      [ 98%]
-tests/dialects/test_tsql.py::TestTSQL::test_lateral_table_valued_function PASSED [ 98%]
-tests/dialects/test_tsql.py::TestTSQL::test_len PASSED                   [ 99%]
-tests/dialects/test_tsql.py::TestTSQL::test_replicate PASSED             [ 99%]
-tests/dialects/test_tsql.py::TestTSQL::test_string PASSED                [ 99%]
-tests/dialects/test_tsql.py::TestTSQL::test_top PASSED                   [ 99%]
-tests/dialects/test_tsql.py::TestTSQL::test_tsql PASSED                  [ 99%]
-tests/dialects/test_tsql.py::TestTSQL::test_types PASSED                 [100%]
-
-==================================== ERRORS ====================================
-___________________ ERROR collecting tests/test_executor.py ____________________
-ImportError while importing test module '/app/tests/test_executor.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
-    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
-/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
-    importlib.import_module(module_name)
-/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-<frozen importlib._bootstrap>:1030: in _gcd_import
-    ???
-<frozen importlib._bootstrap>:1007: in _find_and_load
-    ???
-<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
-    ???
-<frozen importlib._bootstrap>:680: in _load_unlocked
-    ???
-/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
-    exec(co, module.__dict__)
-tests/test_executor.py:4: in <module>
-    import duckdb
-E   ModuleNotFoundError: No module named 'duckdb'
-___________________ ERROR collecting tests/test_optimizer.py ___________________
-ImportError while importing test module '/app/tests/test_optimizer.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
-    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
-/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
-    importlib.import_module(module_name)
-/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-<frozen importlib._bootstrap>:1030: in _gcd_import
-    ???
-<frozen importlib._bootstrap>:1007: in _find_and_load
-    ???
-<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
-    ???
-<frozen importlib._bootstrap>:680: in _load_unlocked
-    ???
-/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
-    exec(co, module.__dict__)
-tests/test_optimizer.py:4: in <module>
-    import duckdb
-E   ModuleNotFoundError: No module named 'duckdb'
-________ ERROR collecting tests/dataframe/integration/test_dataframe.py ________
-ImportError while importing test module '/app/tests/dataframe/integration/test_dataframe.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
-    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
-/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
-    importlib.import_module(module_name)
-/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-<frozen importlib._bootstrap>:1030: in _gcd_import
-    ???
-<frozen importlib._bootstrap>:1007: in _find_and_load
-    ???
-<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
-    ???
-<frozen importlib._bootstrap>:680: in _load_unlocked
-    ???
-/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
-    exec(co, module.__dict__)
-tests/dataframe/integration/test_dataframe.py:1: in <module>
-    from pyspark.sql import functions as F
-E   ModuleNotFoundError: No module named 'pyspark'
-______ ERROR collecting tests/dataframe/integration/test_grouped_data.py _______
-ImportError while importing test module '/app/tests/dataframe/integration/test_grouped_data.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
-    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
-/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
-    importlib.import_module(module_name)
-/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-<frozen importlib._bootstrap>:1030: in _gcd_import
-    ???
-<frozen importlib._bootstrap>:1007: in _find_and_load
-    ???
-<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
-    ???
-<frozen importlib._bootstrap>:680: in _load_unlocked
-    ???
-/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
-    exec(co, module.__dict__)
-tests/dataframe/integration/test_grouped_data.py:1: in <module>
-    from pyspark.sql import functions as F
-E   ModuleNotFoundError: No module named 'pyspark'
-_________ ERROR collecting tests/dataframe/integration/test_session.py _________
-ImportError while importing test module '/app/tests/dataframe/integration/test_session.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-/usr/local/lib/python3.9/site-packages/_pytest/python.py:618: in _importtestmodule
-    mod = import_path(self.path, mode=importmode, root=self.config.rootpath)
-/usr/local/lib/python3.9/site-packages/_pytest/pathlib.py:533: in import_path
-    importlib.import_module(module_name)
-/usr/local/lib/python3.9/importlib/__init__.py:127: in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-<frozen importlib._bootstrap>:1030: in _gcd_import
-    ???
-<frozen importlib._bootstrap>:1007: in _find_and_load
-    ???
-<frozen importlib._bootstrap>:986: in _find_and_load_unlocked
-    ???
-<frozen importlib._bootstrap>:680: in _load_unlocked
-    ???
-/usr/local/lib/python3.9/site-packages/_pytest/assertion/rewrite.py:168: in exec_module
-    exec(co, module.__dict__)
-tests/dataframe/integration/test_session.py:1: in <module>
-    from pyspark.sql import functions as F
-E   ModuleNotFoundError: No module named 'pyspark'
-=================================== FAILURES ===================================
-_____________________________ TestBuild.test_build _____________________________
-tests/test_build.py:484: in test_build
-    self.assertEqual(expression().sql(dialect[0] if dialect else None), sql)
-tests/test_build.py:477: in <lambda>
-    lambda: exp.values([("1", 2), ("2", 3)], "alias", ["col1", "col2"]),
-E   TypeError: values() takes from 1 to 2 positional arguments but 3 were given
-=============================== warnings summary ===============================
-tests/dataframe/unit/test_functions.py:1155
-  /app/tests/dataframe/unit/test_functions.py:1155: DeprecationWarning: invalid escape sequence \d
-    self.assertEqual("REGEXP_EXTRACT(cola, '(\\\d+)-(\\\d+)', 1)", col_str.sql())
-
-tests/dataframe/unit/test_functions.py:1157
-  /app/tests/dataframe/unit/test_functions.py:1157: DeprecationWarning: invalid escape sequence \d
-    self.assertEqual("REGEXP_EXTRACT(cola, '(\\\d+)-(\\\d+)', 1)", col.sql())
-
-tests/dataframe/unit/test_functions.py:1159
-  /app/tests/dataframe/unit/test_functions.py:1159: DeprecationWarning: invalid escape sequence \d
-    self.assertEqual("REGEXP_EXTRACT(cola, '(\\\d+)-(\\\d+)')", col_no_idx.sql())
-
-tests/dataframe/unit/test_functions.py:1163
-  /app/tests/dataframe/unit/test_functions.py:1163: DeprecationWarning: invalid escape sequence \d
-    self.assertEqual("REGEXP_REPLACE(cola, '(\\\d+)', '--')", col_str.sql())
-
-tests/dataframe/unit/test_functions.py:1165
-  /app/tests/dataframe/unit/test_functions.py:1165: DeprecationWarning: invalid escape sequence \d
-    self.assertEqual("REGEXP_REPLACE(cola, '(\\\d+)', '--')", col.sql())
-
-tests/dialects/test_hive.py:414
-  /app/tests/dialects/test_hive.py:414: DeprecationWarning: invalid escape sequence \w
-    "presto": "REGEXP_REPLACE('new york', '(\w)(\w*)', x -> UPPER(x[1]) || LOWER(x[2]))",
-
--- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
-=========================== short test summary info ============================
-FAILED tests/test_build.py::TestBuild::test_build - TypeError: values() takes...
-ERROR tests/test_executor.py
-ERROR tests/test_optimizer.py
-ERROR tests/dataframe/integration/test_dataframe.py
-ERROR tests/dataframe/integration/test_grouped_data.py
-ERROR tests/dataframe/integration/test_session.py
-============= 1 failed, 547 passed, 6 warnings, 5 errors in 2.49s ==============
+yarn run v1.22.22
+$ /app/node_modules/.bin/jest --ci
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS packages/react-native-codegen/src/parsers/typescript/modules/__tests__/typescript-module-parser-e2e-test.js (8.108 s)
+PASS Libraries/LogBox/Data/__tests__/parseLogBoxLog-test.js
+PASS packages/react-native-codegen/src/parsers/flow/modules/__tests__/module-parser-e2e-test.js (9.884 s)
+PASS Libraries/Animated/__tests__/AnimatedNative-test.js
+FAIL Libraries/Animated/__tests__/Animated-test.js
+  ● Animated tests › Animated › bypasses `setNativeProps` in test environments
+    expect(received).toEqual(expected) // deep equality
+    Expected: 1
+    Received: 0
+      178 |       }).start();
+      179 |
+    > 180 |       expect(testRenderer.toJSON().props.style.opacity).toEqual(1);
+          |                                                         ^
+      181 |     });
+      182 |
+      183 |     it('warns if `useNativeDriver` is missing', () => {
+      at Object.<anonymous> (Libraries/Animated/__tests__/Animated-test.js:180:57)
+PASS Libraries/Core/__tests__/ExceptionsManager-test.js
+PASS Libraries/Pressability/__tests__/Pressability-test.js
+PASS Libraries/LogBox/Data/__tests__/LogBoxData-test.js
+PASS Libraries/Lists/__tests__/ViewabilityHelper-test.js
+PASS Libraries/Core/Timers/__tests__/JSTimers-test.js
+PASS Libraries/Utilities/__tests__/PerformanceLogger-test.js
+PASS Libraries/Animated/__tests__/Interpolation-test.js
+PASS Libraries/Image/__tests__/resolveAssetSource-test.js
+PASS Libraries/Animated/__tests__/Easing-test.js
+PASS Libraries/LogBox/__tests__/LogBox-test.js
+FAIL Libraries/Lists/__tests__/VirtualizedList-test.js (13.944 s)
+  ● Console
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+  ● calls _onCellLayout properly
+    TypeError: cell._onLayout is not a function
+      1474 |     nativeEvent: {layout: {x: 0, y: 0, width: 50, height: 50}},
+      1475 |   };
+    > 1476 |   cell._onLayout(event);
+           |        ^
+      1477 |   expect(mock).toHaveBeenCalledWith(event, 'i4', 3);
+      1478 |   expect(mock).not.toHaveBeenCalledWith(event, 'i3', 2);
+      1479 | });
+      at Object.<anonymous> (Libraries/Lists/__tests__/VirtualizedList-test.js:1476:8)
+PASS Libraries/Utilities/__tests__/buildStyleInterpolator-test.js
+PASS Libraries/Interaction/__tests__/InteractionManager-test.js
+PASS Libraries/Network/__tests__/XMLHttpRequest-test.js
+PASS Libraries/LogBox/Data/__tests__/LogBoxLog-test.js
+PASS Libraries/BatchedBridge/__tests__/NativeModules-test.js
+PASS Libraries/Utilities/differ/__tests__/deepDiffer-test.js
+PASS Libraries/Utilities/__tests__/useRefEffect-test.js
+PASS Libraries/Utilities/__tests__/useMergeRefs-test.js
+PASS Libraries/Lists/__tests__/VirtualizedSectionList-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+PASS Libraries/Utilities/__tests__/MatrixMath-test.js
+PASS packages/normalize-color/__tests__/normalizeColor-test.js
+PASS Libraries/Components/TextInput/__tests__/TextInput-test.js
+PASS Libraries/Lists/__tests__/CellRenderMask-test.js
+PASS Libraries/LogBox/__tests__/LogBoxInspectorContainer-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxMessage-test.js
+PASS Libraries/BatchedBridge/__tests__/MessageQueue-test.js
+PASS Libraries/NativeComponent/__tests__/StaticViewConfigValidator-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorReactFrames-test.js
+PASS Libraries/Interaction/__tests__/TaskQueue-test.js
+PASS Libraries/Lists/__tests__/FlatList-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+PASS Libraries/StyleSheet/__tests__/flattenStyle-test.js
+PASS Libraries/Utilities/__tests__/deepFreezeAndThrowOnMutationInDev-test.js
+PASS Libraries/StyleSheet/__tests__/processColorArray-test.js
+PASS Libraries/StyleSheet/__tests__/processColor-test.js
+PASS scripts/__tests__/version-utils-test.js
+PASS Libraries/Core/__tests__/ReactNativeVersionCheck-test.js
+PASS Libraries/Utilities/__tests__/setAndForwardRef-test.js
+PASS packages/polyfills/__tests__/Object.es8-test.js
+PASS Libraries/Lists/__tests__/FillRateHelper-test.js
+PASS Libraries/Animated/__tests__/bezier-test.js
+PASS Libraries/StyleSheet/__tests__/processTransform-test.js
+PASS Libraries/Lists/__tests__/SectionList-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+PASS Libraries/StyleSheet/__tests__/normalizeColor-test.js
+PASS Libraries/Components/Touchable/__tests__/TouchableNativeFeedback-test.js
+PASS Libraries/Utilities/__tests__/verifyComponentAttributeEquivalence-test.js
+PASS Libraries/Utilities/__tests__/stringifySafe-test.js
+PASS Libraries/Lists/__tests__/VirtualizeUtils-test.js
+PASS packages/eslint-plugin-react-native-community/__tests__/error-subclass-name-test.js
+PASS Libraries/Components/Keyboard/__tests__/Keyboard-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorMesageHeader-test.js
+PASS Libraries/Components/Touchable/__tests__/TouchableWithoutFeedback-test.js
+PASS packages/assets/__tests__/path-support-test.js
+PASS Libraries/Blob/__tests__/Blob-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorStackFrames-test.js
+PASS Libraries/Components/Pressable/__tests__/Pressable-test.js
+PASS Libraries/Components/Touchable/__tests__/TouchableHighlight-test.js
+PASS Libraries/Components/StatusBar/__tests__/StatusBar-test.js
+PASS Libraries/Utilities/__tests__/codegenNativeComponent-test.js
+  ● Console
+    console.warn
+      Native Component 'ComponentName' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at Object.codegenNativeComponent [as default] (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Utilities/__tests__/codegenNativeComponent-test.js:33:65)
+    console.warn
+      Native Component 'ComponentName' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at Object.codegenNativeComponent [as default] (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Utilities/__tests__/codegenNativeComponent-test.js:38:65)
+    console.warn
+      Native Component 'ComponentNameDoesNotExist' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at Object.codegenNativeComponent [as default] (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Utilities/__tests__/codegenNativeComponent-test.js:45:65)
+    console.warn
+      Native Component 'ComponentName' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at Object.codegenNativeComponent [as default] (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Utilities/__tests__/codegenNativeComponent-test.js:52:65)
+    console.warn
+      Native Component 'ComponentNameDoesNotExistOne' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at Object.codegenNativeComponent [as default] (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Libraries/Utilities/__tests__/codegenNativeComponent-test.js:60:53
+      at Object.<anonymous> (node_modules/expect/build/toThrowMatchers.js:83:11)
+      at Object.throwingMatcher [as toThrow] (node_modules/expect/build/index.js:338:21)
+      at Object.<anonymous> (Libraries/Utilities/__tests__/codegenNativeComponent-test.js:63:5)
+PASS Libraries/Blob/__tests__/File-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspector-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+PASS Libraries/Interaction/__tests__/Batchinator-test.js
+PASS Libraries/Utilities/__tests__/truncate-test.js
+PASS Libraries/Components/ScrollView/__tests__/ScrollView-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+PASS Libraries/Animated/__tests__/createAnimatedComponentInjection-test.js
+PASS packages/react-native-codegen/src/__tests__/SchemaValidator-test.js
+PASS Libraries/YellowBox/__tests__/YellowBoxDeprecated-test.js
+PASS Libraries/Core/Devtools/__tests__/parseHermesStack-test.js
+PASS Libraries/Components/__tests__/Button-test.js
+PASS packages/eslint-plugin-react-native-community/__tests__/platform-colors-test.js
+PASS Libraries/Blob/__tests__/URL-test.js
+PASS Libraries/Utilities/__tests__/Dimensions-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorStackFrame-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorHeader-test.js
+PASS Libraries/Utilities/__tests__/mapWithSeparator-test.js
+PASS Libraries/Components/TextInput/__tests__/InputAccessoryView-test.js
+  ● Console
+    console.warn
+      Native Component 'InputAccessory' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/TextInput/RCTInputAccessoryViewNativeComponent.js:22:37)
+      at Object.<anonymous> (Libraries/Components/TextInput/InputAccessoryView.js:18:68)
+PASS Libraries/Modal/__tests__/Modal-test.js
+  ● Console
+    console.warn
+      Native Component 'ModalHostView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Modal/RCTModalHostViewNativeComponent.js:136:37)
+      at Object.<anonymous> (Libraries/Modal/Modal.js:29:63)
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorFooter-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorCodeFrame-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+PASS Libraries/LogBox/__tests__/LogBoxNotificationContainer-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidHorizontalScrollContentView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ScrollView/AndroidHorizontalScrollContentViewNativeComponent.js:23:37)
+      at Object.<anonymous> (Libraries/Components/ScrollView/ScrollView.js:49:81)
+PASS Libraries/LogBox/Data/__tests__/LogBoxSymbolication-test.js
+PASS Libraries/Animated/__tests__/AnimatedMock-test.js
+PASS packages/react-native-codegen/e2e/__tests__/modules/GenerateModuleObjCpp-test.js
+PASS Libraries/Components/Touchable/__tests__/TouchableOpacity-test.js
+PASS Libraries/Utilities/__tests__/Platform-test.js
+PASS Libraries/Utilities/__tests__/groupByEveryN-test.js
+PASS Libraries/Utilities/__tests__/binaryToBase64-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateViewConfigJs-test.js
+PASS Libraries/Network/__tests__/FormData-test.js
+PASS Libraries/Utilities/differ/__tests__/matricesDiffer-test.js
+PASS packages/react-native-codegen/src/parsers/typescript/modules/__tests__/typescript-module-parser-snapshot-test.js
+PASS Libraries/Utilities/__tests__/PixelRatio-test.js
+ReferenceError: You are trying to `import` a file after the Jest environment has been torn down.
+      58 |
+      59 |   try {
+    > 60 |     makeDirSync(path.dirname(FILENAME));
+         |     ^
+      61 |     fs.writeFileSync(FILENAME, serialised);
+      62 |   } catch (e) {
+      63 |     switch (e.code) {
+      at save (packages/eslint-plugin-specs/with-babel-register/disk-cache.js:60:5)
+      at node_modules/@jest/fake-timers/build/legacyFakeTimers.js:505:18
+/app/packages/eslint-plugin-specs/with-babel-register/disk-cache.js:81
+        throw e;}
+        ^
+TypeError: require(...).sync is not a function
+    at save (/app/packages/eslint-plugin-specs/with-babel-register/disk-cache.js:60:25)
+    at /app/node_modules/@jest/fake-timers/build/legacyFakeTimers.js:505:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+Node.js v20.19.0
+PASS Libraries/StyleSheet/__tests__/splitLayoutProps-test.js
+PASS packages/react-native-codegen/src/parsers/typescript/components/__tests__/typescript-component-parser-test.js
+PASS packages/babel-plugin-codegen/__tests__/index-test.js
+PASS packages/react-native-codegen/src/parsers/flow/modules/__tests__/module-parser-snapshot-test.js
+PASS Libraries/Image/__tests__/Image-test.js
+PASS Libraries/Components/DatePicker/__tests__/DatePickerIOS-test.js
+  ● Console
+    console.warn
+      Native Component 'DatePicker' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/DatePicker/RCTDatePickerNativeComponent.js:56:37)
+      at Object.<anonymous> (Libraries/Components/DatePicker/DatePickerIOS.ios.js:14:61)
+PASS Libraries/StyleSheet/__tests__/setNormalizedColorAlpha-test.js
+PASS Libraries/Blob/__tests__/FileReader-test.js
+PASS packages/react-native-codegen/src/parsers/flow/components/__tests__/component-parser-test.js
+PASS Libraries/Image/__tests__/AssetUtils-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxButton-test.js
+PASS Libraries/Core/Devtools/__tests__/parseErrorStack-test.js
+PASS Libraries/Utilities/__tests__/mergeIntoFast-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorSourceMapStatus-test.js
+PASS Libraries/Utilities/__tests__/logError-test.js
+PASS Libraries/Components/DrawerAndroid/__tests__/DrawerAndroid-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidDrawerLayout' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/DrawerAndroid/AndroidDrawerLayoutNativeComponent.js:121:37)
+      at Object.<anonymous> (Libraries/Components/DrawerAndroid/DrawerLayoutAndroid.android.js:20:67)
+PASS Libraries/Components/__tests__/Slider-test.js
+  ● Console
+    console.warn
+      Native Component 'Slider' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/Slider/SliderNativeComponent.js:54:37)
+      at Object.<anonymous> (Libraries/Components/Slider/Slider.js:13:53)
+PASS Libraries/LogBox/UI/__tests__/LogBoxInspectorSection-test.js
+PASS Libraries/LogBox/UI/__tests__/LogBoxNotification-test.js
+PASS Libraries/Animated/__tests__/TimingAnimation-test.js
+PASS Libraries/Components/ProgressBarAndroid/__tests__/ProgressBarAndroid-test.js
+  ● Console
+    console.warn
+      Native Component 'AndroidProgressBar' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ProgressBarAndroid/ProgressBarAndroidNativeComponent.js:31:37)
+      at Object.<anonymous> (Libraries/Components/ProgressBarAndroid/ProgressBarAndroid.android.js:13:65)
+PASS packages/react-native-codegen/src/generators/modules/__tests__/GenerateModuleMm-test.js
+PASS Libraries/Components/MaskedView/__tests__/MaskedViewIOS-test.js
+  ● Console
+    console.warn
+      Native Component 'RCTMaskedView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/MaskedView/RCTMaskedViewNativeComponent.js:19:37)
+      at Object.<anonymous> (Libraries/Components/MaskedView/MaskedViewIOS.ios.js:16:60)
+PASS Libraries/Components/ActivityIndicator/__tests__/ActivityIndicator-test.js
+  ● Console
+    console.warn
+      Native Component 'ActivityIndicatorView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ActivityIndicator/ActivityIndicatorViewNativeComponent.js:52:37)
+      at Object.<anonymous> (Libraries/Components/ActivityIndicator/ActivityIndicator.js:23:1)
+PASS packages/react-native-codegen/e2e/__tests__/components/GeneratePropsJavaInterface-test.js
+PASS packages/react-native-codegen/e2e/__tests__/components/GenerateShadowNodeCpp-test.js
+PASS packages/react-native-codegen/e2e/__tests__/components/GenerateComponentDescriptorH-test.js
+ReferenceError: You are trying to `import` a file after the Jest environment has been torn down.
+      58 |
+      59 |   try {
+    > 60 |     makeDirSync(path.dirname(FILENAME));
+         |     ^
+      61 |     fs.writeFileSync(FILENAME, serialised);
+      62 |   } catch (e) {
+      63 |     switch (e.code) {
+      at save (packages/eslint-plugin-specs/with-babel-register/disk-cache.js:60:5)
+      at node_modules/@jest/fake-timers/build/legacyFakeTimers.js:505:18
+/app/packages/eslint-plugin-specs/with-babel-register/disk-cache.js:81
+        throw e;}
+        ^
+TypeError: require(...).sync is not a function
+    at save (/app/packages/eslint-plugin-specs/with-babel-register/disk-cache.js:60:25)
+    at /app/node_modules/@jest/fake-timers/build/legacyFakeTimers.js:505:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+Node.js v20.19.0
+PASS packages/react-native-codegen/e2e/__tests__/components/GenerateShadowNodeH-test.js
+PASS packages/react-native-codegen/e2e/__tests__/components/GeneratePropsJavaDelegate-test.js
+PASS Libraries/Components/SafeAreaView/__tests__/SafeAreaView-test.js
+  ● Console
+    console.warn
+      Native Component 'SafeAreaView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/SafeAreaView/RCTSafeAreaViewNativeComponent.js:24:37)
+      at Object.<anonymous> (Libraries/Components/SafeAreaView/SafeAreaView.js:46:3)
+PASS packages/react-native-codegen/e2e/__tests__/components/GenerateComponentHObjCpp-test.js
+PASS packages/react-native-codegen/src/generators/modules/__tests__/GenerateModuleHObjCpp-test.js
+PASS packages/react-native-codegen/e2e/__tests__/components/GenerateEventEmitterCpp-test.js
+PASS Libraries/Utilities/__tests__/clamp-test.js
+PASS packages/react-native-codegen/e2e/__tests__/components/GenerateEventEmitterH-test.js
+PASS packages/react-native-codegen/e2e/__tests__/components/GeneratePropsCpp-test.js
+PASS packages/react-native-codegen/e2e/__tests__/components/GeneratePropsH-test.js
+PASS Libraries/Utilities/__tests__/SceneTracker-test.js
+PASS Libraries/WebSocket/__tests__/WebSocket-test.js
+PASS packages/react-native-codegen/src/generators/modules/__tests__/GenerateModuleJavaSpec-test.js
+PASS packages/react-native-codegen/src/generators/modules/__tests__/GenerateModuleJniCpp-test.js
+PASS packages/react-native-codegen/e2e/__tests__/components/GenerateViewConfigJs-test.js
+PASS packages/react-native-codegen/src/generators/modules/__tests__/GenerateModuleJniH-test.js
+PASS packages/react-native-codegen/src/generators/modules/__tests__/GenerateModuleCpp-test.js
+PASS packages/react-native-codegen/src/generators/modules/__tests__/GenerateModuleH-test.js
+PASS Libraries/Utilities/__tests__/infoLog-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateShadowNodeCpp-test.js
+PASS Libraries/Utilities/__tests__/warnOnce-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateComponentDescriptorH-test.js
+PASS Libraries/Components/ProgressViewIOS/__tests__/ProgressViewIOS-test.js
+  ● Console
+    console.warn
+      Native Component 'RCTProgressView' that calls codegenNativeComponent was not code generated at build time. Please check its definition.
+      42 |     console.error(errorMessage);
+      43 |   } else {
+    > 44 |     console.warn(errorMessage);
+         |             ^
+      45 |   }
+      46 |   let componentNameInUse =
+      47 |     options && options.paperComponentName != null
+      at codegenNativeComponent (Libraries/Utilities/codegenNativeComponent.js:44:13)
+      at Object.<anonymous> (Libraries/Components/ProgressViewIOS/RCTProgressViewNativeComponent.js:31:37)
+      at Object.<anonymous> (Libraries/Components/ProgressViewIOS/ProgressViewIOS.ios.js:14:62)
+PASS Libraries/Image/__tests__/assetRelativePathInSnapshot-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GeneratePropsJavaInterface-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GeneratePropsJavaDelegate-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateComponentHObjCpp-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateEventEmitterCpp-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateEventEmitterH-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateShadowNodeH-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GeneratePropsJavaPojo-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GeneratePropsCpp-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GeneratePropsH-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateTests-test.js
+PASS Libraries/Blob/__tests__/BlobManager-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateThirdPartyFabricComponentsProviderObjCpp-test.js
+PASS packages/react-native-codegen/src/generators/components/__tests__/GenerateThirdPartyFabricComponentsProviderH-test.js
+PASS Libraries/Utilities/__tests__/DeviceInfo-test.js
+ReferenceError: You are trying to `import` a file after the Jest environment has been torn down.
+      58 |
+      59 |   try {
+    > 60 |     makeDirSync(path.dirname(FILENAME));
+         |     ^
+      61 |     fs.writeFileSync(FILENAME, serialised);
+      62 |   } catch (e) {
+      63 |     switch (e.code) {
+      at save (packages/eslint-plugin-specs/with-babel-register/disk-cache.js:60:5)
+      at node_modules/@jest/fake-timers/build/legacyFakeTimers.js:505:18
+/app/packages/eslint-plugin-specs/with-babel-register/disk-cache.js:81
+        throw e;}
+        ^
+TypeError: require(...).sync is not a function
+    at save (/app/packages/eslint-plugin-specs/with-babel-register/disk-cache.js:60:25)
+    at /app/node_modules/@jest/fake-timers/build/legacyFakeTimers.js:505:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+Node.js v20.19.0
+ReferenceError: You are trying to `import` a file after the Jest environment has been torn down.
+      58 |
+      59 |   try {
+    > 60 |     makeDirSync(path.dirname(FILENAME));
+         |     ^
+      61 |     fs.writeFileSync(FILENAME, serialised);
+      62 |   } catch (e) {
+      63 |     switch (e.code) {
+      at save (packages/eslint-plugin-specs/with-babel-register/disk-cache.js:60:5)
+      at node_modules/@jest/fake-timers/build/legacyFakeTimers.js:505:18
+/app/packages/eslint-plugin-specs/with-babel-register/disk-cache.js:81
+        throw e;}
+        ^
+TypeError: require(...).sync is not a function
+    at save (/app/packages/eslint-plugin-specs/with-babel-register/disk-cache.js:60:25)
+    at /app/node_modules/@jest/fake-timers/build/legacyFakeTimers.js:505:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+Node.js v20.19.0
+FAIL packages/eslint-plugin-specs/__tests__/react-native-modules-test.js
+  ● Test suite failed to run
+    Call retries were exceeded
+      at ChildProcessWorker.initialize (node_modules/jest-worker/build/workers/ChildProcessWorker.js:193:21)
+Summary of all failing tests
+FAIL Libraries/Animated/__tests__/Animated-test.js
+  ● Animated tests › Animated › bypasses `setNativeProps` in test environments
+    expect(received).toEqual(expected) // deep equality
+    Expected: 1
+    Received: 0
+      178 |       }).start();
+      179 |
+    > 180 |       expect(testRenderer.toJSON().props.style.opacity).toEqual(1);
+          |                                                         ^
+      181 |     });
+      182 |
+      183 |     it('warns if `useNativeDriver` is missing', () => {
+      at Object.<anonymous> (Libraries/Animated/__tests__/Animated-test.js:180:57)
+FAIL Libraries/Lists/__tests__/VirtualizedList-test.js (13.944 s)
+  ● calls _onCellLayout properly
+    TypeError: cell._onLayout is not a function
+      1474 |     nativeEvent: {layout: {x: 0, y: 0, width: 50, height: 50}},
+      1475 |   };
+    > 1476 |   cell._onLayout(event);
+           |        ^
+      1477 |   expect(mock).toHaveBeenCalledWith(event, 'i4', 3);
+      1478 |   expect(mock).not.toHaveBeenCalledWith(event, 'i3', 2);
+      1479 | });
+      at Object.<anonymous> (Libraries/Lists/__tests__/VirtualizedList-test.js:1476:8)
+FAIL packages/eslint-plugin-specs/__tests__/react-native-modules-test.js
+  ● Test suite failed to run
+    Call retries were exceeded
+      at ChildProcessWorker.initialize (node_modules/jest-worker/build/workers/ChildProcessWorker.js:193:21)
+Test Suites: 3 failed, 1 skipped, 160 passed, 163 of 164 total
+Tests:       2 failed, 2 skipped, 3014 passed, 3018 total
+Snapshots:   950 passed, 950 total
+Time:        31.829 s
+Ran all test suites.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ================= 0909 TEST END 0909 =================
+HEAD is now at 19cf70266eb VirtualizedList optimization - avoid lambda creation in CellRenderer onLayout prop
+HEAD is now at 19cf70266eb VirtualizedList optimization - avoid lambda creation in CellRenderer onLayout prop

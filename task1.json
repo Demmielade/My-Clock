@@ -3945,11 +3945,11 @@
     },
     {
         "name": "test/core/pipeline/test_tracing.py::TestTracing::test_with_enabled_tracing",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/core/pipeline/test_tracing.py::TestTracing::test_with_enabled_content_tracing",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/core/pipeline/test_type_utils.py::test_type_name[primitive-types]",
@@ -5425,11 +5425,11 @@
     },
     {
         "name": "test/tracing/test_tracer.py::TestNullTracer::test_tracing",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/tracing/test_tracer.py::TestProxyTracer::test_tracing",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/tracing/test_tracer.py::TestConfigureTracer::test_enable_tracer",

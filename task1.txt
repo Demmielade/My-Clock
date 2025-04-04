@@ -1,5 +1,3 @@
-Checking dependencies
-Syncing dependencies
 /root/.local/share/hatch/env/virtual/haystack-ai/9TtSrW0h/test/lib/python3.10/site-packages/pytest_asyncio/plugin.py:207: PytestDeprecationWarning: The configuration option "asyncio_default_fixture_loop_scope" is unset.
 The event loop scope for asynchronous fixtures will default to the fixture caching scope. Future versions of pytest-asyncio will default the loop scope for asynchronous fixtures to function scope. Set the default fixture loop scope explicitly in order to avoid unexpected behavior in the future. Valid fixture loop scopes are: "function", "class", "module", "package", "session"
   warnings.warn(PytestDeprecationWarning(_DEFAULT_FIXTURE_LOOP_SCOPE_UNSET))
@@ -232,11 +230,11 @@ test/components/converters/test_json.py::test_from_dict PASSED           [ 11%]
 test/components/converters/test_json.py::test_run PASSED                 [ 11%]
 test/components/converters/test_json.py::test_run_with_non_json_file 
 -------------------------------- live log call ---------------------------------
-WARNING  haystack.components.converters.json:json.py:194 Failed to extract text from /tmp/pytest-of-root/pytest-1/test_run_with_non_json_file0/test_file.md. Skipping it. Error: parse error: Invalid numeric literal at line 1, column 5
+WARNING  haystack.components.converters.json:json.py:194 Failed to extract text from /tmp/pytest-of-root/pytest-2/test_run_with_non_json_file0/test_file.md. Skipping it. Error: parse error: Invalid numeric literal at line 1, column 5
 PASSED                                                                   [ 11%]
 test/components/converters/test_json.py::test_run_with_bad_filter 
 -------------------------------- live log call ---------------------------------
-WARNING  haystack.components.converters.json:json.py:194 Failed to extract text from /tmp/pytest-of-root/pytest-1/test_run_with_bad_filter0/test_file.json. Skipping it. Error: Cannot index array with string "motivation"
+WARNING  haystack.components.converters.json:json.py:194 Failed to extract text from /tmp/pytest-of-root/pytest-2/test_run_with_bad_filter0/test_file.json. Skipping it. Error: Cannot index array with string "motivation"
 PASSED                                                                   [ 11%]
 test/components/converters/test_json.py::test_run_with_single_meta PASSED [ 11%]
 test/components/converters/test_json.py::test_run_with_meta_list PASSED  [ 11%]
@@ -1268,7 +1266,7 @@ test/core/pipeline/test_pipeline.py::TestPipeline::test_connect_multiple_outputs
 test/core/pipeline/test_pipeline.py::TestPipeline::test_connect_same_component_as_sender_and_receiver PASSED [ 62%]
 test/core/pipeline/test_pipeline.py::TestPipeline::test__run_component 
 -------------------------------- live log call ---------------------------------
-INFO     haystack.core.pipeline.pipeline:pipeline.py:70 Running component document_builder
+INFO     haystack.core.pipeline.pipeline:pipeline.py:75 Running component document_builder
 PASSED                                                                   [ 62%]
 test/core/pipeline/test_pipeline.py::TestPipeline::test__run_component_with_variadic_input PASSED [ 62%]
 test/core/pipeline/test_pipeline.py::TestPipeline::test__component_has_enough_inputs_to_run PASSED [ 62%]
@@ -1294,8 +1292,8 @@ test/core/pipeline/test_templates.py::TestPipelineTemplate::test_from_str PASSED
 test/core/pipeline/test_templates.py::TestPipelineTemplate::test_from_file PASSED [ 63%]
 test/core/pipeline/test_templates.py::TestPipelineTemplate::test_from_predefined PASSED [ 63%]
 test/core/pipeline/test_templates.py::TestPipelineTemplate::test_build_pipeline_with_default_components PASSED [ 63%]
-test/core/pipeline/test_tracing.py::TestTracing::test_with_enabled_tracing FAILED [ 64%]
-test/core/pipeline/test_tracing.py::TestTracing::test_with_enabled_content_tracing FAILED [ 64%]
+test/core/pipeline/test_tracing.py::TestTracing::test_with_enabled_tracing PASSED [ 64%]
+test/core/pipeline/test_tracing.py::TestTracing::test_with_enabled_content_tracing PASSED [ 64%]
 test/core/pipeline/test_type_utils.py::test_type_name[primitive-types] PASSED [ 64%]
 test/core/pipeline/test_type_utils.py::test_type_name[any] PASSED        [ 64%]
 test/core/pipeline/test_type_utils.py::test_type_name[class] PASSED      [ 64%]
@@ -1867,83 +1865,83 @@ test/tracing/test_datadog.py::TestDatadogTracer::test_get_log_correlation_info P
 test/tracing/test_logging_tracer.py::TestLoggingTracer::test_init PASSED [ 89%]
 test/tracing/test_logging_tracer.py::TestLoggingTracer::test_logging_tracer 
 -------------------------------- live log call ---------------------------------
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: test
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 key=value[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: test
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 key=value[0m
 PASSED                                                                   [ 89%]
 test/tracing/test_logging_tracer.py::TestLoggingTracer::test_tracing_complex_values 
 -------------------------------- live log call ---------------------------------
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: test
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 key={'a': 1, 'b': [2, 3, 4]}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: test
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 key={'a': 1, 'b': [2, 3, 4]}[0m
 PASSED                                                                   [ 89%]
 test/tracing/test_logging_tracer.py::TestLoggingTracer::test_apply_color_strings 
 -------------------------------- live log call ---------------------------------
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: test
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 color_stringkey=value[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: test
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 color_stringkey=value[0m
 PASSED                                                                   [ 89%]
 test/tracing/test_logging_tracer.py::TestLoggingTracer::test_logging_pipeline 
 -------------------------------- live log call ---------------------------------
-INFO     haystack.core.pipeline.pipeline:pipeline.py:70 Running component hello
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: haystack.component.run
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.name=hello[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.type=Hello[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input_types={'word': 'str'}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input_spec={'word': {'type': 'typing.Optional[str]', 'senders': []}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.output_spec={'output': {'type': 'str', 'receivers': ['hello2']}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.visits=1[0m
-INFO     haystack.core.pipeline.pipeline:pipeline.py:70 Running component hello2
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: haystack.component.run
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.name=hello2[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.type=Hello[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input_types={'word': 'str'}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input_spec={'word': {'type': 'typing.Optional[str]', 'senders': ['hello']}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.output_spec={'output': {'type': 'str', 'receivers': []}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.visits=1[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: haystack.pipeline.run
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.input_data={'hello': {'word': 'world'}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.output_data={'hello2': {'output': 'Hello, Hello, world!!'}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.metadata={}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.max_runs_per_component=100[0m
+INFO     haystack.core.pipeline.pipeline:pipeline.py:75 Running component hello
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: haystack.component.run
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.name=hello[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.type=Hello[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input_types={'word': 'str'}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input_spec={'word': {'type': 'typing.Optional[str]', 'senders': []}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.output_spec={'output': {'type': 'str', 'receivers': ['hello2']}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.visits=1[0m
+INFO     haystack.core.pipeline.pipeline:pipeline.py:75 Running component hello2
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: haystack.component.run
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.name=hello2[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.type=Hello[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input_types={'word': 'str'}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input_spec={'word': {'type': 'typing.Optional[str]', 'senders': ['hello']}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.output_spec={'output': {'type': 'str', 'receivers': []}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.visits=1[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: haystack.pipeline.run
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.input_data={'hello': {'word': 'world'}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.output_data={'hello2': {'output': 'Hello, Hello, world!!'}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.metadata={}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.max_runs_per_component=100[0m
 PASSED                                                                   [ 89%]
 test/tracing/test_logging_tracer.py::TestLoggingTracer::test_logging_pipeline_with_content_tracing 
 -------------------------------- live log call ---------------------------------
-INFO     haystack.core.pipeline.pipeline:pipeline.py:70 Running component hello
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: haystack.component.run
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.name=hello[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.type=Hello[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input_types={'word': 'str'}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input_spec={'word': {'type': 'typing.Optional[str]', 'senders': []}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.output_spec={'output': {'type': 'str', 'receivers': []}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input={'word': 'world'}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.visits=1[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.output={'output': 'Hello, world!'}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: haystack.pipeline.run
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.input_data={'hello': {'word': 'world'}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.output_data={'hello': {'output': 'Hello, world!'}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.metadata={}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.max_runs_per_component=100[0m
+INFO     haystack.core.pipeline.pipeline:pipeline.py:75 Running component hello
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: haystack.component.run
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.name=hello[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.type=Hello[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input_types={'word': 'str'}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input_spec={'word': {'type': 'typing.Optional[str]', 'senders': []}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.output_spec={'output': {'type': 'str', 'receivers': []}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input={'word': 'world'}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.visits=1[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.output={'output': 'Hello, world!'}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: haystack.pipeline.run
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.input_data={'hello': {'word': 'world'}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.output_data={'hello': {'output': 'Hello, world!'}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.metadata={}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.max_runs_per_component=100[0m
 PASSED                                                                   [ 89%]
 test/tracing/test_logging_tracer.py::TestLoggingTracer::test_logging_pipeline_on_failure 
 -------------------------------- live log call ---------------------------------
-INFO     haystack.core.pipeline.pipeline:pipeline.py:70 Running component failing_component
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: haystack.component.run
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.name=failing_component[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.type=FailingComponent[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input_types={'word': 'str'}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.input_spec={'word': {'type': 'typing.Optional[str]', 'senders': []}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.component.output_spec={'output': {'type': 'str', 'receivers': []}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:72 Operation: haystack.pipeline.run
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.input_data={'failing_component': {'word': 'world'}}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.output_data={}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.metadata={}[0m
-DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 haystack.pipeline.max_runs_per_component=100[0m
+INFO     haystack.core.pipeline.pipeline:pipeline.py:75 Running component failing_component
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: haystack.component.run
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.name=failing_component[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.type=FailingComponent[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input_types={'word': 'str'}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.input_spec={'word': {'type': 'typing.Optional[str]', 'senders': []}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.component.output_spec={'output': {'type': 'str', 'receivers': []}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:75 Operation: haystack.pipeline.run
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.input_data={'failing_component': {'word': 'world'}}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.output_data={}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.metadata={}[0m
+DEBUG    haystack.tracing.logging_tracer:logging_tracer.py:78 haystack.pipeline.max_runs_per_component=100[0m
 PASSED                                                                   [ 89%]
 test/tracing/test_opentelemetry.py::TestOpenTelemetryTracer::test_opentelemetry_tracer PASSED [ 89%]
 test/tracing/test_opentelemetry.py::TestOpenTelemetryTracer::test_tagging PASSED [ 89%]
 test/tracing/test_opentelemetry.py::TestOpenTelemetryTracer::test_current_span PASSED [ 89%]
 test/tracing/test_opentelemetry.py::TestOpenTelemetryTracer::test_tracing_complex_values PASSED [ 89%]
 test/tracing/test_opentelemetry.py::TestOpenTelemetryTracer::test_log_correlation_info PASSED [ 89%]
-test/tracing/test_tracer.py::TestNullTracer::test_tracing FAILED         [ 89%]
-test/tracing/test_tracer.py::TestProxyTracer::test_tracing FAILED        [ 89%]
+test/tracing/test_tracer.py::TestNullTracer::test_tracing PASSED         [ 89%]
+test/tracing/test_tracer.py::TestProxyTracer::test_tracing PASSED        [ 89%]
 test/tracing/test_tracer.py::TestConfigureTracer::test_enable_tracer PASSED [ 89%]
 test/tracing/test_tracer.py::TestConfigureTracer::test_disable_tracing PASSED [ 89%]
 test/tracing/test_tracer.py::TestAutoEnableTracer::test_skip_auto_enable_tracer_if_already_configured PASSED [ 89%]
@@ -2121,39 +2119,6 @@ test/utils/test_url_validation.py::test_url_validation_with_invalid_scheme PASSE
 test/utils/test_url_validation.py::test_url_validation_with_no_scheme PASSED [ 99%]
 test/utils/test_url_validation.py::test_url_validation_with_no_netloc PASSED [ 99%]
 test/utils/test_url_validation.py::test_url_validation_with_empty_string PASSED [100%]
-=================================== FAILURES ===================================
-____________________ TestTracing.test_with_enabled_tracing _____________________
-test/core/pipeline/test_tracing.py:41: in test_with_enabled_tracing
-    assert spying_tracer.spans == [
-E   AssertionError: assert [SpyingSpan(o...a6c74d13178')] == [SpyingSpan(o...pan_id=<ANY>)]
-E     
-E     At index 1 diff: SpyingSpan(operation_name='haystack.component.run', parent_span=None, tags={'haystack.component.name': 'hello', 'haystack.component.type': 'Hello', 'haystack.component.input_types': {'word': 'str'}, 'haystack.component.input_spec': {'word': {'type': 'typing.Optional[str]', 'senders': []}}, 'haystack.component.output_spec': {'output': {'type': 'str', 'receivers': ['hello2']}}, 'haystack.component.visits': 1}, trace_id='e419183f-d4d4-4b62-9293-ba5c98a0bc0d', span_id='01fdb51b-bd8f-4aa3-b4a4-da575716067c') != SpyingSpan(operation_name='haystack.component.r...
-E     
-E     ...Full output truncated (131 lines hidden), use '-vv' to show
-________________ TestTracing.test_with_enabled_content_tracing _________________
-test/core/pipeline/test_tracing.py:100: in test_with_enabled_content_tracing
-    assert spying_tracer.spans == [
-E   AssertionError: assert [SpyingSpan(o...e4e942d1a06')] == [SpyingSpan(o...pan_id=<ANY>)]
-E     
-E     At index 1 diff: SpyingSpan(operation_name='haystack.component.run', parent_span=None, tags={'haystack.component.name': 'hello', 'haystack.component.type': 'Hello', 'haystack.component.input_types': {'word': 'str'}, 'haystack.component.input_spec': {'word': {'type': 'typing.Optional[str]', 'senders': []}}, 'haystack.component.output_spec': {'output': {'type': 'str', 'receivers': ['hello2']}}, 'haystack.component.input': {'word': 'world'}, 'haystack.component.visits': 1, 'haystack.component.output': {'output': 'Hello, world!'}}, trace_id='4dac5483-6039-45d6-b137-c99a9857...
-E     
-E     ...Full output truncated (143 lines hidden), use '-vv' to show
-_________________________ TestNullTracer.test_tracing __________________________
-test/tracing/test_tracer.py:40: in test_tracing
-    with tracer.trace("operation", {"key": "value"}, parent_span=None) as span:
-/usr/local/lib/python3.10/contextlib.py:281: in helper
-    return _GeneratorContextManager(func, args, kwds)
-/usr/local/lib/python3.10/contextlib.py:103: in __init__
-    self.gen = func(*args, **kwds)
-E   TypeError: ProxyTracer.trace() got an unexpected keyword argument 'parent_span'
-_________________________ TestProxyTracer.test_tracing _________________________
-test/tracing/test_tracer.py:54: in test_tracing
-    with my_tracer.trace("operation", {"key": "value"}, parent_span=parent_span) as span:
-/usr/local/lib/python3.10/contextlib.py:281: in helper
-    return _GeneratorContextManager(func, args, kwds)
-/usr/local/lib/python3.10/contextlib.py:103: in __init__
-    self.gen = func(*args, **kwds)
-E   TypeError: ProxyTracer.trace() got an unexpected keyword argument 'parent_span'
 =============================== warnings summary ===============================
 ../root/.local/share/hatch/env/virtual/haystack-ai/9TtSrW0h/test/lib/python3.10/site-packages/ddtrace/internal/module.py:295
   /root/.local/share/hatch/env/virtual/haystack-ai/9TtSrW0h/test/lib/python3.10/site-packages/ddtrace/internal/module.py:295: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
@@ -2162,9 +2127,6 @@ E   TypeError: ProxyTracer.trace() got an unexpected keyword argument 'parent_sp
   /root/.local/share/hatch/env/virtual/haystack-ai/9TtSrW0h/test/lib/python3.10/site-packages/tika/__init__.py:20: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('tika')`.
   Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
     __import__('pkg_resources').declare_namespace(__name__)
-test/components/preprocessors/test_document_splitter.py:188
-  /app/test/components/preprocessors/test_document_splitter.py:188: DeprecationWarning: invalid escape sequence '\s'
-    splitting_function = lambda input_str: re.split("[\s]{2,}", input_str)
 test/components/converters/test_output_adapter.py::TestOutputAdapter::test_unsafe
   /app/haystack/components/converters/output_adapter.py:79: UserWarning: Unsafe mode is enabled. This allows execution of arbitrary code in the Jinja template. Use this only if you trust the source of the template.
     warn(msg)
@@ -2190,12 +2152,8 @@ test/components/routers/test_conditional_router.py::TestRouter::test_unsafe
 -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
 ---------- coverage: platform linux, python 3.10.16-final-0 ----------
 Coverage XML written to file coverage.xml
-=========================== short test summary info ============================
-FAILED test/core/pipeline/test_tracing.py::TestTracing::test_with_enabled_tracing
-FAILED test/core/pipeline/test_tracing.py::TestTracing::test_with_enabled_content_tracing
-FAILED test/tracing/test_tracer.py::TestNullTracer::test_tracing - TypeError:...
-FAILED test/tracing/test_tracer.py::TestProxyTracer::test_tracing - TypeError...
-========= 4 failed, 1642 passed, 136 deselected, 11 warnings in 28.11s =========
+============== 1646 passed, 136 deselected, 10 warnings in 22.16s ==============
 ================= 0909 TEST END 0909 =================
-HEAD is now at 081b143a feat!: tracing with concurrency (#8489)
-HEAD is now at 081b143a feat!: tracing with concurrency (#8489)
+[36mINFO[0m[0247] ENTRYPOINT ["/bin/sh"]                       
+[36mINFO[0m[0247] Taking snapshot of full filesystem...        
+[36mINFO[0m[0259] Skipping push to container registry due to --no-push flag 

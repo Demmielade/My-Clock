@@ -1,1634 +1,3862 @@
 [
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.JaxrsRestProtocolTest",
+        "name": "TestDataframeFunc::test_alias_no_op",
         "status": "ERROR"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.SpringMvcRestProtocolTest",
+        "name": "TestDataframeFunc::test_alias_with_select",
         "status": "ERROR"
     },
     {
-        "name": "org.apache.dubbo.rpc.support.ProtocolUtilsTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.service.GenericExceptionTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.service.ServiceDescriptorInternalCacheTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ScopeModelAwareExtensionProcessorTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ServiceRepositoryTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.FrameworkServiceRepositoryTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ReflectionServiceDescriptorTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.FrameworkModelTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ModuleModelTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ApplicationModelTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ReflectionMethodDescriptorTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ScopeModelTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ModuleServiceRepositoryTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.model.ScopeModelUtilTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.rpc.executor.IsolationExecutorSupportFactoryTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.config.context.ConfigManagerTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "DUBBO",
+        "name": "TestDataframeFunc::test_basic_union",
         "status": "ERROR"
     },
     {
-        "name": "org.apache.dubbo.config.context.ConfigConfigurationAdapterTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.config.AbstractInterfaceConfigTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.common.utils.StringUtilsTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.common.utils.CompatibleTypeUtilsTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "org.apache.dubbo.common.utils.DubboAppenderTest",
-        "status": "PASSED"
-    },
-    {
-        "name": "null",
+        "name": "TestDataframeFunc::test_branching_root_dataframes",
         "status": "ERROR"
     },
     {
-        "name": "org.apache.dubbo.common.utils.AnnotationUtilsTest",
+        "name": "TestDataframeFunc::test_broadcast_func",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_cache_select",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_case_when_no_otherwise",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_case_when_otherwise",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_coalesce",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_distinct",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_double_union_all",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_drop_column_reference_join",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_drop_column_single",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_drop_duplicates_no_subset",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_drop_duplicates_subset",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_drop_na_default",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_dropna_how",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_dropna_na_function",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_dropna_subset",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_dropna_thresh",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_except_all",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_fillna_default",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_fillna_dict_replacement",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_fillna_na_func",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_hint_broadcast_alias",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_hint_broadcast_no_alias",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_intersect",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_intersect_all",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_join_full_outer",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_join_inner",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_join_inner_equality_multiple",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_join_inner_equality_multiple_bitwise_and",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_join_inner_equality_single",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_join_inner_no_select",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_join_left_outer",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_join_select_and_select_start",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_limit",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_multiple_selects",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_operators",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_order_by_array_bool",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_order_by_column_sort_method",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_order_by_column_sort_method_nulls_first",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_order_by_column_sort_method_nulls_last",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_order_by_default",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_order_by_single_bool",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_persist_select",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_repartition_by_num",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_repartition_name_only",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_repartition_num_and_multiple_names",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_replace_basic",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_replace_basic_subset",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_replace_mapping",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_replace_mapping_subset",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_replace_na_func_basic",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_simple_select",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_simple_select_df_attribute",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_simple_select_df_dict",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_simple_select_from_table",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_triple_join",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_triple_join_column_name_only",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_triple_join_no_select",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_triple_joins_filter",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_union_by_name",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_union_by_name_allow_missing",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_union_distinct",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_union_with_join",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_where_clause_multiple_and",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_where_clause_multiple_or",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_where_clause_single",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_where_many_and",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_where_many_or",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_where_mixed_and_or",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_where_multiple_chained",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_with_column",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_with_column_existing_name",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_with_column_renamed",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_with_column_renamed_double",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_avg",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_count",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_group_by",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_group_by_where_aggregate_like_having",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_group_by_where_non_aggregate",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_max",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_mean",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_min",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeFunc::test_sum",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestSessionFunc::test_nameless_column",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestSessionFunc::test_sql_simple_select",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestSessionFunc::test_sql_with_join",
+        "status": "ERROR"
+    },
+    {
+        "name": "TestDataframeColumn::test_add",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_alias",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_and",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_asc",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_asc_nulls_first",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_asc_nulls_last",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_between",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_cast",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_desc",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_desc_nulls_first",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_desc_nulls_last",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_div",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_endswith",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_eq",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_ge",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_gt",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_ilike",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_invert",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_is_not_null",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_is_null",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_isin",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_le",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_like",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_lt",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_mod",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_mul",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_neq",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_or",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_over",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_pow",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_radd",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_rdiv",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_rlike",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_rmul",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_rpow",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_rsub",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_startswith",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_sub",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_substring",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframeColumn::test_when_otherwise",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframe::test_cache",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframe::test_columns",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframe::test_hash_select_expression",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframe::test_persist_default",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataframe::test_persist_storagelevel",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_insertInto_byName",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_insertInto_cache",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_insertInto_db_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_insertInto_full_path",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_insertInto_overwrite",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_insertInto_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_mode_override",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_mode_standalone",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_quotes",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_saveAsTable_append",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_saveAsTable_cache",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_saveAsTable_error",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_saveAsTable_format",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_saveAsTable_ignore",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDataFrameWriter::test_saveAsTable_overwrite",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_abs",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_acos",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_acosh",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_add_months",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_aggregate",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_approx_count_distinct",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_contains",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_distinct",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_except",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_intersect",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_join",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_max",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_min",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_position",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_remove",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_repeat",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_sort",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_union",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_array_zip",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_arrays_overlap",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_asc",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_asc_nulls_first",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_asc_nulls_last",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_ascii",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_asin",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_asinh",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_assert_true",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_atan",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_atan2",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_atanh",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_avg",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_base64",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_bin",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_bit_length",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_bitwise_not",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_bround",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_cbrt",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_ceil",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_coalesce",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_col",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_collect_list",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_collect_set",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_concat",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_concat_ws",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_conv",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_corr",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_cos",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_cosh",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_cot",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_count",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_count_distinct",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_covar_pop",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_covar_samp",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_crc32",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_create_map",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_csc",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_cume_dist",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_current_date",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_current_timestamp",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestFunctions::test_date_add",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.JsonUtilsTest",
+        "name": "TestFunctions::test_date_diff",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.SerializeSecurityConfiguratorTest",
+        "name": "TestFunctions::test_date_format",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.DefaultPageTest",
+        "name": "TestFunctions::test_date_sub",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.ReflectUtilsTest",
+        "name": "TestFunctions::test_date_trunc",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.SerializeSecurityManagerTest",
+        "name": "TestFunctions::test_dayofmonth",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.TimeUtilsTest",
+        "name": "TestFunctions::test_dayofweek",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.MethodUtilsTest",
+        "name": "TestFunctions::test_dayofyear",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.ConfigUtilsTest",
+        "name": "TestFunctions::test_decode",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.MemberUtilsTest",
+        "name": "TestFunctions::test_degrees",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.LogUtilTest",
+        "name": "TestFunctions::test_dense_rank",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.JRETest",
+        "name": "TestFunctions::test_desc",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.CollectionUtilsTest",
+        "name": "TestFunctions::test_desc_nulls_first",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.FieldUtilsTest",
+        "name": "TestFunctions::test_desc_nulls_last",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.DefaultSerializeClassCheckerTest",
+        "name": "TestFunctions::test_element_at",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.LFUCacheTest",
+        "name": "TestFunctions::test_encode",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.LogTest",
+        "name": "TestFunctions::test_exists",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.AtomicPositiveIntegerTest",
+        "name": "TestFunctions::test_exp",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.CIDRUtilsTest",
+        "name": "TestFunctions::test_explode",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.ArrayUtilsTest",
+        "name": "TestFunctions::test_explode_outer",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.LRU2CacheTest",
+        "name": "TestFunctions::test_expm1",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.HolderTest",
+        "name": "TestFunctions::test_expr",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.StringConstantFieldValuePredicateTest",
+        "name": "TestFunctions::test_factorial",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.ConcurrentHashMapUtilsTest",
+        "name": "TestFunctions::test_filter",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.ClassLoaderResourceLoaderTest",
+        "name": "TestFunctions::test_first",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.NamedThreadFactoryTest",
+        "name": "TestFunctions::test_flatten",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.RegexPropertiesTest",
+        "name": "TestFunctions::test_floor",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.NetUtilsInterfaceDisplayNameHasMetaCharactersTest",
+        "name": "TestFunctions::test_forall",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.NetUtilsTest",
+        "name": "TestFunctions::test_format_number",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.LogHelperTest",
+        "name": "TestFunctions::test_format_string",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.AssertTest",
+        "name": "TestFunctions::test_from_csv",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.MD5UtilsTest",
+        "name": "TestFunctions::test_from_json",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.ClassUtilsTest",
+        "name": "TestFunctions::test_from_unixtime",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.PojoUtilsTest",
+        "name": "TestFunctions::test_from_utc_timestamp",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.UrlUtilsTest",
+        "name": "TestFunctions::test_get_json_object",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.IOUtilsTest",
+        "name": "TestFunctions::test_greatest",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.ExecutorUtilTest",
+        "name": "TestFunctions::test_grouping_id",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.utils.StackTest",
+        "name": "TestFunctions::test_hash",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.url.URLParamTest",
+        "name": "TestFunctions::test_hex",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.beans.InstantiationStrategyTest",
+        "name": "TestFunctions::test_hour",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.beans.ScopeBeanFactoryTest",
+        "name": "TestFunctions::test_hypot",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.configcenter.ConfigChangeTypeTest",
+        "name": "TestFunctions::test_initcap",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.configcenter.ConfigChangedEventTest",
+        "name": "TestFunctions::test_input_file_name",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationTest",
+        "name": "TestFunctions::test_instr",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.configcenter.file.FileSystemDynamicConfigurationFactoryTest",
+        "name": "TestFunctions::test_invoke_anonymous",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.configcenter.file.FileSystemDynamicConfigurationTest",
+        "name": "TestFunctions::test_isnan",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.configcenter.DynamicConfigurationFactoryTest",
+        "name": "TestFunctions::test_isnull",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactoryTest",
+        "name": "TestFunctions::test_json_tuple",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.OrderedPropertiesConfigurationTest",
+        "name": "TestFunctions::test_kurtosis",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.EnvironmentTest",
+        "name": "TestFunctions::test_lag",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.EnvironmentConfigurationTest",
+        "name": "TestFunctions::test_last",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.PrefixedConfigurationTest",
+        "name": "TestFunctions::test_last_day",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.SystemConfigurationTest",
+        "name": "TestFunctions::test_lead",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.PropertiesConfigurationTest",
+        "name": "TestFunctions::test_least",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.CompositeConfigurationTest",
+        "name": "TestFunctions::test_length",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.InmemoryConfigurationTest",
+        "name": "TestFunctions::test_levenshtein",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.ConfigurationCacheTest",
+        "name": "TestFunctions::test_lit",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.config.ConfigurationUtilsTest",
+        "name": "TestFunctions::test_locate",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.MemorySafeLinkedBlockingQueueTest",
+        "name": "TestFunctions::test_log",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.MemoryLimitedLinkedBlockingQueueTest",
+        "name": "TestFunctions::test_log10",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.support.cached.CachedThreadPoolTest",
+        "name": "TestFunctions::test_log1p",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.support.AbortPolicyWithReportTest",
+        "name": "TestFunctions::test_log2",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.support.limited.LimitedThreadPoolTest",
+        "name": "TestFunctions::test_lower",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.support.eager.EagerThreadPoolExecutorTest",
+        "name": "TestFunctions::test_lpad",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.support.eager.TaskQueueTest",
+        "name": "TestFunctions::test_ltrim",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.support.eager.EagerThreadPoolTest",
+        "name": "TestFunctions::test_make_date",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.support.fixed.FixedThreadPoolTest",
+        "name": "TestFunctions::test_map_concat",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.ThreadlessExecutorTest",
+        "name": "TestFunctions::test_map_entries",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.manager.ExecutorRepositoryTest",
+        "name": "TestFunctions::test_map_filter",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.manager.FrameworkExecutorRepositoryTest",
+        "name": "TestFunctions::test_map_from_arrays",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.serial.SerializingExecutorTest",
+        "name": "TestFunctions::test_map_from_entries",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.event.ThreadPoolExhaustedEventTest",
+        "name": "TestFunctions::test_map_keys",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadpool.event.ThreadPoolExhaustedEventListenerTest",
+        "name": "TestFunctions::test_map_values",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.compiler.support.JavassistCompilerTest",
+        "name": "TestFunctions::test_map_zip_with",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.compiler.support.AdaptiveCompilerTest",
+        "name": "TestFunctions::test_max",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.compiler.support.JdkCompilerTest",
+        "name": "TestFunctions::test_max_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.compiler.support.ClassUtilsTest",
+        "name": "TestFunctions::test_md5",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.ServiceKeyTest",
+        "name": "TestFunctions::test_mean",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.InterfaceAddressURLTest",
+        "name": "TestFunctions::test_min",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.constants.CommonConstantsTest",
+        "name": "TestFunctions::test_min_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.ServiceKeyMatcherTest",
+        "name": "TestFunctions::test_minute",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.BaseServiceMetadataTest",
+        "name": "TestFunctions::test_monotonically_increasing_id",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.CommonScopeModelInitializerTest",
+        "name": "TestFunctions::test_month",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.concurrent.CompletableFutureTaskTest",
+        "name": "TestFunctions::test_months_between",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.bytecode.ClassGeneratorTest",
+        "name": "TestFunctions::test_nanvl",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.bytecode.WrapperTest",
+        "name": "TestFunctions::test_next_day",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.bytecode.ProxyTest",
+        "name": "TestFunctions::test_nth_value",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.bytecode.MixinTest",
+        "name": "TestFunctions::test_ntile",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.URLBuilderTest",
+        "name": "TestFunctions::test_octet_length",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.logger.support.FailsafeLoggerTest",
+        "name": "TestFunctions::test_overlay",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.logger.support.FailsafeErrorTypeAwareLoggerTest",
+        "name": "TestFunctions::test_percent_rank",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.logger.LoggerFactoryTest",
+        "name": "TestFunctions::test_percentile_approx",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.logger.LoggerTest",
+        "name": "TestFunctions::test_pos_explode",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.logger.LoggerAdapterTest",
+        "name": "TestFunctions::test_posexplode_outer",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.logger.slf4j.Slf4jLoggerTest",
+        "name": "TestFunctions::test_pow",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.json.impl.GsonImplTest",
+        "name": "TestFunctions::test_product",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.json.impl.FastJson2ImplTest",
+        "name": "TestFunctions::test_quarter",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.json.impl.FastJsonImplTest",
+        "name": "TestFunctions::test_radians",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.json.GsonUtilsTest",
+        "name": "TestFunctions::test_raise_error",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.beanutil.JavaBeanAccessorTest",
+        "name": "TestFunctions::test_rand",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.beanutil.JavaBeanSerializeUtilTest",
+        "name": "TestFunctions::test_randn",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadlocal.NamedInternalThreadFactoryTest",
+        "name": "TestFunctions::test_rank",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.threadlocal.InternalThreadLocalTest",
+        "name": "TestFunctions::test_regexp_extract",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.lang.ShutdownHookCallbacksTest",
+        "name": "TestFunctions::test_regexp_replace",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.lang.PrioritizedTest",
+        "name": "TestFunctions::test_repeat",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.function.PredicatesTest",
+        "name": "TestFunctions::test_reverse",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.function.StreamsTest",
+        "name": "TestFunctions::test_rint",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.function.ThrowableActionTest",
+        "name": "TestFunctions::test_round",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.function.ThrowableFunctionTest",
+        "name": "TestFunctions::test_row_number",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.function.ThrowableConsumerTest",
+        "name": "TestFunctions::test_rpad",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.cache.FileCacheStoreTest",
+        "name": "TestFunctions::test_rtrim",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.cache.FileCacheStoreFactoryTest",
+        "name": "TestFunctions::test_schema_of_csv",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.ProtocolServiceKeyTest",
+        "name": "TestFunctions::test_schema_of_json",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.store.support.SimpleDataStoreTest",
+        "name": "TestFunctions::test_sec",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.ProtocolServiceKeyMatcherTest",
+        "name": "TestFunctions::test_second",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.profiler.ProfilerTest",
+        "name": "TestFunctions::test_sentences",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.io.UnsafeByteArrayInputStreamTest",
+        "name": "TestFunctions::test_sequence",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.io.UnsafeStringWriterTest",
+        "name": "TestFunctions::test_session_window",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.io.UnsafeStringReaderTest",
+        "name": "TestFunctions::test_sha1",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.io.UnsafeByteArrayOutputStreamTest",
+        "name": "TestFunctions::test_sha2",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.io.BytesTest",
+        "name": "TestFunctions::test_shiftleft",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.io.StreamUtilsTest",
+        "name": "TestFunctions::test_shiftright",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToCharArrayConverterTest",
+        "name": "TestFunctions::test_shiftrightunsigned",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToCharacterConverterTest",
+        "name": "TestFunctions::test_signum",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToShortConverterTest",
+        "name": "TestFunctions::test_sin",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToStringConverterTest",
+        "name": "TestFunctions::test_sinh",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToLongConverterTest",
+        "name": "TestFunctions::test_size",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToFloatConverterTest",
+        "name": "TestFunctions::test_skewness",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.ConverterTest",
+        "name": "TestFunctions::test_slice",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToOptionalConverterTest",
+        "name": "TestFunctions::test_sort_array",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToBooleanConverterTest",
+        "name": "TestFunctions::test_soundex",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToDoubleConverterTest",
+        "name": "TestFunctions::test_split",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToTransferQueueConverterTest",
+        "name": "TestFunctions::test_sqrt",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToDequeConverterTest",
+        "name": "TestFunctions::test_stddev",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToArrayConverterTest",
+        "name": "TestFunctions::test_stddev_pop",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToBlockingQueueConverterTest",
+        "name": "TestFunctions::test_stddev_samp",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.MultiValueConverterTest",
+        "name": "TestFunctions::test_struct",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToSortedSetConverterTest",
+        "name": "TestFunctions::test_substring",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToCollectionConverterTest",
+        "name": "TestFunctions::test_substring_index",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToBlockingDequeConverterTest",
+        "name": "TestFunctions::test_sum",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToSetConverterTest",
+        "name": "TestFunctions::test_sum_distinct",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToNavigableSetConverterTest",
+        "name": "TestFunctions::test_tan",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToListConverterTest",
+        "name": "TestFunctions::test_tanh",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.multiple.StringToQueueConverterTest",
+        "name": "TestFunctions::test_timestamp_seconds",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.convert.StringToIntegerConverterTest",
+        "name": "TestFunctions::test_to_csv",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.PojoUtilsForNonPublicStaticTest",
+        "name": "TestFunctions::test_to_date",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.timer.HashedWheelTimerTest",
+        "name": "TestFunctions::test_to_json",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.URLTest",
+        "name": "TestFunctions::test_to_timestamp",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.resource.GlobalResourcesRepositoryTest",
+        "name": "TestFunctions::test_to_utc_timestamp",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.status.support.MemoryStatusCheckerTest",
+        "name": "TestFunctions::test_transform",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.status.support.LoadStatusCheckerTest",
+        "name": "TestFunctions::test_transform_keys",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.status.support.StatusUtilsTest",
+        "name": "TestFunctions::test_transform_values",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.status.StatusTest",
+        "name": "TestFunctions::test_translate",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.status.reporter.FrameworkStatusReportServiceTest",
+        "name": "TestFunctions::test_trim",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.version.VersionTest",
+        "name": "TestFunctions::test_trunc",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.ssl.SSLConfigCertProviderTest",
+        "name": "TestFunctions::test_unbase64",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.ssl.CertManagerTest",
+        "name": "TestFunctions::test_unhex",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.ExtensionLoader_Adaptive_UseJdkCompiler_Test",
+        "name": "TestFunctions::test_unix_timestamp",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.AdaptiveClassCodeGeneratorTest",
+        "name": "TestFunctions::test_upper",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.support.ActivateComparatorTest",
+        "name": "TestFunctions::test_var_pop",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.inject.AdaptiveExtensionInjectorTest",
+        "name": "TestFunctions::test_var_samp",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.ExtensionLoader_Adaptive_Test",
+        "name": "TestFunctions::test_variance",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.ExtensionLoader_Activate_Test",
+        "name": "TestFunctions::test_weekofyear",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.wrapper.WrapperTest",
+        "name": "TestFunctions::test_when",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.ExtensionDirectorTest",
+        "name": "TestFunctions::test_window",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.ExtensionLoaderTest",
+        "name": "TestFunctions::test_xxhash64",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.extension.ExtensionLoader_Compatible_Test",
+        "name": "TestFunctions::test_year",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.common.URLStrParserTest",
+        "name": "TestFunctions::test_zip_with",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.definition.ServiceDefinitionBuilderTest",
+        "name": "TestDataframeSession::test_cdf_dict_rows",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.definition.MetadataTest",
+        "name": "TestDataframeSession::test_cdf_multiple_rows",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.definition.TypeDefinitionBuilderTest",
+        "name": "TestDataframeSession::test_cdf_no_schema",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.container.spring.SpringContainerTest",
+        "name": "TestDataframeSession::test_cdf_one_row",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.utils.PayloadDropperTest",
+        "name": "TestDataframeSession::test_cdf_row_mixed_primitives",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.utils.UrlUtilsTest",
+        "name": "TestDataframeSession::test_cdf_str_schema",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.PerformanceServerTest",
+        "name": "TestDataframeSession::test_session_create_builder_patterns",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.handler.HeaderExchangeHandlerTest",
+        "name": "TestDataframeSession::test_sql_create",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.handler.ConnectChannelHandlerTest",
+        "name": "TestDataframeSession::test_sql_insert",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.handler.WrappedChannelHandlerTest",
+        "name": "TestDataframeSession::test_sql_select_only",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.buffer.ChannelBufferFactoryTest",
+        "name": "TestDataframeSession::test_sql_with_aggs",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.buffer.DirectChannelBufferTest",
+        "name": "TestDataframeSession::test_typed_schema_basic",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.buffer.HeapChannelBufferTest",
+        "name": "TestDataframeSession::test_typed_schema_nested",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.buffer.DynamicChannelBufferTest",
+        "name": "TestSessionCaseSensitivity::test_alias",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.buffer.ChannelBufferStreamTest",
+        "name": "TestSessionCaseSensitivity::test_basic_case_sensitivity",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.buffer.ChannelBuffersTest",
+        "name": "TestDataframeTypes::test_array",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.buffer.ByteBufferBackedChannelBufferTest",
+        "name": "TestDataframeTypes::test_binary",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.dispatcher.ChannelHandlersTest",
+        "name": "TestDataframeTypes::test_boolean",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnableTest",
+        "name": "TestDataframeTypes::test_byte",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.MultiMessageHandlerTest",
+        "name": "TestDataframeTypes::test_char",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.ChannelHandlerDispatcherTest",
+        "name": "TestDataframeTypes::test_date",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.AbstractCodecTest",
+        "name": "TestDataframeTypes::test_decimal",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.DecodeHandlerTest",
+        "name": "TestDataframeTypes::test_double",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.CodecSupportTest",
+        "name": "TestDataframeTypes::test_float",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.codec.TelnetCodecTest",
+        "name": "TestDataframeTypes::test_integer",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.codec.ExchangeCodecTest",
+        "name": "TestDataframeTypes::test_long",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.codec.CodecAdapterTest",
+        "name": "TestDataframeTypes::test_map",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.PerformanceClientTest",
+        "name": "TestDataframeTypes::test_short",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.ResponseTest",
+        "name": "TestDataframeTypes::test_string",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.DefaultFutureTest",
+        "name": "TestDataframeTypes::test_struct_field",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeChannelTest",
+        "name": "TestDataframeTypes::test_struct_type",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTaskTest",
+        "name": "TestDataframeTypes::test_timestamp",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.header.HeartBeatTaskTest",
+        "name": "TestDataframeTypes::test_timestamp_ntz",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.header.CloseTimerTaskTest",
+        "name": "TestDataframeTypes::test_varchar",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeServerTest",
+        "name": "TestDataframeWindow::test_window_order_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.ExchangeHandlerDispatcherTest",
+        "name": "TestDataframeWindow::test_window_partition_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.MultiMessageTest",
+        "name": "TestDataframeWindow::test_window_range_between",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.RequestTest",
+        "name": "TestDataframeWindow::test_window_range_unbounded",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.ExchangersTest",
+        "name": "TestDataframeWindow::test_window_rows_between",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.PerformanceClientFixedTest",
+        "name": "TestDataframeWindow::test_window_rows_unbounded",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.TransportersTest",
+        "name": "TestDataframeWindow::test_window_spec_order_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.telnet.support.TelnetHandlerAdapterTest",
+        "name": "TestDataframeWindow::test_window_spec_partition_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.telnet.support.ClearTelnetHandlerTest",
+        "name": "TestDataframeWindow::test_window_spec_range_between",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.telnet.support.HelpTelnetHandlerTest",
+        "name": "TestDataframeWindow::test_window_spec_rows_between",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.telnet.support.ExitTelnetHandlerTest",
+        "name": "TestAthena::test_athena",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.telnet.support.StatusTelnetHandlerTest",
+        "name": "TestBigQuery::test_bigquery",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.telnet.TelnetUtilsTest",
+        "name": "TestBigQuery::test_errors",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.PerformanceClientCloseTest",
+        "name": "TestBigQuery::test_group_concat",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.ChanelHandlerTest",
+        "name": "TestBigQuery::test_json_object",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.TimeoutCountDownTest",
+        "name": "TestBigQuery::test_merge",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.FutureContextTest",
+        "name": "TestBigQuery::test_mod",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.wrapper.StubProxyFactoryWrapperTest",
+        "name": "TestBigQuery::test_models",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.MethodInvokerTest",
+        "name": "TestBigQuery::test_pushdown_cte_column_names",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.javassist.JavassistProxyFactoryTest",
+        "name": "TestBigQuery::test_remove_precision_parameterized_types",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.jdk.JdkProxyFactoryTest",
+        "name": "TestBigQuery::test_rename_table",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.bytebuddy.ByteBuddyProxyTest",
+        "name": "TestBigQuery::test_user_defined_functions",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.bytebuddy.ByteBuddyProxyInvokerTest",
+        "name": "TestBigQuery::test_warnings",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.bytebuddy.ByteBuddyProxyFactoryTest",
+        "name": "TestClickhouse::test_agg_functions",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.bytebuddy.ByteBuddyInterceptorTest",
+        "name": "TestClickhouse::test_clickhouse",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.proxy.InvokerInvocationHandlerTest",
+        "name": "TestClickhouse::test_cte",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.PenetrateAttachmentSelectorTest",
+        "name": "TestClickhouse::test_ddl",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.support.MockInvokerTest",
+        "name": "TestClickhouse::test_drop_on_cluster",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.support.RpcUtilsTest",
+        "name": "TestClickhouse::test_parameterization",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.stub.StubSuppliersTest",
+        "name": "TestClickhouse::test_signed_and_unsigned_types",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.stub.BiStreamMethodHandlerTest",
+        "name": "TestClickhouse::test_ternary",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.stub.StubInvokerTest",
+        "name": "TestDatabricks::test_add_date",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.stub.FutureToObserverAdaptorTest",
+        "name": "TestDatabricks::test_databricks",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.stub.StubProxyFactoryTest",
+        "name": "TestDatabricks::test_datediff",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.stub.ServerStreamMethodHandlerTest",
+        "name": "TestDatabricks::test_json",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.ActiveLimitFilterTest",
+        "name": "TestDatabricks::test_without_as",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.TokenFilterTest",
+        "name": "TestDialect::test_alias",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.GenericFilterTest",
+        "name": "TestDialect::test_array",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.TimeoutFilterTest",
+        "name": "TestDialect::test_array_any",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.ExecuteLimitFilterTest",
+        "name": "TestDialect::test_cast",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.DeprecatedFilterTest",
+        "name": "TestDialect::test_cast_to_user_defined_type",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.ClassLoaderFilterTest",
+        "name": "TestDialect::test_compare_dialects",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.GenericImplFilterTest",
+        "name": "TestDialect::test_count_if",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.tps.DefaultTPSLimiterTest",
+        "name": "TestDialect::test_create_sequence",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.tps.TpsLimitFilterTest",
+        "name": "TestDialect::test_cross_join",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.tps.StatItemTest",
+        "name": "TestDialect::test_ddl",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.ExceptionFilterTest",
+        "name": "TestDialect::test_decode",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.AccessLogFilterTest",
+        "name": "TestDialect::test_enum",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.ContextFilterTest",
+        "name": "TestDialect::test_get_or_raise",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.EchoFilterTest",
+        "name": "TestDialect::test_hash_comments",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.filter.CompatibleFilterFilterTest",
+        "name": "TestDialect::test_heredoc_strings",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.ProtocolListenerWrapperTest",
+        "name": "TestDialect::test_if_null",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.RpcStatusTest",
+        "name": "TestDialect::test_json",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.AppResponseTest",
+        "name": "TestDialect::test_lateral_subquery",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.RpcContextTest",
+        "name": "TestDialect::test_limit",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.RpcInvocationTest",
+        "name": "TestDialect::test_logarithm",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.CancellationContextTest",
+        "name": "TestDialect::test_merge",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.http.rest.RestClientTest",
+        "name": "TestDialect::test_nested_ctes",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.http.tomcat.TomcatHttpBinderTest",
+        "name": "TestDialect::test_nullsafe_eq",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.http.jetty.JettyLoggerAdapterTest",
+        "name": "TestDialect::test_nullsafe_neq",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.http.jetty.JettyHttpBinderTest",
+        "name": "TestDialect::test_nvl2",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.netty.ClientReconnectTest",
+        "name": "TestDialect::test_operators",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.netty.ThreadNameTest",
+        "name": "TestDialect::test_order_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.netty.NettyClientTest",
+        "name": "TestDialect::test_qualify",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.netty.ClientsTest",
+        "name": "TestDialect::test_random",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.netty.NettyStringTest",
+        "name": "TestDialect::test_reserved_keywords",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.netty.NettyBackedChannelBufferTest",
+        "name": "TestDialect::test_safediv",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.transport.netty.NettyClientToServerTest",
+        "name": "TestDialect::test_set_operators",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.remoting.exchange.support.header.HeartbeatHandlerTest",
+        "name": "TestDialect::test_substring",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.injvm.ProtocolTest",
+        "name": "TestDialect::test_time",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.injvm.InjvmDeepCopyTest",
+        "name": "TestDialect::test_transactions",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.injvm.InjvmProtocolTest",
+        "name": "TestDialect::test_truncate",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.injvm.InjvmClassLoaderTest",
+        "name": "TestDialect::test_typeddiv",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.aggregate.SlidingWindowTest",
+        "name": "TestDialect::test_unsupported_null_ordering",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.aggregate.TimeWindowCounterTest",
+        "name": "TestDoris::test_doris",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.aggregate.PaneTest",
+        "name": "TestDoris::test_identity",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.aggregate.TimeWindowQuantileTest",
+        "name": "TestDoris::test_regex",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.event.SimpleMetricsEventMulticasterTest",
+        "name": "TestDoris::test_time",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.registry.metrics.collector.RegistryStatCompositeTest",
+        "name": "TestDrill::test_drill",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.registry.metrics.collector.RegistryMetricsSampleTest",
+        "name": "TestDuckDB::test_array",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.registry.metrics.collector.RegistryMetricsCollectorTest",
+        "name": "TestDuckDB::test_array_index",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.collector.AggregateMetricsCollectorTest",
+        "name": "TestDuckDB::test_bool_or",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.collector.ConfigCenterMetricsCollectorTest",
+        "name": "TestDuckDB::test_cast",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.filter.MetricsFilterTest",
+        "name": "TestDuckDB::test_duckdb",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.metrics.service.MetricsEntityTest",
+        "name": "TestDuckDB::test_encode_decode",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.metrics.model.MethodMetricTest",
+        "name": "TestDuckDB::test_isinf",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.metrics.model.sample.MetricSampleTest",
+        "name": "TestDuckDB::test_isnan",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.metrics.model.sample.GaugeMetricSampleTest",
+        "name": "TestDuckDB::test_parameter_token",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.metrics.collector.DefaultMetricsCollectorTest",
+        "name": "TestDuckDB::test_rename_table",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.metrics.event.RTEventTest",
+        "name": "TestDuckDB::test_sample",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.observation.ObservationReceiverFilterTest",
+        "name": "TestDuckDB::test_time",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.AvailableClusterInvokerTest",
+        "name": "TestDuckDB::test_timestamps_with_units",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.AbstractClusterInvokerTest",
+        "name": "TestHive::test_bits",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.ClusterUtilsTest",
+        "name": "TestHive::test_cast",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.wrapper.MockClusterInvokerTest",
+        "name": "TestHive::test_data_type",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.wrapper.MockProviderRpcExceptionTest",
+        "name": "TestHive::test_ddl",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.wrapper.ScopeClusterInvokerTest",
+        "name": "TestHive::test_escapes",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.wrapper.AbstractClusterTest",
+        "name": "TestHive::test_hive",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.registry.ZoneAwareClusterInvokerTest",
+        "name": "TestHive::test_lateral_view",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.FailoverClusterInvokerTest",
+        "name": "TestHive::test_order_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.MergeableClusterInvokerTest",
+        "name": "TestHive::test_quotes",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.BroadCastClusterInvokerTest",
+        "name": "TestHive::test_regex",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.FailfastClusterInvokerTest",
+        "name": "TestHive::test_time",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.FailbackClusterInvokerTest",
+        "name": "TestMySQL::test_bits_literal",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.merger.DefaultProviderURLMergeProcessorTest",
+        "name": "TestMySQL::test_canonical_functions",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.FailSafeClusterInvokerTest",
+        "name": "TestMySQL::test_convert",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.ForkingClusterInvokerTest",
+        "name": "TestMySQL::test_date_format",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.support.ConnectivityValidationTest",
+        "name": "TestMySQL::test_ddl",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.RouterChainTest",
+        "name": "TestMySQL::test_escape",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.tag.TagStateRouterTest",
+        "name": "TestMySQL::test_hexadecimal_literal",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.state.BitListTest",
+        "name": "TestMySQL::test_identity",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.file.FileRouterEngineTest",
+        "name": "TestMySQL::test_introducers",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.ConfigConditionRouterTest",
+        "name": "TestMySQL::test_is_null",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.RouterSnapshotFilterTest",
+        "name": "TestMySQL::test_json_object",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.script.config.AppScriptStateRouterTest",
+        "name": "TestMySQL::test_match_against",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.script.ScriptStateRouterTest",
+        "name": "TestMySQL::test_monthname",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.util.MeshRuleDispatcherTest",
+        "name": "TestMySQL::test_mysql",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.DubboMatchRequestTest",
+        "name": "TestMySQL::test_mysql_time",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.match.ListBoolMatchTest",
+        "name": "TestMySQL::test_safe_div",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.match.DubboAttachmentMatchTest",
+        "name": "TestMySQL::test_set_variable",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.match.ListDoubleMatchTest",
+        "name": "TestMySQL::test_show_columns",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.match.BoolMatchTest",
+        "name": "TestMySQL::test_show_db_like_or_where_sql",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.match.DoubleMatchTest",
+        "name": "TestMySQL::test_show_engine",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.match.ListStringMatchTest",
+        "name": "TestMySQL::test_show_errors",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.match.StringMatchTest",
+        "name": "TestMySQL::test_show_events",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.virtualservice.match.DubboMethodMatchTest",
+        "name": "TestMySQL::test_show_grants",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.DestinationRuleTest",
+        "name": "TestMySQL::test_show_index",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.rule.VirtualServiceRuleTest",
+        "name": "TestMySQL::test_show_like_or_where",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.route.MeshRuleCacheTest",
+        "name": "TestMySQL::test_show_name",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.route.MeshAppRuleListenerTest",
+        "name": "TestMySQL::test_show_processlist",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.route.MeshRuleManagerTest",
+        "name": "TestMySQL::test_show_profile",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.route.MeshRuleRouterTest",
+        "name": "TestMySQL::test_show_replica_status",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mesh.route.StandardMeshRuleRouterFactoryTest",
+        "name": "TestMySQL::test_show_simple",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.mock.MockInvokersSelectorTest",
+        "name": "TestMySQL::test_show_tables",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.condition.config.ProviderAppConditionStateRouterTest",
+        "name": "TestMySQL::test_string_literals",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.router.condition.ConditionStateRouterTest",
+        "name": "TestMySQL::test_timestamp_trunc",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.directory.StaticDirectoryTest",
+        "name": "TestMySQL::test_types",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.ConfiguratorTest",
+        "name": "TestOracle::test_connect_by",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.filter.DefaultFilterChainBuilderTest",
+        "name": "TestOracle::test_hints",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.filter.ObservationSenderFilterTest",
+        "name": "TestOracle::test_join_marker",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.filter.MetricsClusterFilterTest",
+        "name": "TestOracle::test_json_table",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.StickyTest",
+        "name": "TestOracle::test_match_recognize",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.configurator.override.OverrideConfiguratorTest",
+        "name": "TestOracle::test_oracle",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.configurator.parser.ConfigParserTest",
+        "name": "TestOracle::test_xml_table",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.configurator.absent.AbsentConfiguratorTest",
+        "name": "TestPostgres::test_array_offset",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.merger.ResultMergerTest",
+        "name": "TestPostgres::test_bool_or",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.loadbalance.ConsistentHashLoadBalanceTest",
+        "name": "TestPostgres::test_ddl",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.loadbalance.AbstractLoadBalanceTest",
+        "name": "TestPostgres::test_operator",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.loadbalance.ShortestResponseLoadBalanceTest",
+        "name": "TestPostgres::test_postgres",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.loadbalance.AdaptiveLoadBalanceTest",
+        "name": "TestPostgres::test_regexp_binary",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.loadbalance.LeastActiveBalanceTest",
+        "name": "TestPostgres::test_string_concat",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.loadbalance.LoadBalanceBaseTest",
+        "name": "TestPostgres::test_unnest",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.loadbalance.RandomLoadBalanceTest",
+        "name": "TestPostgres::test_unnest_json_array",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.cluster.loadbalance.RoundRobinLoadBalanceTest",
+        "name": "TestPostgres::test_variance",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.metadata.MetadataMetricsCollectorTest",
+        "name": "TestPresto::test_cast",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metrics.metadata.MetadataStatCompositeTest",
+        "name": "TestPresto::test_ddl",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.PathMatcherTest",
+        "name": "TestPresto::test_encode_decode",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.AbstractServiceNameMappingTest",
+        "name": "TestPresto::test_hex_unhex",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.report.support.AbstractMetadataReportFactoryTest",
+        "name": "TestPresto::test_interval_plural_to_singular",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.report.support.AbstractMetadataReportTest",
+        "name": "TestPresto::test_json",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.report.MetadataReportInstanceTest",
+        "name": "TestPresto::test_match_recognize",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.report.identifier.BaseApplicationMetadataIdentifierTest",
+        "name": "TestPresto::test_presto",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.report.identifier.KeyTypeEnumTest",
+        "name": "TestPresto::test_quotes",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.report.identifier.BaseServiceMetadataIdentifierTest",
+        "name": "TestPresto::test_regex",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.report.identifier.MetadataIdentifierTest",
+        "name": "TestPresto::test_signum",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.rest.springmvc.SpringMvcServiceRestMetadataResolverTest",
+        "name": "TestPresto::test_time",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.rest.jaxrs.JaxrsRestDoubleCheckTest",
+        "name": "TestPresto::test_to_char",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.rest.jaxrs.JAXRSServiceRestMetadataResolverTest",
+        "name": "TestPresto::test_unicode_string",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.MetadataInfoTest",
+        "name": "TestPresto::test_unnest",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.metadata.TestMediaType",
+        "name": "TestPRQL::test_prql",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.RpcExceptionMapperTest",
+        "name": "TestRedshift::test_alter_table",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.NumberUtilsTest",
+        "name": "TestRedshift::test_column_unnesting",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.DataParseUtilsTest",
+        "name": "TestRedshift::test_create_table_like",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.NettyRequestFacadeTest",
+        "name": "TestRedshift::test_identity",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.MediaTypeUtilTest",
+        "name": "TestRedshift::test_no_schema_binding",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.integration.swagger.DubboSwaggerApiListingResourceTest",
+        "name": "TestRedshift::test_redshift",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.ExceptionMapperTest",
+        "name": "TestRedshift::test_values",
         "status": "PASSED"
     },
     {
-        "name": "org.apache.dubbo.rpc.protocol.rest.HttpMessageCodecManagerTest",
+        "name": "TestRedshift::test_varchar_max",
         "status": "PASSED"
     },
     {
-        "name": " 11.730 s",
+        "name": "TestSnowflake::test_copy",
         "status": "FAILED"
     },
     {
-        "name": "date",
-        "status": "ERROR"
+        "name": "TestSnowflake::test_ddl",
+        "status": "PASSED"
     },
     {
-        "name": "Help 1",
-        "status": "ERROR"
+        "name": "TestSnowflake::test_describe_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_flatten",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_historical_data",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_match_recognize",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_minus",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_null_treatment",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_parse_like_any",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_querying_semi_structured_data",
+        "status": "FAILED"
+    },
+    {
+        "name": "TestSnowflake::test_regexp_replace",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_regexp_substr",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_sample",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_semi_structured_types",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_columns",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_imported_keys",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_objects",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_primary_keys",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_schemas",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_sequences",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_tables",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_unique_keys",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_users",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_show_views",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_snowflake",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_staged_files",
+        "status": "FAILED"
+    },
+    {
+        "name": "TestSnowflake::test_storage_integration",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_stored_procedures",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_swap",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_table_literal",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_timestamps",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_try_cast",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_user_defined_functions",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSnowflake::test_values",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_bool_or",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_current_user",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_ddl",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_explode_to_unnest",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_hint",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_insert_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_spark",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_strip_modifiers",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_to_date",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSpark::test_transform_query",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSQLite::test_datediff",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSQLite::test_ddl",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSQLite::test_hexadecimal_literal",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSQLite::test_longvarchar_dtype",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSQLite::test_sqlite",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSQLite::test_strftime",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSQLite::test_warnings",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSQLite::test_window_null_treatment",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestStarrocks::test_identity",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestStarrocks::test_regex",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestStarrocks::test_time",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTableau::test_tableau",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_abbrev",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_cast",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_create",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_datatype",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_insert",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_mod",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_power",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_statistics",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_teradata",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_time",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_translate",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTeradata::test_update",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTrino::test_trim",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test__types_ints",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_add_date",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_charindex",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_commit",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_convert",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_current_user",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_date_diff",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_datefromparts",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_datename",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_datepart",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_ddl",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_eomonth",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_format",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_fullproc",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_hints",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_identifier_prefixes",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_insert_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_isnull",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_json",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_lateral_subquery",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_lateral_table_valued_function",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_len",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_openjson",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_option",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_procedure_keywords",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_qualify_derived_table_outputs",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_replicate",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_rollback",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_set",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_string",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_system_time",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_temp_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_temporal_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_top",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_transaction",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_tsql",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_types",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_types_bin",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_types_date",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_types_decimals",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_types_string",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTSQL::test_udf",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestBuild::test_build",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_identifier",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_join",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_lambda",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_node_position_changed",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_pre_matchings",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_simple",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_udf",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_window_functions",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_aggregate_without_group_by",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_case_sensitivity",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_correlated_count",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_execute_callable",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_execute_catalog_db_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_execute_subqueries",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_execute_tables",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_execute_tpcds",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_execute_tpch",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_group_by",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_nested_table_reference",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_nested_values",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_optimized_tpch",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_py_dialect",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_scalar_functions",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_set_operations",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_static_queries",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_table_depth_mismatch",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExecutor::test_tables",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_alias",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_alias_column_names",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_alias_or_name",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_arg_deletion",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_arg_key",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_assert_is",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_column",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_comment_alias",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_convert",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_ctes",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_data_type_builder",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_depth",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_eq",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_expand",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_find",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_find_all",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_find_ancestor",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_function_building",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_function_normalizer",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_functions",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_hash",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_identifier",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_is_negative",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_is_star",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_is_type",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_iter",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_named_selects",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_properties_from_dict",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_rename_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_replace",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_replace_placeholders",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_replace_tables",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_root",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_selects",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_set_meta",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_set_metadata",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_sql",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_table_name",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_text",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_to_column",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_to_dot",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_to_interval",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_to_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_multiple_children",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_no_infinite_recursion",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_node_removal",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_simple",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_with_arguments",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_with_parent_mutation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_union",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_unit",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_unnest",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_values",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_walk",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestGenerator::test_fallback_function_sql",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestGenerator::test_fallback_function_var_args_sql",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestGenerator::test_identify",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestHelper::test_merge_ranges",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestHelper::test_name_sequence",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestHelper::test_tsort",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestJsonpath::test_cts_file",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestJsonpath::test_identity",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestJsonpath::test_jsonpath",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_ddl_lineage",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_cte_name_appears_in_schema",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_cte_union",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_external_col",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_lateral_flatten",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_normalize",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_source_union",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_source_with_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_source_with_star",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_sql_with_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_union",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_lineage_values",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_node_name_doesnt_contain_comment",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_select_star",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_subquery",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_trim",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestLineage::test_unnest",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_aggfunc_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_annotate_types",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_binary_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_bracket_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_cache_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_canonicalize",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_cast_type_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_concat_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_cte_column_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_derived_tables_column_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_eliminate_ctes",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_eliminate_joins",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_eliminate_subqueries",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_expand_alias_refs",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_file_schema",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_function_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_interval_math_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_isolate_table_selects",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_lateral_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_map_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_merge_subqueries",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_nested_type_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_no_pseudocolumn_expansion",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_normalize",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_normalize_identifiers",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_null_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_nullable_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_optimize",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_optimize_joins",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_predicate_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_pushdown_cte_alias_columns",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_pushdown_predicates",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_pushdown_projection",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_qualify_columns",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_qualify_columns__invalid",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_qualify_columns__with_invisible",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_qualify_tables",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_quote_identifiers",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_quotes",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_recursive_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_root_subquery_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_schema_with_spaces",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_scope",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_scope_warning",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_semistructured",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_simplify",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_tpcds",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_tpch",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_type_annotation_cache",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_typeddiv_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_unknown_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_unnest_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_unnest_subqueries",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_user_defined_type_annotation",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_column",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_command",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comment_error_n",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comment_error_r",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comments_delete",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comments_delete_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comments_insert",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comments_insert_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comments_select",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comments_select_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comments_update",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_comments_update_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_create_table_error",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_distinct_from",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_expression",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_float",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_identify",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_lambda_struct",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_missing_by",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_multi",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parameter",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_concat_ws",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_create_schema",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_drop_schema",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_empty",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_errors",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_floats",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_intervals",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_into",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_into_error",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_into_errors",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_nested",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_properties",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_parse_terse_coalesce",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_pivot_columns",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_pretty_config_override",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_rename_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_select",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_set_expression",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_space",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_structs",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_table",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_transactions",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_tuple",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_type_literals",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_unary_plus",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_union",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_unnest_projection",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_values_as_identifier",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestParser::test_var",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSchema::test_has_column",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSchema::test_same_number_of_qualifiers",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSchema::test_schema",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSchema::test_schema_add_table_with_and_without_mapping",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSchema::test_schema_catalog",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSchema::test_schema_db",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSchema::test_schema_get_column_type",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSchema::test_schema_normalization",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSerDe::test_custom_expression",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSerDe::test_meta",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSerDe::test_serde",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestSerDe::test_type_annotations",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTime::test_format_time",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTokens::test_command",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTokens::test_comment_attachment",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTokens::test_crlf",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTokens::test_error_msg",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTokens::test_jinja",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTokens::test_space_keywords",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTokens::test_token_line_col",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTransforms::test_eliminate_distinct_on",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTransforms::test_eliminate_qualify",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTransforms::test_remove_precision_parameterized_types",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTransforms::test_unalias_group",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_alias",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_alter",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_command_identity",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_comments",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_error_level",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_extract",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_identify_lambda",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_identity",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_if",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_index_offset",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_leading_comma",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_normalize_name",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_not_range",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_paren",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_partial",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_pretty",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_pretty_line_breaks",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_recursion",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_some",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_space",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_time",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_types",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_unary",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_unsupported_level",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_weird_chars",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestTranspile::test_with",
+        "status": "PASSED"
     }
 ]

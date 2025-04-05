@@ -2773,7 +2773,7 @@
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_file_parse[ansi-create_table_a_column_constraints.sql]",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_file_parse[ansi-select_bitwise_operators.sql]",
@@ -4761,7 +4761,7 @@
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_file_parse[postgres-postgres_create_table.sql]",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_file_parse[postgres-postgres_within_group.sql]",
@@ -5253,7 +5253,7 @@
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[ansi-create_table_a_pk_unique_fk_constraints.sql-True-create_table_a_pk_unique_fk_constraints.yml]",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[ansi-select_simple_j.sql-True-select_simple_j.yml]",
@@ -5665,7 +5665,7 @@
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[ansi-create_table_constraint_reference_option.sql-True-create_table_constraint_reference_option.yml]",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[ansi-drop_schema.sql-True-drop_schema.yml]",
@@ -5809,7 +5809,7 @@
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[ansi-create_table_a_column_constraints.sql-True-create_table_a_column_constraints.yml]",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[ansi-select_bitwise_operators.sql-True-select_bitwise_operators.yml]",
@@ -7797,7 +7797,7 @@
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[postgres-postgres_create_table.sql-True-postgres_create_table.yml]",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[postgres-postgres_within_group.sql-True-postgres_within_group.yml]",
@@ -7953,7 +7953,7 @@
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[postgres-postgres_alter_table.sql-True-postgres_alter_table.yml]",
-        "status": "FAILED"
+        "status": "PASSED"
     },
     {
         "name": "test/dialects/dialects_test.py::test__dialect__base_parse_struct[postgres-postgres_alter_materialized_view.sql-True-postgres_alter_materialized_view.yml]",

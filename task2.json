@@ -1,2370 +1,410 @@
 [
     {
-        "name": "github.com/cilium/cilium/api/v1/client",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/bgp",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/daemon",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/endpoint",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/ipam",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/policy",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/prefilter",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/recorder",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/service",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/client/statedb",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/flow",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/health/client",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/health/client/connectivity",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/health/client/restapi",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/health/models",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/health/server",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/health/server/restapi",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/health/server/restapi/connectivity",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/models",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/observer",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/operator/client",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/operator/client/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/operator/client/operator",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/operator/models",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/operator/server",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/operator/server/restapi",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/operator/server/restapi/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/operator/server/restapi/operator",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/peer",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/recorder",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/relay",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/bgp",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/daemon",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/endpoint",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/ipam",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/policy",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/prefilter",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/recorder",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/service",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/api/v1/server/restapi/statedb",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/bugtool",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/bugtool/cmd",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/cilium-dbg",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/cilium-dbg/cmd",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/cilium-health",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/cilium-health/cmd",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/cilium-health/launch",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/cilium-health/responder",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver/clustermesh",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver/clustermesh/k8s",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver/etcdinit",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver/health",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver/kvstoremesh",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver/option",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/clustermesh-apiserver/syncstate",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/daemon",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/daemon/cmd",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/daemon/cmd/cni",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/daemon/cmd/cni/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/daemon/k8s",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/daemon/restapi",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/hubble-relay",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/hubble-relay/cmd",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/hubble-relay/cmd/completion",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/hubble-relay/cmd/serve",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/hubble-relay/cmd/version",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/images/builder",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/api",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/auth",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/auth/identity",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/auth/spire",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/cmd",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/endpointgc",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/identitygc",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/k8s",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/option",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/bgpv2",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/ciliumendpointslice",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/ciliumendpointslice/testutils",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/ciliumidentity",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/controller-runtime",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/gateway-api",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/gateway-api/helpers",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/gateway-api/routechecks",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/ingress",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/ingress/annotations",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/lbipam",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/model",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/model/ingestion",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/model/translation",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/model/translation/gateway-api",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/model/translation/ingress",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/nodeipam",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/pkg/secretsync",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/operator/watchers",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alibabacloud/api",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alibabacloud/api/mock",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alibabacloud/eni",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alibabacloud/eni/limits",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alibabacloud/eni/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alibabacloud/metadata",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alibabacloud/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alibabacloud/utils",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/alignchecker",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/allocator",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/annotation",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/api",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/api/helpers",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/api/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/api/metrics/mock",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/auth",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/auth/certs",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/auth/spire",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/aws/ec2",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/aws/ec2/mock",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/aws/endpoints",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/aws/eni",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/aws/eni/limits",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/aws/eni/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/aws/metadata",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/aws/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/azure/api",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/azure/api/mock",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/azure/ipam",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/azure/types",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/backoff",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgp/config",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgp/fence",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgp/k8s",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgp/log",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgp/manager",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgp/mock",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgp/speaker",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/agent",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/agent/signaler",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/api",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/gobgp",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/manager",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/manager/instance",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/manager/reconciler",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/manager/reconcilerv2",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/manager/store",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/mock",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/test",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bgpv1/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/bpf",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/byteorder",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/cgroups",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/cgroups/manager",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/checker",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/cidr",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/cleanup",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/client",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/clustermesh",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/clustermesh/common",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/clustermesh/kvstoremesh",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/clustermesh/types",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/clustermesh/utils",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/clustermesh/wait",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/command",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/command/exec",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/common",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/common/ipsec",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/comparator",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/completion",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/components",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/container",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/container/bitlpm",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/contexthelpers",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/controller",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/counter",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/crypto/certificatemanager",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/crypto/certloader",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/agentliveness",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/alignchecker",
+        "name": "TestBuild::test_build",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/connector",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/fake/types",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/garp",
+        "name": "TestDialects::test_bigquery",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/ipcache",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/iptables",
+        "name": "TestDialects::test_clickhouse",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/l2responder",
+        "name": "TestDialects::test_duckdb",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/link",
+        "name": "TestDialects::test_enum",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux",
+        "name": "TestDialects::test_hive",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/bandwidth",
+        "name": "TestDialects::test_mysql",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/bigtcp",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/config",
+        "name": "TestDialects::test_oracle",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/config/defines",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/ethtool",
+        "name": "TestDialects::test_postgres",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/ipsec",
+        "name": "TestDialects::test_presto",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/linux_defaults",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/modules",
+        "name": "TestDialects::test_snowflake",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/probes",
+        "name": "TestDialects::test_spark",
         "status": "FAILED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/route",
+        "name": "TestDialects::test_sqlite",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/routing",
+        "name": "TestDialects::test_starrocks",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/sysctl",
+        "name": "TestDialects::test_tableau",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/linux/utime",
+        "name": "TestDialects::test_trino",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/loader",
+        "name": "TestDiff::test_cte",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_join",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_node_position_changed",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_simple",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestDiff::test_window_functions",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_alias",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_alias_column_names",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_alias_or_name",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_arg_key",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_column",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_ctes",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_depth",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_eq",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_find",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_find_all",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_find_ancestor",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_function_normalizer",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_functions",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_hash",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_named_selects",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_replace",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_selects",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_sql",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_text",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_multiple_children",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_no_infinite_recursion",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_simple",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_transform_with_arguments",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_unit",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestExpressions::test_walk",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestGenerator::test_fallback_function_sql",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestGenerator::test_fallback_function_var_args_sql",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestHelper::test_tsort",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_eliminate_subqueries",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_expand_multi_table_selects",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_file_schema",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_isolate_table_selects",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_normalize",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_optimize",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_optimize_joins",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_pushdown_predicates",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_pushdown_projection",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_qualify_columns",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_qualify_columns__invalid",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_qualify_tables",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_quote_identities",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_schema",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_scope",
+        "status": "PASSED"
+    },
+    {
+        "name": "TestOptimizer::test_simplify",
         "status": "FAILED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/loader/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/loader/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/maps",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/option",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/prefilter",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/sockets",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/datapath/tables",
+        "name": "TestOptimizer::test_tpch",
         "status": "FAILED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/tunnel",
+        "name": "TestOptimizer::test_unnest_subqueries",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/datapath/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/debug",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/defaults",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ebpf",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/egressgateway",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/elf",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/endpoint",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/endpoint/id",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/endpoint/regeneration",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/endpointcleanup",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/endpointmanager",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/endpointmanager/idallocator",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/endpointstate",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/envoy",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/envoy/resource",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/envoy/xds",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/eventqueue",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/flowdebug",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fqdn",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fqdn/dns",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fqdn/dnsproxy",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fqdn/matchpattern",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fqdn/proxy",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fqdn/proxy/ipfamily",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fqdn/re",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fqdn/restore",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/fswatcher",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/gops",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/health/client",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/health/defaults",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/health/probe",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/health/probe/responder",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/health/server",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hive",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hive/cell",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hive/example",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hive/example/mini",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hive/hivetest",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hive/internal",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hive/job",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hive/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/api/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/build",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/container",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/defaults",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/dropeventemitter",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/exporter",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/exporter/exporteroption",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/filters",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/k8s",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/math",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/api",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/dns",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/drop",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/flow",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/flows-to-world",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/http",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/icmp",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/kafka",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/policy",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/port-distribution",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/metrics/tcp",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/monitor",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/observer",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/observer/observeroption",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/observer/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/agent",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/common",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/debug",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/errors",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/fieldmask",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/getters",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/options",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/seven",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/sock",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/parser/threefour",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/peer",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/peer/serviceoption",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/peer/types",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/recorder",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/recorder/pcap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/recorder/recorderoption",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/recorder/sink",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/relay/defaults",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/relay/observer",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/relay/pool",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/relay/pool/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/relay/queue",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/relay/server",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/server",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/server/serveroption",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/hubble/testutils",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/iana",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/identity",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/identity/cache",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/identity/identitymanager",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/identity/key",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/identity/model",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/idpool",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/inctimer",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ip",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipalloc",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/allocator",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/allocator/alibabacloud",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/allocator/aws",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/allocator/azure",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/allocator/clusterpool",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/allocator/clusterpool/cidralloc",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/allocator/multipool",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/allocator/podcidr",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/cidrset",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/metadata",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/metrics",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/metrics/mock",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/option",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/service/allocator",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/service/ipallocator",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/stats",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipam/types",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipcache",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipcache/fake",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipcache/types",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/ipmasq",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/apis",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/apis/cilium.io",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/apis/cilium.io/client",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/apis/cilium.io/utils",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/apis/cilium.io/v2",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/apis/cilium.io/v2/validator",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/apis/cilium.io/v2alpha1",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/apis/crdhelpers",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/clientset/versioned",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/scheme",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/typed/cilium.io/v2",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/typed/cilium.io/v2/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/typed/cilium.io/v2alpha1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/clientset/versioned/typed/cilium.io/v2alpha1/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/informers/externalversions",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/informers/externalversions/cilium.io",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/informers/externalversions/cilium.io/v2",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/informers/externalversions/cilium.io/v2alpha1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/informers/externalversions/internalinterfaces",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/listers/cilium.io/v2",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/client/listers/cilium.io/v2alpha1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/constants",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/identitybackend",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/informer",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/informer/benchmarks",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/metrics",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/resource",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/resource/example",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/api/core/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/api/discovery/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/api/discovery/v1beta1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/api/networking/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned/scheme",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned/typed/apiextensions/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-client/clientset/versioned/typed/apiextensions/v1/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apiextensions-clientset",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/api/meta",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/apiextensions/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/labels",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/meta/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/meta/v1/validation",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/meta/v1beta1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/selection",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/apis/util/intstr",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/scheme",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/core/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/core/v1/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/discovery/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/discovery/v1/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/discovery/v1beta1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/discovery/v1beta1/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/networking/v1",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/client/clientset/versioned/typed/networking/v1/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/slim/k8s/clientset",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/synced",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/utils",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/version",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/watchers",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/watchers/resources",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/watchers/subscriber",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/k8s/watchers/utils",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/kvstore",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/kvstore/allocator",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/kvstore/etcdinit",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/kvstore/heartbeat",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/kvstore/store",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/l2announcer",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/labels",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/labels/model",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/labelsfilter",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/launcher",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/loadbalancer",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/loadinfo",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/lock",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/lock/lockfile",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/logging",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/logging/hooks",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/logging/logfields",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/mac",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maglev",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/authmap",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/authmap/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/bwmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/callsmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/cidrmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/configmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/ctmap",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/ctmap/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/ctmap/gc",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/egressmap",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/encrypt",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/eventsmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/fragmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/ipcache",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/ipmasq",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/l2respondermap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/lbmap",
+        "name": "TestParser::test_annotations",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/maps/lxcmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/metricsmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/multicast",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/nat",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/nat/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/neighborsmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/nodemap",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/nodemap/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/policymap",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/recorder",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/signalmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/signalmap/fake",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/srv6map",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/timestamp",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/tunnel",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/vtep",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/maps/worldcidrsmap",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/math",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/mcastmanager",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/metrics",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/metrics/metric",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/metrics/metric/collections",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor/agent",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor/agent/consumer",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor/agent/listener",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor/alignchecker",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor/api",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor/format",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor/notifications",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/monitor/payload",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/mountinfo",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/mtu",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/multicast",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/murmur3",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/netns",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/node",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/node/addressing",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/node/manager",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/node/store",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/node/types",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/nodediscovery",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/option",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/option/resolver",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/pidfile",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/policy",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/policy/api",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/policy/correlation",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/policy/groups",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/policy/groups/aws",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/policy/k8s",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/policy/trafficdirection",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/pprof",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/promise",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/proxy",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/proxy/accesslog",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/proxy/endpoint",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/proxy/endpoint/test",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/proxy/logger",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/proxy/logger/endpoint",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/proxy/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/rand",
+        "name": "TestParser::test_column",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/rate",
+        "name": "TestParser::test_command",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/rate/metrics",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/recorder",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/redirectpolicy",
+        "name": "TestParser::test_comment_error_n",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/resiliency",
+        "name": "TestParser::test_comment_error_r",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/revert",
+        "name": "TestParser::test_expression",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/safeio",
+        "name": "TestParser::test_identify",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/safetime",
+        "name": "TestParser::test_missing_by",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/service",
+        "name": "TestParser::test_multi",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/service/healthserver",
+        "name": "TestParser::test_parse_empty",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/service/store",
+        "name": "TestParser::test_parse_errors",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/signal",
+        "name": "TestParser::test_parse_into",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/slices",
+        "name": "TestParser::test_pretty_config_override",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/socketlb",
+        "name": "TestParser::test_select",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/source",
+        "name": "TestParser::test_space",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/spanstat",
+        "name": "TestParser::test_table",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/statedb",
+        "name": "TestTime::test_format_time",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/statedb/example",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/statedb/index",
+        "name": "TestTime::test_unalias_group",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/statedb/reconciler",
+        "name": "TestTranspile::test_alias",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/statedb/reconciler/benchmark",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/statedb/reconciler/example",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/statedb/reflector",
+        "name": "TestTranspile::test_asc",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/status",
+        "name": "TestTranspile::test_comments",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/testutils",
+        "name": "TestTranspile::test_error_level",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/testutils/identity",
+        "name": "TestTranspile::test_extract",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/testutils/ipam",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/testutils/ipcache",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/testutils/mockmaps",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/testutils/netns",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/testutils/sockets",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/time",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/trigger",
+        "name": "TestTranspile::test_identity",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/tuple",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/types",
+        "name": "TestTranspile::test_if",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/pkg/u8proto",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/version",
+        "name": "TestTranspile::test_ignore_nulls",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/versioncheck",
+        "name": "TestTranspile::test_index_offset",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/wireguard/agent",
+        "name": "TestTranspile::test_not_range",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/pkg/wireguard/types",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni/chaining/api",
+        "name": "TestTranspile::test_paren",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni/chaining/awscni",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni/chaining/azure",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni/chaining/flannel",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni/chaining/generic-veth",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni/cmd",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni/lib",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/plugins/cilium-cni/types",
+        "name": "TestTranspile::test_partial",
         "status": "PASSED"
     },
     {
-        "name": "github.com/cilium/cilium/plugins/cilium-docker",
-        "status": "SKIPPED"
+        "name": "TestTranspile::test_pretty",
+        "status": "FAILED"
     },
     {
-        "name": "github.com/cilium/cilium/plugins/cilium-docker/driver",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test",
-        "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/bpf_tests",
+        "name": "TestTranspile::test_some",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/config",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/test/controlplane",
+        "name": "TestTranspile::test_space",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/ciliumnetworkpolicies",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/node",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/node/ciliumnodes",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/pod/hostport",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/services/dualstack",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/services/graceful-termination",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/services/helpers",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/services/nodeport",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/controlplane/suite",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/ginkgo-ext",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/helpers",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/helpers/constants",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/test/helpers/logutils",
+        "name": "TestTranspile::test_time",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/k8s",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/logger",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/test/runtime",
-        "status": "SKIPPED"
     },
     {
-        "name": "github.com/cilium/cilium/test/verifier",
+        "name": "TestTranspile::test_types",
         "status": "PASSED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/alignchecker",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/api-flaggen",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/crdcheck",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/crdlistgen",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/dev-doctor",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/licensecheck",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/licensegen",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/mount",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/spdxconv",
-        "status": "SKIPPED"
-    },
-    {
-        "name": "github.com/cilium/cilium/tools/sysctlfix",
-        "status": "SKIPPED"
     }
 ]
